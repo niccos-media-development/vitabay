@@ -1,0 +1,111 @@
+<style>
+ .c-multicol{display:flex;margin:2rem auto;padding:0;justify-content:center;gap:1rem}a.c-multicol-flex{width:31.5%;text-decoration:none;margin-right: .5rem;margin-left: .5rem;}.flex.justify-center.items-center.w-14,a.c-multicol-flex .flex-col{display:flex;align-items:center;border:1px solid;border-color:#edede4}a.c-multicol-flex .flex-col{border-radius:1.5rem;padding:1rem;background:linear-gradient(to right,#fbfbf7,#fff);text-align:center;color:#0a3012;flex-flow:column;height:100%}.flex.justify-center.items-center.w-14{align-self:center;justify-content:center;padding:1rem;border-radius:8px}a.c-multicol-flex .flex-col:hover{border-color:#0a3012;--tw-shadow:0px 6px 6px 0px rgba(0, 0, 0, .25), 0px 12px 32px 0px rgba(0, 0, 0, .1);--tw-shadow-colored:0px 6px 6px 0px var(--tw-shadow-color), 0px 12px 32px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.font-medium{font-weight:500}.text-body-m{font-size:1rem}.mt-4{margin-top:1rem}.w-14{width:5.5rem;height:5.5rem}.text-body-secondary{--tw-text-opacity:1;color:rgb(62 61 57/var(--tw-text-opacity))}.text-body-secondary p{margin:0}.text-center{text-align:center}.mt-2{margin-top:.5rem}@media only screen and (max-width:767px){a.c-multicol-flex .flex-col:hover {box-shadow: none;}.c-multicol {display: flex;margin: auto;padding: 0;justify-content: initial;gap: unset;}a.c-multicol-flex{width:100%; margin:auto;}}
+</style>
+<div class="wrapper--full-padded">
+ <div class="c-multicol-slider  page-width  swiper">
+   <div class="c-multicol swiper-wrapper">
+   {%- for block in section.blocks -%}
+      <a class="c-multicol-flex swiper-slide" href="{{ block.settings.link }}">   
+      <div class="flex flex-col ">          
+        <div class="flex justify-center items-center w-14">
+          <img src="{{ block.settings.image | image_url }}" loading="lazy" width="24" height="24" class="svg">
+        </div>
+        <div class="mt-4 text-body-m font-medium">
+          {{ block.settings.heading }}
+        </div>        
+        <div class="text-body-secondary mt-2 text-center">
+          {{ block.settings.row_content }}
+        </div>
+      </div>
+      </a>
+   {%- endfor -%}
+   </div>
+   <!-- <div class="swiper-pagination"></div> -->
+ </div>
+</div>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+{% schema %}
+  {
+    "name": "Custom Multi-Column",
+    "settings": [],
+    "blocks": [
+    {
+      "type": "custom_multi_col",
+      "name": "Custom Multi-Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon"
+        },
+        {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "row_content",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Url"
+        }
+      ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Custom Multi-Column",
+      "blocks": [
+        {
+          "type": "custom_multi_col"
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    var swiper = null;
+
+    function initSwiper() {
+        if (window.innerWidth <= 924 && !swiper) {
+            swiper = new Swiper('.c-multicol-slider', {
+                direction: 'horizontal',
+                loop: true,
+                effect: 'slide',
+                pagination: {
+                    el: '.swiper-pagination', 
+                    clickable: true,
+                    dynamicBullets: true, 
+                },
+            });
+        }
+    }
+
+    function updateSwiperOptions() {
+        if (swiper) {
+            var screenWidth = window.innerWidth;
+            if (screenWidth > 520 && screenWidth <= 580) {
+                swiper.params.slidesPerView = 3;
+            } else if (screenWidth > 580 && screenWidth <= 680) {
+                swiper.params.slidesPerView = 3;
+            } else if (screenWidth > 680) {
+                swiper.params.slidesPerView = 4;
+            }
+            swiper.update();
+        }
+    }
+
+    initSwiper();
+    window.addEventListener('resize', function () {
+        initSwiper(); 
+        updateSwiperOptions(); 
+    });
+});
+</script>

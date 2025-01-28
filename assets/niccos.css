@@ -1,0 +1,773 @@
+
+@font-face {
+  font-family: 'Circe', sans-serif;
+  font-family: 'Circe Extra Light', sans-serif;
+  font-family: 'Circe Light', sans-serif;
+  font-family: 'Circe Bold', sans-serif;
+  src: url("https://fonts.cdnfonts.com/css/circe");
+}
+.niccos-product-template *:not([class^="ruk-icon-"], [class*=" ruk-icon-"]){
+  font-family: 'Circe', sans-serif !important;
+}
+
+/* header section redesign */
+.template-product .mobile-menu {
+  display: none;
+}
+
+.nico-product-single__wrapper .is-nav-selected .product-single__thumbnail-link {
+  border-color: #52b465;
+  border-radius: 9px;
+}
+.nico-product-single__wrapper .product-single__thumbnail-link {
+  border-radius: 9px;
+}
+
+.nico-product-single__wrapper .table-wrapper table{
+  width: 100%;
+  height: auto;
+}
+.nico-product-single__wrapper .table-wrapper td{
+  padding: 10px 20px;
+  width: max-content !important;
+  text-align: left !important;
+}
+.nico-product-single__wrapper .table-wrapper td * {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.nico-product-single__wrapper .product__price-and-badge .product__unit-price {
+  opacity: 1;
+}
+
+.nico-product-single__wrapper .badge-item {
+  color: #05371e;
+  background-color: #c3f57866;
+}
+
+.nico-product-single__wrapper .form__wrapper {
+  background: radial-gradient(
+    53.4% 21.96% at 86.46% 20.67%,
+    rgba(195, 245, 120, 0.2) 0%,
+    rgba(195, 245, 120, 0.024) 100%
+  );
+}
+
+
+
+@media screen and (min-width: 1301px) {
+  .template-product .site-header:not(.js__header__clone) .nav--default {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .template-product .mobile-menu__button {
+    display: none;
+  }
+  .template-product .site-header--compress .nav .menu__items .menu__item {
+    display: flex;
+  }
+  .template-product
+    .site-header--compress
+    .nav
+    > .menu__item.menu__item--compress {
+    display: none;
+  }
+  .template-product .site-header--compress .nav .menu__item.menu__item--icons {
+    display: flex;
+  }
+
+  .template-product
+    .site-header--compress
+    .nav
+    .menu__item.menu__item--icons
+    > .menu__item {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .template-product .menu__item.menu__item--compress,
+  .template-product .menu__items {
+    display: none;
+  }
+  .template-product .nav .menu__item.menu__item--icons {
+    display: none;
+  }
+  .template-product .mobile-menu__button {
+    display: block;
+  }
+  .template-product .mobile-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .template-product .site-header--nav-left .menu__item--icons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .niccos-product-slider,
+  .mobile-sticky-atc {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product-single__gallery.niccos-product-slider {
+    width: calc(100% + 15px);
+  }
+  .niccos-product-slider ~ * {
+    display: none;
+  }
+  .js
+    .product-single__wrapper--carousel.nico-product-single__wrapper
+    .product-single__media-slider:not(.flickity-enabled)
+    .product-single__media-slide.swiper-slide:not(:first-child) {
+    display: flex;
+    position: static;
+    visibility: visible;
+  }
+  .nico-product-single__wrapper
+    .swiper-slide
+    .product-single__media--image-height {
+    padding-top: 100% !important;
+  }
+  .template-product .site-header > .wrapper {
+    justify-content: flex-start;
+  }
+  .template-product .mobile-menu__button.mobile-menu__button--burger {
+    position: static;
+    display: block;
+    margin-top: 0;
+    order: 3;
+  }
+  .template-product [data-logo][data-takes-space] {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    order: 1;
+  }
+  .template-product #NavStandard {
+    position: static;
+    order: 2;
+    display: block;
+  }
+  .template-product #NavStandard .menu__items[data-takes-space] {
+    display: none;
+  }
+  .template-product .site-header--nav-left .nav .menu__item--icons {
+    position: static;
+    display: flex;
+  }
+  .template-product
+    .site-header--nav-left
+    .menu__item--icons
+    .menu__item.menu__item--icon {
+    display: flex;
+  }
+  .template-product
+    .site-header--nav-left
+    .menu__item--icons
+    .menu__item.menu__item--icon:nth-child(2) {
+    display: none;
+  }
+  .template-product .search-popdown.menu__item.menu__item--icon {
+    display: flex;
+  }
+
+  .template-product .site-header--compress .nav .menu__item--compress {
+    display: none;
+  }
+  .template-product .mobile-menu {
+    display: none;
+  }
+
+  .mobile-sticky-atc {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    font-size: 15px;
+    font-weight:700;
+    line-height:27px;
+    text-transform: capitalize;
+    background-color: #05371e;
+    color: #fff;
+    padding: 14px;
+    transition: color 0.3s ease, border 0.3s ease, background 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .mobile-sticky-atc.show {
+    opacity: 1;
+    visibility: visible;
+    animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  .mobile-sticky-atc span {
+    transition: opacity 0.3s ease;
+  }
+
+  .nico-product-single__wrapper .product__selectors .selector-wrapper {
+    overflow-x: scroll;
+    margin: 0 -15px 0 0;
+  }
+
+  .nico-product-single__wrapper .product__selectors .selector-wrapper::-webkit-scrollbar {
+      display:none;
+  }
+  .nico-product-single__wrapper
+    .product__selectors
+    .selector-wrapper
+    .radio__fieldset {
+    position: relative;
+    flex-wrap: nowrap;
+  }
+  .nico-product-single__wrapper
+    .product__selectors
+    .selector-wrapper
+    .radio__fieldset
+    .radio__legend {
+    position: sticky;
+    width: max-content;
+    height: max-content;
+    left: 0;
+    z-index: 999;
+  }
+  .nico-product-single__wrapper
+    .product__selectors
+    .selector-wrapper
+    .radio__fieldset
+    .radio__label {
+    white-space: nowrap;
+  }
+
+  .niccos-related-products .product-grid-item__quick-buy{
+    display:none;
+  }
+}
+
+/* product description section */
+.nico-product-single__wrapper
+  .product__submit__item
+  .btn.btn--primary.btn--solid {
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: #05371e;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.nico-product-single__wrapper .product__checklist .checklist_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 8px;
+}
+
+/* niccos payment method */
+
+.payment-method-list {
+  display: flex;
+  flex-direction: column;
+}
+.payment-method-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+.payment-method-item:last-child {
+  padding-bottom: 0;
+}
+.payment-method-image-wrapper {
+  max-width: 90px;
+  width: 100%;
+}
+.payment-method-image-wrapper img {
+  height: auto;
+}
+.payment-method-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  padding-left: 8px;
+  color: #707070;
+}
+
+@media screen and (max-width: 767px) {
+  .payment-method-image-wrapper {
+    max-width: 80px;
+  }
+}
+
+/* or divider */
+
+.divider-container {
+  position: relative;
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+}
+.divider-container:before {
+  content: " ";
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #ababab;
+}
+.divider-container small {
+  position: relative;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #fff;
+  color: #ababab;
+  padding: 0 10px;
+  z-index: 3;
+}
+
+/* pharmacy section */
+.pharmacy-wrapper {
+  border: 1px solid #ababab;
+  border-radius: 16px;
+  padding: 12px;
+}
+.pharmacy-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #05371e;
+  text-align: center;
+  padding: 0 0 10px;
+}
+ul.pharmacy-list {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  background: white;
+}
+.pharmacy-item {
+  margin-bottom: 0;
+}
+.initial-pharmacy-list > .pharmacy-item {
+  border-bottom: 1px solid #d9d9d9;
+}
+.initial-pharmacy-list > .pharmacy-item:nth-child(3) {
+  border-bottom: none;
+}
+.extra-pharmacy-container .pharmacy-item {
+  border-top: 1px solid #d9d9d9;
+}
+.pharmacy-item a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0 15px;
+}
+.pharmacy-image-wrapper {
+  max-width: 122px;
+  width: 100%;
+}
+
+.pharmacy-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ababab;
+}
+
+.extra-pharmacy-container {
+  position: relative;
+  height: auto;
+  border-top: 0;
+}
+
+.pharmacy-wrapper [type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.pharmacy-wrapper label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: max-content;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #ababab;
+  transition: top 0.45s cubic-bezier(0.44, 0.99, 0.48, 1);
+}
+
+.pharmacy-wrapper label:after {
+  content: "";
+  display: inline-block;
+  margin-top: 2px;
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%2314BE5F' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m7 10l5 5l5-5'/%3E%3C/svg%3E");
+}
+
+.pharmacy-wrapper input[type="checkbox"] ~ ul {
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  margin-top: 0;
+  transition: max-height 0.45s cubic-bezier(0.44, 0.99, 0.48, 1);
+}
+.pharmacy-wrapper [type="checkbox"]:checked + label {
+  top: 100%;
+}
+
+.pharmacy-wrapper [type="checkbox"]:checked + label::after {
+  transform: rotate(180deg);
+}
+
+/* accordion */
+.nico-product-single__wrapper .product__accordions {
+  padding-bottom: 0;
+}
+
+.nico-product-single__wrapper .product__accordion .product__accordion__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #212121;
+  border-top: solid 1px #e3e3e3;
+  padding: 17px 0;
+}
+
+.nico-product-single__wrapper .product__accordion__inner {
+  /* max-width: 410px; */
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #212121;
+  padding-bottom: 32px;
+}
+
+.nico-product-single__wrapper .product__accordion__title .icon {
+  width: 20px;
+  color: #212121;
+}
+
+@media screen and (max-width: 992px) {
+  .nico-product-single__wrapper
+    .product__subscription
+    .subscription-purchase-price
+    .subscription-price {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .nico-product-single__wrapper .product__subscription .heading {
+    width: 45%;
+  }
+
+  .nico-product-single__wrapper .subscription-purchase-price {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nico-product-single__wrapper .product__accordion__inner {
+    padding-bottom: 16px;
+  }
+  .nico-product-single__wrapper .product-single__details {
+    width: calc(100% + 22px);
+    margin-left: -11px;
+    box-shadow: 0px 0px 9.7px 7px #00000012;
+  }
+}
+
+/* pharmacist section */
+
+.pharmacist-container {
+  display: flex;
+  border-radius: 16px;
+  background: #c3f57866;
+}
+.pharmacist-info {
+  position: relative;
+  width: calc(100% - 25%);
+  padding: 16px 8px 16px 28px;
+}
+
+.pharmacist-info:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+  width: 24px;
+  height: 25px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0696/3504/7736/files/da21dde662a19a4b8a6e17048660983a.png?v=1731875607");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.pharmacist-info:after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  right: 4px;
+  display: block;
+  width: 24px;
+  height: 25px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0696/3504/7736/files/222e726b3c8486e0ba0d167e814a3ea1.png?v=1731875100");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.pharmacist-quote {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000;
+  padding: 12px 0 8px 0;
+  margin-bottom: 0;
+}
+.pharmacist-name {
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 20px;
+  margin: 0;
+}
+.pharmacist-image-wrapper {
+  width: 25%;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  background-size: cover;
+  border-radius: 0 0 16px 0;
+}
+
+/* product recommendation slider */
+.niccos-related-products [data-related-products] {
+  position: relative;
+}
+.niccos-related-products [data-related-products] .section__header {
+  margin-bottom: 0;
+}
+.niccos-related-products [data-related-products] .swiper-slide {
+  position: relative !important;
+}
+
+.niccos-related-products [data-related-products] .product-grid-item__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212121;
+}
+.niccos-related-products [data-related-products] .section__header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: left;
+  margin-bottom: 12px;
+  color: #212121;
+}
+.niccos-related-products [data-related-products] .product-grid-item__price {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 24px;
+  text-align: left;
+  color: #212121;
+}
+.niccos-related-products [data-related-products] .product__unit-price {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #212121;
+  opacity: 0.5;
+}
+.niccos-recommendation-product-swiper.swiper {
+  position: static;
+}
+.niccos-recommendation-product-swiper .swiper-button-prev {
+  margin-top: 0;
+  top: 6px;
+  left: 94%;
+}
+.niccos-recommendation-product-swiper .swiper-button-next {
+  margin-top: 0;
+  top: 6px;
+  right: 0;
+}
+
+.niccos-recommendation-product-swiper .swiper-button-prev,
+.niccos-recommendation-product-swiper .swiper-button-next {
+  color: #3d8724;
+}
+
+.niccos-recommendation-product-swiper .swiper-button-prev::after,
+.niccos-recommendation-product-swiper .swiper-button-next::after {
+  font-size: 20px;
+}
+.niccos-products-recommendation + .carousel {
+  display: none;
+}
+@media screen and (max-width: 1023px) {
+  .niccos-related-products [data-related-products] .carousel__container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nico-product-single__wrapper .product__title {
+    font-size: 32px !important;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #0a2923;
+  }
+  .nico-product-single__wrapper .product__price--regular {
+    font-size: 18px;
+    margin: 0 6px 0px 0;
+  }
+  .nico-product-single__wrapper .product__unit-price {
+    opacity: 1;
+  }
+  .pharmacist-quote {
+    font-size: 14px;
+  }
+  .pharmacist-name {
+    font-size: 12px;
+  }
+  .nico-product-single__wrapper .form__wrapper {
+    box-shadow: 0 0 0 7px #f3f3f3 !important;
+    background: radial-gradient(
+      53.4% 21.96% at 86.46% 20.67%,
+      rgba(195, 245, 120, 0.2) 0%,
+      rgba(195, 245, 120, 0.024) 100%
+    );
+  }
+  .niccos-related-products [data-related-products] .swiper-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10px, 1fr));
+    gap: 8px;
+    transform: translate3d(0px, 0px, 0px);
+    box-sizing: border-box;
+  }
+  .niccos-related-products [data-related-products] .product-grid-item {
+    width: 100% !important;
+  }
+  .niccos-related-products [data-related-products] .section__header h2 {
+    max-width: 260px;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+  .niccos-recommendation-product-swiper .swiper-button-prev,
+  .niccos-recommendation-product-swiper .swiper-button-next {
+    display: none;
+  }
+  .niccos-related-products [data-related-products] .product-grid-item__image {
+    height:max-content;
+    padding-top:0;
+    margin-bottom: 10px;
+    border-radius: 11px;
+  }
+  .niccos-related-products .product__media__container{
+    position: static;
+    transform: none;
+  }
+  .niccos-related-products .product__media__container, .niccos-related-products .product__media__image, .niccos-related-products .background-size-cover, .niccos-related-products .product__media__holder{
+    position: static;
+  }
+  .niccos-related-products .background-size-cover{
+    padding: 16px 0 20px 0;
+  }
+  .niccos-related-products [data-related-products] .product-grid-item__title {
+    line-height: 20px;
+    color: #05371e;
+  }
+
+  .niccos-related-products [data-related-products] .product-grid-item__price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 14px;
+    color: #05371e;
+  }
+  .niccos-related-products [data-related-products] .product__unit-price {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: -5px;
+  }
+}
+.ruk_rating_snippet i {
+    color: #52B465;
+}
+.blog-item__article__content_custom {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+h3.custom_article_title {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.blog-item__article__content_custom p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+@media screen and (max-width: 420px) {
+  .pharmacist-image-wrapper {
+    width: 35%;
+    background-position: 51%;
+  }
+  .pharmacist-info {
+    width: calc(100% - 35%);
+  }
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

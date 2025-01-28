@@ -1,0 +1,201 @@
+{%- liquid
+  assign section_width = section.settings.width
+  assign bg_color = section.settings.bg_color
+-%}
+
+{%- style -%}
+  #App--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+
+  {%- if bg_color != 'rgba(0,0,0,0)' and bg_color != '' -%}
+    #App--{{ section.id }} { background: {{ bg_color }}; }
+  {%- endif -%}
+{%- endstyle -%}
+
+<div
+  class="section-padding"
+  id="App--{{ section.id }}"
+  data-section-type="{{ section.id }}"
+  data-section-type="apps"
+>
+  <div class="wrapper">
+  <div class="grid-container">
+    <div class="grid-left">
+      <div
+        class="desktop-hide"
+        style=" display:flex;   padding-top: 10px; min-width: 100% ; display: flex; background-color: #f3f3f3 ; padding: 10px 20px;"
+      >
+        <div>
+          <h2 style="flex:50%;font-weight:400; font-size: 16px; margin:auto; text-align: center;">
+            Mit dem Ernährungsmediziner Dr. med Harald Pfeffer auf wissenschaftlicher Basis entwickelt
+          </h2>
+          <div style="display:flex; justify-content: center; align-items: center;">
+            <img
+              class="image-expert"
+              src="https://cdn.shopify.com/s/files/1/0696/3504/7736/files/Kein_Titel_2000_x_1000_px_800_x_1800_px_800_x_1200_px_2400_x_1200_px_2400_x_1000_px_1000_x_1800_px_1000_x_1400_px_1000_x_1000_px_150_x_150_px_1200_x_1200_px_1.png?v=1714254699"
+              alt="Dr. Pfeffer"
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-right">
+      <h4 class="b12-headings">Inhaltsstoffe</h4>
+      <span class="ingredients-text"
+        >Magnesiummalat, Magnesiumoxid, Magnesiumcitrat, Kapselhülle: Hydroxypropylmethylcellulose, Magnesiumlactat,
+        Magnesiumbisglycinat, Sango-Korallen-Pulver, Magnesium-L-ascorbat, Magnesiumtaurat, Magnesium-L-lysinat,
+        Magnesiumgluconat, Salzseekonzentrat.</span
+      >
+      <br>
+      <br>
+      <table class="b12-inhaltsstoffe">
+        <tbody>
+          <tr>
+            <td colspan="2"><strong>Inhaltsstoffe / 1 Kapsel / 2 Kapseln</strong></td>
+            <td style="text-align: center;"><strong>%NRV*</strong></td>
+          </tr>
+          <tr>
+            <td>Magnesium</td>
+            <td style="text-align: center;">200 mg / 400 mg</td>
+            <td style="text-align: center;">53 / 107</td>
+          </tr>
+          <tr>
+            <td>Vitamin C</td>
+            <td style="text-align: center;">38 mg / 67 mg</td>
+            <td style="text-align: center;">48 / 95</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  </div>
+
+<style>
+  .b12-inhaltsstoffe {
+      border: 1px solid #d3d3d3;
+  }
+  .b12-inhaltsstoffe tr:first-child td {
+      background-color: #f3f3f3;
+      font-size: 14px;
+  }
+  .b12-inhaltsstoffe tr td {
+      border: 1px solid #d3d3d3;
+      color: #000;
+      font-size: 14px;
+  }
+
+  .ingredients-text {
+      font-size: 14px;
+  }
+
+  .image-expert {
+      width: 100px;
+      margin-top: 10px;
+  }
+
+
+  @media screen and (max-width: 999px) {
+   .b12-headings {
+     text-align: center;
+     margin-top: 20px;
+   }
+  }
+
+  @media screen and (min-width: 1000px) {
+      .grid-container {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+      }
+
+      .grid-container > .grid-left, .grid-container > .grid-right {
+          flex: 1 1 50%;
+          max-width: 50%;
+          box-sizing: border-box;
+          padding: 20px;
+      }
+
+      .desktop-hide {
+          border-radius: 5px;
+          display: flex !important;
+      }
+
+      h2, .image-expert {
+          width: 100%;
+          text-align: center;
+      }
+
+      .image-expert {
+          max-width: 200px;
+          margin-top: 10px;
+      }
+      .desktop-hide {
+        height:100%;
+        align-items: center;
+      }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Expert Table",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "header",
+      "content": "Section spacing"
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper",
+      "options": [
+        { "value": "wrapper--full-padded", "label": "Full width padded" },
+        { "value": "wrapper", "label": "Page width" },
+        { "value": "wrapper--narrow", "label": "Page width narrow" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 60
+    }
+  ],
+  "presets": [
+    {
+      "name": "Expert Table"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header","aside","footer"]
+  }
+}
+{% endschema %}

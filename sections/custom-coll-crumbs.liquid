@@ -1,0 +1,25 @@
+<section class="custom-coll">
+  <div class="wrapper--full-padded">
+  <div class="bread-crumbs">
+    {% render 'breadcrumbs' %}
+  </div>
+  <div class="collection-title">
+    <h2>{{ collection.title }}</h2>
+  </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom breadcrumb",
+  "tag": "section",
+  "settings": [
+   ],
+
+  "presets": [
+    {
+      "name": "Custom breadcrumb",
+    }
+  ]
+}
+{% endschema %}

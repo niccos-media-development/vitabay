@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_9ihxnf": {
+      "type": "section-text",
+      "blocks": {
+        "heading_wN74kJ": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Unser Wissen Deine Gesundheit<\/p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wN74kJ"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_HxLkPP": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<img class=\"desktop-banner\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Kein_Titel_3000_x_44_px.jpg?v=1714245220\">\n\n<img class=\"mobile-banner\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Design_ohne_Titel_59.jpg?v=1714241543\">\n<style>\n@media screen and (max-width:767px) {\n.desktop-banner {\ndisplay:none;\n}\n}\n\n@media screen and (min-width:768px) {\n.mobile-banner {\ndisplay:none;\n}\n}\n<\/style>",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_LaQkyG": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/WERTE.jpg",
+        "subheading": "",
+        "title": "<p>Werte<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "content": "<p>\"Von Familie für Familie\": Vitabay pflegt familiäre Werte wie Vertrauen, Zusammenhalt und Fürsorge und schöpft aus einer langen Tradition medizionischer Expertise und Erfahrung.<br\/><br\/>\"Forschung ist Leidenschaft, Gesundheit ist Privileg\": Vitabay setzt sich für die Gesundheit und das Wohlbefinden seiner Kunden ein und bietet Produkte an, die einen positiven Beitrag zur Unterstützung eines gesunden Lebensstils leisten. <br\/><br\/>\"Unser Wissen Deine Gesundheit\": Vitabay legt Wert auf wissenschaftliche Forschung und Entwicklung, um innovative Produkte zu schaffen, die auf tradfitionell-fundierten medizinischen Erkenntnissen basieren, jedoch die neuesten Erkenntnisse der Medizin berücksichtigen. <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_aMGkdj": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/MISSION_2.jpg",
+        "subheading": "",
+        "title": "<p>Mission<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "content": "<p>\"Aus Leidenschaft zum Gesundsein\": Seit über zwei Jahrzehnten bündelt Vitabay fundierte Erkenntnisse für die Vitalstoff-Versorgung auf Basis einer kompletten, 360 Grad Gesundheitszuwendung. Ja, Vitamine sind essentiell, aber nach der exakten wissenschaftlichen Auswertung in Zusammenarbeit mit deutschen Ernährungsuniversitäten bieten wir das basale Vitalstoff-Versorgungs-Konzept für jeden an. Nach individuellen Tests wird ein weiterer Bedarf festgestellt und empfohlen.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f1f0ec",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_QTF3xD": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/VISION.jpg",
+        "subheading": "",
+        "title": "<p>Innovation<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "content": "<p>Vitabay forscht seit über zwei Jahrzehnten zum Thema optimale Gesundheitsversorgung. Wir sind stolz darauf, unseren Kunden bahnbrechende Patente zur Verfügung zu stellen:1. Produkte in höchster Bioverfügbarkeit (80%)2. Das beste Primär-Verpackungsmaterial - Leonith Glas zur Aufrechterhaltung der höchsten Bioverfügbarkeit ohne Füll- oder Konservierungsstoffe <\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_GcMCnd": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/INNOVATION-min.jpg",
+        "subheading": "",
+        "title": "<p>Vision<\/p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "content": "<p>Gesundsein ist das höchste Privileg - es müsste aus unserer Sicht jedem zur Verfügung gestellt werden. Wir arbeiten an innovativen Lösungsansätzen, die die Gesundheit der Zukunft jedem ermöglicht, für eine gemeinsam gesunde und wertige Zukunft. Step 1: Durch unsere Forschung verbrauchen wir deutlich wenige Natur-Rohstoffe, um Vitalstoffe herzustellen. Step 2: Durch die AI-Implementierung machen wir es möglich, jeden und an jedem Ort der Welt zur Hilfe zu eilen - wo mehr Gesundheit gebraucht wird.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f1f0ec",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "recent_products_4EhqkH": {
+      "type": "recent-products",
+      "settings": {
+        "product_recently_limit": 4,
+        "product_recently_minimum": 4,
+        "title": "Zuletzt angesehen",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_9ihxnf",
+    "section_custom_html_HxLkPP",
+    "section_image_with_text_LaQkyG",
+    "section_image_with_text_aMGkdj",
+    "section_image_with_text_QTF3xD",
+    "section_image_with_text_GcMCnd",
+    "recent_products_4EhqkH"
+  ]
+}

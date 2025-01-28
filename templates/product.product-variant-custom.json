@@ -1,0 +1,1307 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-variant-custom",
+      "blocks": {
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/HP_ICON_74be49e4-cff4-46db-9191-dae88e06ee53.png",
+            "icon_width": 30,
+            "icon_text": "Entwickelt von Dr. med. Harald Pfeffer",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 0
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "show_rating": true,
+            "show_rating_count": true,
+            "shipping_text": "inkl. MwSt. & kostenlosem Versand ab 60€",
+            "padding_bottom": 10
+          }
+        },
+        "description_4pmCYN": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "icon_B6ggte": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "plant-based",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_24839be3-3b1a-40ac-b475-52a1619dd556.png",
+            "icon_width": 30,
+            "icon_text": "Optimale Bioverfügbarkeit und Reinheit für beste Wirksamkeit.",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "icon_xiQw83": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_04585833-032a-4932-8f67-3df9e0dc805b.png",
+            "icon_width": 30,
+            "icon_text": "Du erhältst eine 90-Tage-Geld-zurück-Garantie – ohne Risiko ausprobieren!",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": false,
+            "popup_btn_text": "In den Warenkorb",
+            "popup_product_text": "Premiumpaket und Best-Seller:",
+            "popup_heading": "Wählen Sie die passende Menge",
+            "popup_text": "",
+            "return_popup_btn_text": "Zurück",
+            "save_text": "Spare jetzt weitere [discount]% im Sparabo.",
+            "save_checkbox_text": "Flexibel im Sparabo",
+            "save_checkbox_subtext": "spare dir weitere [price] ",
+            "sellingplan_additional_text": "<ul><li>Erhalte 10% Rabatt <\/li><li>Pausiere, Bearbeiten, oder kündigen es so wie du magst.  <\/li><li>Bleiben Sie zu jeder Zeit bestens versorgt, dank regelmäßiger Lieferung<\/li><\/ul>",
+            "button_additional_text": "",
+            "enable_price": true,
+            "enable_compare_price": false,
+            "padding_bottom": 10
+          }
+        },
+        "custom_code_7kcpGC": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div class=\"FWG_Product__Info--row\">\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/1.webp?v=1647020886\" alt=\"in 2-3 Tagen bei dir€ loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">in 2-3 Tagen bei dir<\/p>\n    <\/div>  \n  <\/div>\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/2.webp?v=1647020898\" alt=\"Einfache Retouren\" loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">Kostenlose Retouren<\/p>\n    <\/div>  \n  <\/div>\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/3.webp?v=1647020898\" alt=\"90 Tage Geld-Zurück-Garantie\" loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\"> 90 Tage Garantie<\/p>\n    <\/div>  \n  <\/div>\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/4.webp?v=1647020898\" alt=\"96.8% Zufriedenheit\" loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">96.8% Zufriedenheit<\/p>\n    <\/div>  \n  <\/div>\n<\/div>\n\n<style>\n.FWG_Product__Info--row {\n    margin-bottom:0px;\n    display: flex;\n    flex-wrap: wrap;\n    height: 90px;\n}\n\n.FWG_Product__Info--column {\n    width: 50%;\n}\n\n.FWG_Product__Info--badgeContainer {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 8px 4px;\n    border-radius: 50px;\n    border: 1px solid rgb(var(--border-color));\n    background: rgba(0,0,0,0.04);\n}\n\n.FWG_Product__Info--image {\n    width: 18px;\n}\n\n.FWG_Product__Info--badgeText {\n    color: #000;\n    font-size: 9px;\n    font-family: var(--text-font-family);\n    font-weight: var(--text-font-weight);\n    font-style: var(--text-font-style);\n    letter-spacing: 0.05em;\n    margin-top: 0px;\n    margin-bottom:0px !important;\n}\n<\/style>",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_fCbcaU": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Dosierung",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>{{ product.metafields.custom.accordion_text_1.value }}<br\/>  <br\/>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<\/p>",
+            "accordion_page": "",
+            "enable_product": false,
+            "padding_bottom": 22
+          }
+        },
+        "product_accordion_dWUhG6": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Inhaltstoffe",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>{{ product.metafields.custom.accordion_text_3.value }}<\/p>",
+            "accordion_page": "",
+            "enable_product": false,
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_BRdUbB": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Nährwertangaben",
+            "heading_style": "font-heading",
+            "accordion_text": "<p><strong>Nährwertangaben<\/strong><br\/>{{ product.metafields.custom.accordion_text_2.value }}<\/p>",
+            "accordion_page": "",
+            "enable_product": false,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "title",
+        "description_4pmCYN",
+        "icon_B6ggte",
+        "icon_xiQw83",
+        "form",
+        "custom_code_7kcpGC",
+        "product_accordion_fCbcaU",
+        "product_accordion_dWUhG6",
+        "product_accordion_BRdUbB"
+      ],
+      "custom_css": [
+        ".icons-row-block__item {display: flex; align-items: center; justify-content: center; padding: 8px 4px; border-radius: 50px; border: 1px solid rgb(var(--border-color)); background: rgba(0, 0, 0, 0.04);}",
+        ".icons-row-block__text {color: #000; font-size: 11px; letter-spacing: 0.05em; margin-top: 0;}",
+        ".product__icon__row--multiple {grid-template-columns: repeat(2, 1fr);}",
+        ".product__icon__row--multiple {padding: 0px !important;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordions_eCRgnY": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_rWTPbX": {
+          "type": "text",
+          "settings": {
+            "title": "Dosierung",
+            "text": "<p>{{ product.metafields.custom.accordion_text_1.value }}<br\/><br\/>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<\/p>"
+          }
+        },
+        "text_xKY6ht": {
+          "type": "text",
+          "settings": {
+            "title": "Allergene",
+            "text": "<p>Das Produkt enthält keinerlei Allergene.<\/p>"
+          }
+        },
+        "text_fj3Tmd": {
+          "type": "text",
+          "settings": {
+            "title": "Lagerung",
+            "text": "<ul><li>Packung immer gut verschliesen <\/li><li>an einem trockenen Ort aufbewahren <\/li><li>vor Sonne und Feuchtigkeit schützen <\/li><li>nicht im Kühlschrank aufbewahren <\/li><li>für Kinder unerreichbar aufbwahren<\/li><\/ul>"
+          }
+        },
+        "text_iYaamt": {
+          "type": "text",
+          "settings": {
+            "title": "Inhaltstoffe",
+            "text": "<p>{{ product.metafields.custom.accordion_text_3.value }}<\/p>"
+          }
+        },
+        "text_QqLYNP": {
+          "type": "text",
+          "settings": {
+            "title": "Nährtwertangaben",
+            "text": "<p><strong>Nährwertangaben<\/strong><br\/>{{ product.metafields.custom.accordion_text_2.value }}<\/p>"
+          }
+        },
+        "text_wgWwj3": {
+          "type": "text",
+          "settings": {
+            "title": "Nahrungsergänzungsmittel",
+            "text": "<p>Nahrungsergänzungsmittel sind kein Ersatz für eine abwechslungsreiche, ausgewogene Ernährung und eine gesunde Lebensweise. Die empfohlene tägliche Verzehrsmenge darf nicht überschritten werden. Immer außerhalb der Reichweite von Kindern aufbewahren. Die bereitgestellte Information ist nicht als Ersatz für Empfehlungen Ihres Arztes oder anderer medizinischer Fachkräfte gedacht. Es ist auch keine Heilaussage oder Aufforderung zur Selbstmedikation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_rWTPbX",
+        "text_xKY6ht",
+        "text_fj3Tmd",
+        "text_iYaamt",
+        "text_QqLYNP",
+        "text_wgWwj3"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#f1f2f2",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "section_custom_html_AC3C4G": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<picture>\n  <source media=\"(max-width:750px)\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Design_ohne_Titel_59_900x.jpg\">\n  <source media=\"(min-width:750px)\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Kein_Titel_3000_x_44_px_1800x.jpg\">\n  <img width=\"100%\" height=\"100%\" loading=\"lazy\"\/>\n<\/picture>",
+        "width": "wrapper--full",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_Mf3XPT": {
+      "type": "section-text",
+      "blocks": {
+        "text_DBbnqh": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Unsere aktuellen Partner<\/strong><\/h5>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "text_DBbnqh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "section_marquee_pji6YG": {
+      "type": "section-marquee",
+      "blocks": {
+        "image_wtLJ7w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/585ba358e8cfc.png",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_GVxpdK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DocMorris_Logo_11_2020_svg.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_WQcrrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Medpex_logo_svg.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_E7j8PX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shop_Apotheke_Europe_logo_svg.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_bf3WVq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bodfeld-Logo-NEU-Mandant.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_ihnhja": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/versandApo.webp",
+            "link": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_wtLJ7w",
+        "image_GVxpdK",
+        "image_WQcrrJ",
+        "image_E7j8PX",
+        "image_bf3WVq",
+        "image_ihnhja"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "slider_speed": 20,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 100,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000000",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "feature_image_XVkQJK": {
+      "type": "feature-image",
+      "blocks": {
+        "feature_HW9yV3": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v1_rohstoff_berschrift_herkunft.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_1_.value }}<\/p>"
+          }
+        },
+        "feature_MyDz7q": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v2_rohstoff_berschrift_wirkung.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_2_.value }}<\/p>"
+          }
+        },
+        "feature_APcQgh": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v3_rohstoff_berschrift_vorteile.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_3_.value }}<\/p>"
+          }
+        },
+        "feature_G4BUde": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v4_rohstoff_berschrift_unterst_tzt.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_4_.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_HW9yV3",
+        "feature_MyDz7q",
+        "feature_APcQgh",
+        "feature_G4BUde"
+      ],
+      "disabled": true,
+      "settings": {
+        "grid_gap": 48,
+        "grid_gap_mobile": 40,
+        "heading": "<h5><strong>BIOAKTIVE PREMIUM WIRKSTOFFE<\/strong><\/h5>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 34,
+        "heading_size_mobile": 18,
+        "heading_height": 110,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "items_row": 2,
+        "items_row_mobile": 1,
+        "items_gap": 50,
+        "items_gap_mobile": 20,
+        "items_mt": 48,
+        "icon_size": 40,
+        "icon_size_mobile": 32,
+        "icon_padding_vertical": 16,
+        "icon_padding_vertical_mobile": 12,
+        "icon_padding_horizontal": 16,
+        "icon_padding_horizontal_mobile": 12,
+        "icon_radius": 50,
+        "icon_border_thickness": 0,
+        "icon_align": "left",
+        "icon_align_mobile": "left",
+        "icon_row": false,
+        "icon_row_mobile": true,
+        "hide_icon": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 20,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "title_mt": 16,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 150,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "text_mt": 16,
+        "image": "shopify:\/\/shop_images\/northern-forest.jpg",
+        "image_width": 40,
+        "image_width_mobile": 100,
+        "image_position": "row",
+        "image_row_position": "row",
+        "image_column_position": "column",
+        "image_column_position_mobile": "column",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "square",
+        "image_border_thickness": 0,
+        "image_radius": 6,
+        "hide_image": false,
+        "icon_bg_color": "#f3f1f0",
+        "icon_border_color": "#0d9410",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "heading_color": "#000000",
+        "image_border_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 140,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_image_with_text_fJcL8F": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/green-plants-grow-in-lines-on-rolling-hills.jpg",
+        "subheading": "UNSERE GEDANKEN BEI DER ENTWICKLUNG",
+        "title": "<h5><strong>DARAUF LEGEN WIR WERT<\/strong><\/h5>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "content": "<p>Reinheit und Qualität sind für uns von höchster Bedeutung. Deshalb lassen wir unsere Rohstoffe sowie die fertigen Produkte regelmäßig von unabhängigen Laboren auf Reinheit und Wirkstoffgehalt überprüfen. Um Ihnen eine transparente Einsicht in unsere Qualitätssicherungsprozesse zu ermöglichen, stellen wir hier auszugsweise ausgewählte Labortests zur Verfügung.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_YAr4e8": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/green-plants-grow-in-lines-on-rolling-hills.jpg",
+        "subheading": "TRUE CLEAN LABEL",
+        "title": "<h5><strong>APOTHEKEN QUALITÄT<\/strong><\/h5>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "content": "<p>Ein Clean Label steht für die Verpflichtung, Produkte herzustellen, die möglichst wenige und ausschließlich natürliche, verständliche Zutaten enthalten. <\/p><p>Dieses Konzept ist eine Antwort auf das zunehmende Verbraucherbewusstsein und die Nachfrage nach Transparenz in der Lebensmittel- und Supplementindustrie.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_i6w79i": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_68NmDQ": {
+          "type": "text",
+          "settings": {
+            "title": "Dosierung",
+            "text": "<p><strong>Verzehrempfehlung<\/strong><br\/>{{ product.metafields.custom.accordion_text_1.value }}<br\/><\/p><p><br\/><strong>Tagesbedarf<br\/><\/strong><span style=\"text-decoration:underline\">Meta Field mit Tagesbedarf<\/span><br\/><\/p><p><br\/><strong>Nahrungsergänzungsmittel<\/strong><br\/>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<\/p>"
+          }
+        },
+        "text_JdDqWf": {
+          "type": "text",
+          "settings": {
+            "title": "Inhaltstoffe",
+            "text": "<p><strong>Zutaten<\/strong><br\/>{{ product.metafields.custom.accordion_text_3.value }}<br\/><br\/><span style=\"text-decoration:underline\">Meta Field mit Tabelle <br\/><\/span><br\/><\/p>"
+          }
+        },
+        "text_wCyxt6": {
+          "type": "text",
+          "settings": {
+            "title": "Nährwertangaben",
+            "text": "<p><strong>Nährwertangaben<\/strong><br\/>{{ product.metafields.custom.accordion_text_2.value }}<\/p>"
+          }
+        },
+        "text_NYi4MW": {
+          "type": "text",
+          "settings": {
+            "title": "Nahrungsergänzungsmittel",
+            "text": "<p>Nahrungsergänzungsmittel sind kein Ersatz für eine abwechslungsreiche, ausgewogene Ernährung und eine gesunde Lebensweise. Die empfohlene tägliche Verzehrsmenge darf nicht überschritten werden. Immer außerhalb der Reichweite von Kindern aufbewahren. Die bereitgestellte Information ist nicht als Ersatz für Empfehlungen Ihres Arztes oder anderer medizinischer Fachkräfte gedacht. Es ist auch keine Heilaussage oder Aufforderung zur Selbstmedikation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_68NmDQ",
+        "text_JdDqWf",
+        "text_wCyxt6",
+        "text_NYi4MW"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_fgMtzL": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "subheading": "Bullet Points",
+        "title": "<h2>Optimierte Rezeptur für maximale Wirksamkeit<\/h2>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>{{ product.metafields.custom.produktvorteile_bullet_points_ | metafield_tag }}<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "feature_image_FR8TFh": {
+      "type": "feature-image",
+      "blocks": {
+        "feature_3BjPHB": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v1_rohstoff_berschrift_herkunft.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_1_.value }}<\/p>"
+          }
+        },
+        "feature_iajNqr": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v2_rohstoff_berschrift_wirkung.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_2_.value }}<\/p>"
+          }
+        },
+        "feature_TcA4Fp": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v3_rohstoff_berschrift_vorteile.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.v3_rohstoff_berschrift_vorteile.value }}<\/p>"
+          }
+        },
+        "feature_aEdGD4": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>{{ product.metafields.custom.v4_rohstoff_berschrift_unterst_tzt.value }}<\/p>",
+            "text": "<p>{{ product.metafields.custom.health_claim_4_.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_3BjPHB",
+        "feature_iajNqr",
+        "feature_TcA4Fp",
+        "feature_aEdGD4"
+      ],
+      "disabled": true,
+      "settings": {
+        "grid_gap": 48,
+        "grid_gap_mobile": 20,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 56,
+        "heading_size_mobile": 32,
+        "heading_height": 110,
+        "heading_align": "left",
+        "heading_align_mobile": "left",
+        "items_row": 2,
+        "items_row_mobile": 1,
+        "items_gap": 50,
+        "items_gap_mobile": 20,
+        "items_mt": 48,
+        "icon_size": 40,
+        "icon_size_mobile": 32,
+        "icon_padding_vertical": 16,
+        "icon_padding_vertical_mobile": 12,
+        "icon_padding_horizontal": 16,
+        "icon_padding_horizontal_mobile": 12,
+        "icon_radius": 50,
+        "icon_border_thickness": 0,
+        "icon_align": "left",
+        "icon_align_mobile": "left",
+        "icon_row": false,
+        "icon_row_mobile": true,
+        "hide_icon": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 20,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "title_align": "left",
+        "title_align_mobile": "left",
+        "title_mt": 16,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 150,
+        "text_align": "left",
+        "text_align_mobile": "left",
+        "text_mt": 16,
+        "image_width": 40,
+        "image_width_mobile": 100,
+        "image_position": "row",
+        "image_row_position": "row",
+        "image_column_position": "column",
+        "image_column_position_mobile": "column",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "square",
+        "image_border_thickness": 0,
+        "image_radius": 6,
+        "hide_image": true,
+        "icon_bg_color": "#f3f1f0",
+        "icon_border_color": "#000000",
+        "title_color": "#000000",
+        "text_color": "#000000",
+        "heading_color": "#000000",
+        "image_border_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 140,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_image_with_text_e93Yaf": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "subheading": "Wirkung",
+        "title": "<h3>Optimale Versorgung<\/h3>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>{{ product.metafields.custom.qualit_t | metafield_tag }}<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_QmYLLf": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "subheading": "Unsere Gedanken bei der Entwicklung",
+        "title": "<h3>Darauf haben wir geachtet<\/h3>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_3yVn8y": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "subheading": "True Clean Label",
+        "title": "<h3>Apotheken Qualität<\/h3>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Ein <strong>Clean Label<\/strong> steht für die Verpflichtung, Produkte herzustellen, die möglichst wenige und ausschließlich natürliche, verständliche Zutaten enthalten. Dieses Konzept ist eine Antwort auf das zunehmende Verbraucherbewusstsein und die Nachfrage nach Transparenz in der Lebensmittel- und Supplementindustrie.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_FFzYwM": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/facharzt-und-passionierter-forscher-von-r-leben-dr-med-harald-pfeffer.jpg",
+        "subheading": "Entwickelt von dr. med Harald Pfeffer",
+        "title": "<h5><strong>UNSER GRÜNDUNGSVATER<\/strong><\/h5>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_xw8JDi": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_CFQeHm": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist bei dem Produkt die richtige Dosierung ?",
+            "text": "<p>{{ product.metafields.custom.faq_1_antwort | metafield_tag }}<\/p>"
+          }
+        },
+        "text_pJJTii": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist in dem Produkt alles enthalten ?",
+            "text": "<p>{{ product.metafields.custom.faq_2_antwort | metafield_tag }}<\/p>"
+          }
+        },
+        "text_9ANrGR": {
+          "type": "text",
+          "settings": {
+            "title": "Was sind die genauen Nährwertangaben des Produkts ?",
+            "text": "<p>{{ product.metafields.custom.faq_3_antwort | metafield_tag }}<\/p>"
+          }
+        },
+        "text_nrpDGr": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist die Wirkung des Produkts ?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_CFQeHm",
+        "text_pJJTii",
+        "text_9ANrGR",
+        "text_nrpDGr"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_JCriHy": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_ek7LFR": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br\/><br\/>Foreign shipping could take up to 14 business days.<br\/><br\/>Due to global supply chain challenges, shipping times could be longer than usual.<\/p>"
+          }
+        },
+        "text_UhpaRm": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br\/><br\/>Our warranty provides a guarantee against manufacturer defects.<br\/><br\/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br\/><br\/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.<\/p>"
+          }
+        },
+        "text_7NDJMk": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br\/><br\/>Please enquire for more information about our Refund policy.<\/p>"
+          }
+        },
+        "text_ApkKbh": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ek7LFR",
+        "text_UhpaRm",
+        "text_7NDJMk",
+        "text_ApkKbh"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "feature_icons_V7fGiQ": {
+      "type": "feature-icons",
+      "blocks": {
+        "item_kpU6z6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_54ca76bf-3942-4441-af49-002826577ea9.png",
+            "icon": "truck_2",
+            "title": "Von Familie für Familie",
+            "text": "Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.",
+            "url": "",
+            "icon_color": "#bebebe",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        },
+        "item_m4PyRX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2.png",
+            "icon": "price",
+            "title": "Leidenschaft für Gesundheit",
+            "text": "Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.",
+            "url": "",
+            "icon_color": "#f83062",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        },
+        "item_Kgqzrt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_1.png",
+            "icon": "return",
+            "title": "Aktive Forschung",
+            "text": "Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.",
+            "url": "",
+            "icon_color": "#2168f2",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        },
+        "item_ARe6Md": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_3.png",
+            "icon": "star",
+            "title": "Gesundheit für alle",
+            "text": "Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung",
+            "url": "",
+            "icon_color": "#d73e3e",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "item_kpU6z6",
+        "item_m4PyRX",
+        "item_Kgqzrt",
+        "item_ARe6Md"
+      ],
+      "settings": {
+        "heading": "<h3>Unsere Werte bei Vitabay<\/h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 24,
+        "heading_height": 150,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "items_style": "grid",
+        "items_style_mobile": "slider",
+        "items_row": 4,
+        "items_row_mobile": 1,
+        "items_gap": 20,
+        "items_gap_mobile": 20,
+        "items_mt": 28,
+        "items_mt_mobile": 22,
+        "item_padding_vertical": 24,
+        "item_padding_vertical_mobile": 24,
+        "item_padding_horizontal": 24,
+        "item_padding_horizontal_mobile": 24,
+        "item_radius": 8,
+        "item_border_thickness": 1,
+        "item_shadow": true,
+        "item_hover": false,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "icon_size": 56,
+        "icon_size_mobile": 56,
+        "hide_icon": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 18,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "title_mt": 28,
+        "title_mt_mobile": 28,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 150,
+        "text_mt": 8,
+        "text_mt_mobile": 8,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_mt": 32,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
+        "item_bg": "#ffffff",
+        "item_border_color": "#f1f2f2",
+        "item_shadow_color": "#42474c",
+        "title_color": "#000000",
+        "text_color": "#52525b",
+        "dots_color": "#52525b",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 100,
+        "margin_bottom": 0,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_accordions_kFrtdr": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_8c3aDX": {
+          "type": "text",
+          "settings": {
+            "title": "Wer steckt hinter Vitabay?",
+            "text": "<p>Hinter Vitabay steckt Dr. med. Harald Pfeffer. Vitabay wurde von ihm im Jahr 2003 gegründet mit der Vision, dass Gesundheit nicht nur in die 4 Wände einer Arztpraxis , sondern in die ganze Welt gehört.<\/p>"
+          }
+        },
+        "text_fMiPgD": {
+          "type": "text",
+          "settings": {
+            "title": "Gibt es eine Garantie für dieses Produkt?",
+            "text": "<p>Ja, dieses Produkt ist durch eine Garantie abgedeckt. Sollte es defekt oder verdorben sein, kannst Du es kostenlos zurücksenden und erhältst eine vollständige Rückerstattung.<\/p>"
+          }
+        },
+        "text_Jtz4Ak": {
+          "type": "text",
+          "settings": {
+            "title": "Ist das Produkt sicher?",
+            "text": "<p>Ja, das Produkt ist sicher, wenn du dich an die angegebene Aufbewahrungs- und Verzehrempfehlung hältst. Das Produkt ist getestet und geprüft von unabhängigen Laboren. Es ist jedoch zu beachten, dass du die Einnahme von Nahrungsergänzungsmitteln immer mit deinem Arzt absprechen solltest, insbesondere wenn du eine medizinische Vorgeschichte o.ä. hast.<\/p>"
+          }
+        },
+        "text_HdajaM": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Versand Optionen bietet ihr an?",
+            "text": "<p>Ab einem Einkaufswert von 40€ übernehmen wir deine Versandkosten. Alle Pakete werden innerhalb von 1-3 Werktagen via DHL zu dir zugestellt.<\/p>"
+          }
+        },
+        "text_K6M6R3": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Zahlungsmethoden bietet ihr an?",
+            "text": "<p>Wir akzeptieren PayPal, Überweisung, Kreditkarte sowie Klarna Ratenkauf, Sofortüberweisung und Kauf auf Rechnung durch Klarna als Zahlungsmethoden.<\/p>"
+          }
+        },
+        "text_cafw9V": {
+          "type": "text",
+          "settings": {
+            "title": "Wer ist Dr. med Harald Pfeffer?",
+            "text": "<p>Dr. med. Harald Pfeffer ist der Gründervater von Vitabay. Seit über 20 Jahren profitiert Vitabay von seinem medizinischen Wissen und seiner Vision, das Privileg der Gesundheit für jeden erreichbar zu machen. Bis heute forscht er leidenschaftlich an neuen Produkten und Formeln um seiner Vision treu zu bleiben.<\/p>"
+          }
+        },
+        "text_pGpjt3": {
+          "type": "text",
+          "settings": {
+            "title": "Woher weiß ich was ich brauche?",
+            "text": "<p>Gerne beraten wir dich über die Einnahme und Anwendung unserer Produkte (dazu findest du viele Informationen auf unserem Instagram Kanal). Du solltest jedoch immer auf deinen Körper hören und darauf was er benötigt und verträgt. Die Einnahme von Nahrungsergänzungsmitteln solltest du zudem immer vorher mit deinem Arzt besprechen, insbesondere im Falle einer medizinischen Vorgeschichte.<\/p>"
+          }
+        },
+        "text_7CtgBJ": {
+          "type": "text",
+          "settings": {
+            "title": "Kann das Gefährlich werden?",
+            "text": "<p>Das Produkt kann für dich prinzipiell nicht gefährlich werden wenn du dich an alle Angaben zur Einnahme und Aufbewahrung hältst. Du solltest jedoch die Einnahme von Nahrungsergänzungsmitteln immer mit deinem Arzt vorher besprechen, insbesondere im Falle einer medizinischen Vorgeschichte.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_8c3aDX",
+        "text_fMiPgD",
+        "text_Jtz4Ak",
+        "text_HdajaM",
+        "text_K6M6R3",
+        "text_cafw9V",
+        "text_pGpjt3",
+        "text_7CtgBJ"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Häufig gestellte Fragen",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1722706714d68afbf6": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_thxUda": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#0d9410",
+            "review_type": "product_review",
+            "per_page": 3,
+            "primary_btn_bg_color": "#0d9410",
+            "primary_btn_border_color": "#0d9410",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#0d9410",
+            "secondary_btn_text_color": "#000000",
+            "border_color": "#000000",
+            "heading_text_color": "#000000",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#000000",
+            "badge_icon_color": "#0d9410",
+            "badge_text_color": "#000000",
+            "enable_rich_snippets": true,
+            "show_location": false,
+            "show_tab_selector": false,
+            "show_dates": false,
+            "show_avatar": false,
+            "enable_replies": false,
+            "widget_spacing": 5,
+            "show_review_title": false,
+            "default_sort": "highest_rating"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_thxUda"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "Die perfekte Ergänzung",
+            "product_recommendations_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "product_addons_Jwzmm8": {
+      "type": "product-addons",
+      "settings": {
+        "products": [
+          "ashwagandha-1800-mg-vegan-270-kapseln",
+          "baldrian-extrakt-4-1-2000-mg-90-vegan-kapseln"
+        ],
+        "products_space": 14,
+        "product_border_thickness": 1,
+        "product_radius": 5,
+        "product_padding_horizontal": 14,
+        "product_padding_vertical": 12,
+        "product_heading_prefix": "",
+        "product_heading_custom": false,
+        "product_heading_font": "assistant_n4",
+        "product_heading_size": 15,
+        "product_heading_size_mobile": 15,
+        "product_heading_height": 100,
+        "product_image_size": 40,
+        "product_image_radius": 5,
+        "link_product_image": false,
+        "product_price_custom": false,
+        "product_price_font": "assistant_n4",
+        "product_price_size": 15,
+        "product_price_size_mobile": 15,
+        "product_price_height": 100,
+        "product_price_mt": 5,
+        "product_input_radius": 3,
+        "product_input_border_thickness": 1,
+        "product_background_color": "#f3f3f6",
+        "product_border_color": "#d9d9d9",
+        "product_heading_color": "#525252",
+        "product_price_color": "#525252",
+        "product_input_background_color": "#ffffff",
+        "product_input_background_active_color": "#121212",
+        "product_input_border_color": "#d9d9d9",
+        "product_input_border_active_color": "#121212",
+        "product_input_icon_color": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 12,
+        "margin_bottom": 12,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": false,
+        "form_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_accordions_eCRgnY",
+    "section_custom_html_AC3C4G",
+    "section_text_Mf3XPT",
+    "section_marquee_pji6YG",
+    "feature_image_XVkQJK",
+    "section_image_with_text_fJcL8F",
+    "section_image_with_text_YAr4e8",
+    "section_accordions_i6w79i",
+    "section_image_with_text_fgMtzL",
+    "feature_image_FR8TFh",
+    "section_image_with_text_e93Yaf",
+    "section_image_with_text_QmYLLf",
+    "section_image_with_text_3yVn8y",
+    "section_image_with_text_FFzYwM",
+    "section_accordions_xw8JDi",
+    "section_accordions_JCriHy",
+    "feature_icons_V7fGiQ",
+    "section_accordions_kFrtdr",
+    "1722706714d68afbf6",
+    "related",
+    "product_addons_Jwzmm8"
+  ]
+}

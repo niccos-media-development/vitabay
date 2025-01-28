@@ -1,0 +1,86 @@
+.nicos-icon-discription__wrapper {
+  margin: 30px auto;
+  padding: 52px 0px;
+  /* background-image: url(https://cdn.shopify.com/s/files/1/0696/3504/7736/files/Muster_zusammengefugt_2.png?v=1731924995); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #05371e;
+}
+.nicos-icon-discription__wrapper .page-wrapper {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nicos-icon-discription__wrapper .area-header h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.nicos-icon-discription__wrapper .icon-area {
+  display: flex;
+  gap: 29px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nicos-icon-discription__wrapper .icon-area .icon-card {
+  max-width: 383px;
+  display: flex;
+  flex: 0 0 50%;
+  gap: 16px;
+}
+.nicos-icon-discription__wrapper .icon-area .icon-card .icon {
+  max-width: 50px;
+  max-height: 50px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.nicos-icon-discription__wrapper .icon-area .icon-card .icon img {
+  width: 100%;
+  height: auto;
+}
+.nicos-icon-discription__wrapper .icon-area .icon-card .details-area h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.nicos-icon-discription__wrapper .icon-area .icon-card .details-area p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.58px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1023px) {
+  .nicos-icon-discription__wrapper .icon-area {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nicos-icon-discription__wrapper .area-header h3 {
+    text-align: left;
+  }
+  .nicos-icon-discription__wrapper .page-wrapper {
+    padding: 20px;
+    justify-content: flex-start;
+  }
+}

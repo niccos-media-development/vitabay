@@ -1,0 +1,525 @@
+.variant-custom-model-main {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: 0;
+    -webkit-transition: opacity .15s linear, z-index .15;
+    -o-transition: opacity .15s linear, z-index .15;
+    transition: opacity .15s linear, z-index .15;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.variant-model-open {
+    z-index: 501;
+    opacity: 1;
+    overflow: hidden;
+}
+.varient-custom-btn .btn {
+    background: #0d9410;
+    border-color: #0d9410;
+}
+.variant-custom-model-wrap {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    background-clip: padding-box;
+    outline: 0;
+    text-align: left;
+    padding: 28px 36px 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+    border-radius: 6px 6px 0 0;
+}
+.variant-custom-model-inner {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translateY(-25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    -o-transition: transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    margin: 30px auto;
+    max-width: 530px;
+}
+.variant-model-open .variant-custom-model-inner {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0);
+    position: relative;
+    z-index: 999;
+}
+
+.variant-popup-img-option {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.add-pop-button{
+    background-color: #0d9410;
+    border-color: #0d9410;
+}
+.variant-custom-model-main:has(.step-1-active) .step-2 {
+  display: none !important;
+}
+.variant-custom-model-main:has(.step-2-active) .step-1 {
+  display: none !important;
+}
+
+.variant-close-btn {
+    font-size: 20px;
+    color: #0f0f0f;
+    background: #f7f7fa;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-weight:700;
+}
+.variant-custom-model-wrap .variant-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+.variant-price-box {
+    background: #f7f7fa;
+    padding: 5px;
+}
+.variant-popup-img-option .variant-inner-box {
+    position: relative;
+    border-radius: 2px;
+    text-align: center;
+    /* overflow: hidden; */
+    height: 100%;
+    background: #f7f7fa;
+}
+.variant-price-box p {
+    opacity: 1;
+    color: #0f0f0f;
+    margin: 0;
+    display: inline-block;
+    font-size: 12px;
+}
+.variant-price-box p span {
+  font-size: 8px;
+  display: inline-block;
+  padding-left: 2px;
+  color: #000;
+}
+.variant-price-box .variant-price-subtext {
+    opacity: .5;
+    font-size: 12px;
+    margin: 0;
+    color: #0f0f0f;
+    text-decoration: line-through;
+}
+.variant-option-image {
+    position: relative;
+}
+.variant-option-image img {
+    display: block;
+}
+.variant-popup-img-option .variant-inner-box input[type="radio"] {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.variant-popup-img-option .variant-inner-box:has(input[type="radio"]:checked) {
+    border: 2px solid #158c21;
+    border-radius: 4px;
+}
+.variant-option-image .variant-option-labal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #158c21;
+    height: 26px;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom-left-radius: 2px;
+    padding: 0 10px;
+}
+.variant-option-labal span {
+    color: #fff;
+    line-height: normal;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.variant-tooltip {
+    margin-top: 24px;
+    text-align: center;
+}
+.metafield-rich_text_field p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.variant-bg-overlay {
+    background: #0000;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transition: background .15s linear;
+    -o-transition: background .15s linear;
+    transition: background .15s linear;
+    pointer-events: none;
+}
+.variant-model-open .variant-bg-overlay {
+    background: #0000004d;
+    z-index: 99;
+    pointer-events: inherit;
+}
+.variant-step-btn {
+    margin-top: 20px;
+}
+.variant-tooltip svg {
+    margin-bottom: 10px;
+}
+.variant-tabing .variant-app {
+    display: block;
+    background: #f7f7fa;
+    padding: 2rem;
+    margin: 0;
+    border-radius: 2px;
+    border: solid 2px #f7f7fa;
+}
+.variant-tabing .variant-app .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.variant-tabing .variant-app .form-group input {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: solid 1px #0d9410;
+    border-radius: 2px;
+    position: relative;
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-appearance: none;
+    transition: border-color .3s ease, box-shadow .3s ease;
+}
+.variant-tabing .variant-app .form-group input[type=checkbox]:checked:before {
+    background: #0d9410 url(check-white.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: none;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.variant-tabing .variant-app .form-group label {
+    margin-left: 20px;
+}
+.variant-tabing .variant-app .form-group label .h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    padding-bottom: 2px;
+    margin:0;
+}
+.variant-tabing .variant-app .form-group label p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.variant-tabing .variant-app ul {
+    margin: 0;
+    padding: 0;
+}
+.product__block ul li {
+    list-style: none;
+    background: url(check.svg);
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: left center;
+    padding-left: 24px;
+    margin: 0 0 8px;
+    line-height: 1.4;
+}
+.variant-tabing .variant-app ul li {
+    font-size: 14px;
+    max-width: 290px;
+}
+.variant-tabing .variant-app.step-2:has(input[type=checkbox]:checked) {
+    border: solid 2px #0d9410;
+}
+.variant-popup-title .popup-title {
+    font-weight: 500;
+}
+
+.selling-plans-dropdown__select {
+    display: flex;
+    padding: 8.5px 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    margin: 20px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    background: #fff url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"%3e%3cpath d="M16.5813 7.83128L10.3313 14.0813C10.2434 14.1691 10.1242 14.2184 10 14.2184C9.87581 14.2184 9.75667 14.1691 9.66878 14.0813L3.41878 7.83128C3.33598 7.74242 3.2909 7.62489 3.29304 7.50345C3.29518 7.38201 3.34438 7.26615 3.43026 7.18026C3.51615 7.09438 3.63201 7.04518 3.75345 7.04304C3.87489 7.0409 3.99242 7.08598 4.08128 7.16878L10 13.0867L15.9188 7.16878C16.0076 7.08598 16.1252 7.0409 16.2466 7.04304C16.368 7.04518 16.4839 7.09438 16.5698 7.18026C16.6557 7.26615 16.7049 7.38201 16.707 7.50345C16.7092 7.62489 16.6641 7.74242 16.5813 7.83128Z" fill="%230F0F0F"%3e%3c/path%3e%3c/svg%3e') no-repeat right 10px center;
+}
+.recharge-widget-wrapper-main {
+    display: none;
+}
+.variant-tabing .variant-app:has(input[type=checkbox]:checked) .recharge-widget-wrapper-main {
+    display: block;
+}
+.variant-custom-model-wrap:has(input[type=checkbox]:checked) .big-title {
+    font-size: 24px;
+}
+.variant-popup-title .back {
+    background: #f7f7fa;
+    padding: 8px 15px;
+      border: 0;
+    border-radius: 0;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-appearance: none;
+    font-family: inherit;
+    color: inherit;
+    margin: 0;
+    font-size: inherit;
+    line-height: 1;
+  margin-right:10px;
+}
+.variant-custom-model-wrap .custom-payment-icons {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 12px;
+}
+
+.variant_seller_top {
+  position: absolute;
+  top: -26px;
+  background: #0d9410;
+  color: #fff;
+  font-size: 9px;
+  line-height: 12px;
+  padding: 2px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.variant_seller_top p {
+  margin: 0;
+  font-size: 8px;
+  line-height: 10px;
+}
+.variant-popup-img-option .variant-inner-box:has(input[type=radio]:checked) .variant_seller_top {
+  width: calc(100% + 4px);
+  margin: 0 -2px;
+}
+
+.variant_price__cover {
+    display: flex;
+    font-size: 12px;
+    margin-top: 2px;
+    gap: 3px;
+    justify-content: center;
+    text-align: right;
+}
+.variant_price__cover span {
+  display: inline-block;
+  white-space: nowrap;
+}
+.variant-price-box p.per_bottel_price {
+    color: #ff0000;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+    width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.vairant_main__price {
+  font-size: 14px !important;
+}
+
+.product_contact__cover {
+    background: #f7f7fa;
+    padding: 6px 30px;
+    margin-top: 6px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product_contact__cover p {
+    margin: 0;
+}
+
+.product_contact__cover p strong {
+    font-weight: 900;
+}
+
+
+@media (min-width: 959px) {
+
+  .variant-custom-model-main.variant-model-open .variant-custom-model-inner {
+    position: fixed;
+    height: auto;
+    width: 530px;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    transform: translateX(70%);
+  }
+  
+}
+
+
+@media (max-width: 1199px) {
+  .variant-custom-model-main.variant-model-open .variant-custom-model-inner {
+    transform: inherit;
+    margin: 0;
+    right: 6%;
+    left: auto;
+  }
+}
+
+
+@media (max-width: 991px) {
+
+  .payment-icon-list.product-page {
+    flex-wrap: wrap;
+    width: 100% !important;
+  }
+  .product__submit__holder.product__submit__holder--notification {
+    min-width: inherit;
+  }
+.product__block ul li {
+    padding-left: 20px;
+    display: flex;
+}
+  .product__block ul li svg {
+    height: auto;
+    max-width: 30px;
+}
+.variant-custom-model-main.variant-model-open .variant-custom-model-inner {
+    right: 0;
+}
+  
+}
+  
+@media (max-width: 958px) {
+  .variant-custom-model-inner {
+      margin: 30px auto 0;
+      max-width: 100%;
+  }
+  .variant-custom-model-wrap {
+      padding: 20px;
+  }
+  .variant-custom-model-main {
+      position: fixed;
+  }
+  .variant-option-image .variant-option-labal{
+        height: 20px;
+        padding: 0 5px;
+  }
+  .variant-option-image .variant-option-labal span{
+    line-height: 1;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width:749px){
+  
+  .variant-popup-img-option {
+    gap: 10px;
+  }
+  .variant-price-box p {
+    font-size: 9px;
+  }
+  .variant-price-box .variant-price-subtext {
+    font-size: 9px;
+  }
+  .variant-price-box {
+    padding: 2px;
+  }
+  
+  .variant-price-box p.per_bottel_price {
+    font-size: 9px;
+  }
+  
+  .variant_seller_top {
+    top: -24px;
+    font-size: 7px;
+    padding: 1px;
+  }
+  .product_contact__cover p {font-size: 13px;}
+  .variant_price__cover {
+    font-size: 10px;
+  }
+}
+
+
+
+.template--product-variant-custom [data-widget-container-wrapper] {
+    display: none;
+}
+.template--product-variant-custom .product__submit__buttons .product__submit__item {
+    display: none;
+}

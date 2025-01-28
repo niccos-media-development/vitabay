@@ -1,0 +1,174 @@
+{{ 'nicos-section-testimonial.css' | asset_url | stylesheet_tag }}
+{% style %}
+  #nicos-{{ section.id }} {
+    margin-top: {{ section.settings.top_margin }}px;
+    margin-bottom: {{ section.settings.bottom_margin }}px;
+  }
+  #nicos-{{ section.id }}
+  .page-wrapper .nicos-testimonal__container .section-content {
+    background-color: {{ section.settings.background_color }};
+
+  }
+  #nicos-{{ section.id }}
+  .header-area h3 {
+    color: {{ section.settings.heading_color }};
+  }
+  #nicos-{{ section.id }}
+  .header-area p {
+    color: {{ section.settings.subheading_color }};
+  }
+  #nicos-{{ section.id }}
+  .details-area
+  , #nicos-{{ section.id }}
+  .details-area p {
+    color: {{ section.settings.text_color }};
+  }
+{% endstyle %}
+
+<div
+  class="nicos-testimonal__wrapper"
+  id="nicos-{{ section.id }}"
+  data-aos-delay="150"
+  data-aos="hero"
+>
+  <div class="page-wrapper">
+    <div class="nicos-testimonal__container">
+      <div class="section-img">
+        {% liquid
+          if section.settings.image != blank
+            echo section.settings.image | image_url: width: 700 | image_tag: loading: 'lazy', alt: section.settings.image.alt_text | escape
+          else
+            echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+          endif
+        %}
+      </div>
+      <div
+        class="section-content"
+        data-aos="fade-up"
+        data-aos-delay="150"
+      >
+        <div class="header-area">
+          <p>{{ section.settings.subheading }}</p>
+          <h3>{{ section.settings.heading }}</h3>
+        </div>
+
+        <div class="details-area">
+          {{ section.settings.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Niccos - Testimonial",
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Gründungsvater von Vitabay",
+      "info": "Add a heading to the section."
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Section SubHeading",
+      "default": "Gründungsvater von Vitabay",
+      "info": "Add a subheading to the section."
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur sadipscing elit, sed diam nonumy eirmod</p>",
+      "info": "Add a description to the section."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "Pick an image to use as the section left side."
+    },
+    {
+      "type": "header",
+      "content": "Color Settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#05371E",
+      "info": "Choose a color for the section background."
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff",
+      "info": "Choose a color for the section content."
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#ffffff",
+      "info": "Choose a color for the section heading."
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading Color",
+      "default": "#ffffff",
+      "info": "Choose a color for the section subheading."
+    },
+    {
+      "type": "header",
+      "content": "Margin Settings"
+    },
+    {
+      "type": "range",
+      "id": "top_margin",
+      "label": "Top Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "info": "Adjust the top margin of the section."
+    },
+    {
+      "type": "range",
+      "id": "bottom_margin",
+      "label": "Bottom Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "info": "Adjust the bottom margin of the section."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Niccos - Testimonial",
+      "category": "Custom Sections",
+      "settings": {
+        "heading": "Gründungsvater von Vitabay",
+        "subheading": "Gründungsvater von Vitabay",
+        "content": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.</p>",
+        "background_color": "#05371E",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "top_margin": 0,
+        "bottom_margin": 0
+      }
+    }
+  ]
+}
+{% endschema %}

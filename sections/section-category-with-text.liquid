@@ -1,0 +1,149 @@
+<div class="category-with-text-container">
+  <div class="text__heading h3 hide_desktop">{{ section.settings.category_with_text_heading }}</div>
+  <div class="category-with-text-img_wrapp">
+    <img
+      src="{{ section.settings.category_with_text_image | img_url: '900x' }}"
+      alt=""
+      srcset="{{ section.settings.category_with_text_image | img_url: '200x' }} 200w,
+              {{ section.settings.category_with_text_image | img_url: '300x' }} 300w,
+              {{ section.settings.category_with_text_image | img_url: '400x' }} 400w,
+              {{ section.settings.category_with_text_image | img_url: '500x' }} 500w,
+              {{ section.settings.category_with_text_image | img_url: '600x' }} 600w,
+              {{ section.settings.category_with_text_image | img_url: '700x' }} 700w,
+              {{ section.settings.category_with_text_image | img_url: '800x' }} 800w,
+              {{ section.settings.category_with_text_image | img_url: '900x' }} 900w"
+      width="900"
+      height="900"
+      loading="lazy"
+      class="category-with-text-multi-column__image"
+      sizes="(max-width: 740px) calc(100vw - 48px), (max-width: 999px) calc(33vw - 80px), 467px"
+    >
+  </div>
+  <div class="category-with-text-text_wrapp">
+    <div class="text__heading h2 hide_mobile">{{ section.settings.category_with_text_heading }}</div>
+    <div class="text__content">
+      {{ section.settings.category_with_text_text }}
+    </div>
+  </div>
+</div>
+
+<style>
+.category-with-text-text_wrapp .text__content {
+  text-align:center !important;
+}
+.category-with-text-container {
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 40px;
+}
+
+.category-with-text-img_wrapp {
+    max-width: 324px;
+    width: 100%;
+    margin-right: 24px;
+    border-radius: 12px;
+}
+
+.category-with-text-img_wrapp>img {
+    border-radius: 12px;
+}
+
+.category-with-text-img_wrapp img {
+  height: 324px;
+}
+
+.category-with-text-text_wrapp {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-with-text-heading {
+    color: #1C1B1B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.24px;
+    margin-bottom: 48px;
+}
+
+.category-with-text_txt {
+    color: #1C1B1B;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 28px;
+    letter-spacing: 0.16px;
+}
+
+.hide_desktop {
+    display: none;
+}
+
+@media(max-width: 767px) {
+    .hide_desktop {
+        display: block;
+    }
+
+    .hide_mobile {
+        display: none;
+    }
+
+    .category-with-text-container {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .category-with-text-heading {
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        margin-bottom: 24px;
+    }
+
+    .category-with-text-img_wrapp {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    .category-with-text_txt {
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: 0.15px;
+    }
+}
+</style>
+
+
+{% schema %}
+{
+  "name": "Category with Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "category_with_text_image",
+      "label": "Image",
+      "info": "Upload an image for the category section."
+    },
+    {
+      "type": "text",
+      "id": "category_with_text_heading",
+      "label": "Heading",
+      "default": "👨‍⚕️ Mit Orthopäden entwickelt"
+    },
+    {
+      "type": "textarea",
+      "id": "category_with_text_text",
+      "label": "Text",
+      "default": "Deine Barfußschuhe sind nicht nur ein Produkt - sie sind das Ergebnis einer engen Zusammenarbeit zwischen unserem Team und qualifizierten Orthopäden wie Lothar Krüger. Mit über 30 Jahren Berufserfahrung fließt sein umfangreiches Wissen in die Entwicklung unserer Barfußschuhe mit ein."
+    }
+  ]
+}
+{% endschema %}
+

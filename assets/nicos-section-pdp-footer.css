@@ -1,0 +1,131 @@
+.nicos-pdp-footer__wrapper {
+  background-color: #14be5f;
+}
+
+.nicos-pdp-footer__wrapper .page-wrapper {
+  display: grid;
+  row-gap: 80px;
+  justify-content: space-between;
+  padding: 50px 15px;
+  grid-template-columns: 85% 14%;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .primary-link-area {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .site-logo {
+  max-width: 46px;
+  max-height: 46px;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .site-logo img {
+  width: 100%;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .menu-area {
+  display: flex;
+  gap: 40px;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .menu-area a {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nicos-pdp-footer__wrapper .site-logo {
+  width: 50px;
+}
+
+.nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .menu-area {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .menu-area a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.64px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  white-space: nowrap;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .copy-right-and-payment {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .copy-right-and-payment p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.69px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .copy-right-and-payment .payment-options {
+  display: flex;
+  gap: 15px;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .copy-right-and-payment .payment-options img {
+  max-width: 35px;
+  height: 24px;
+}
+
+.nicos-pdp-footer__wrapper .page-wrapper .social-links {
+  display: flex;
+  gap: 24px;
+  align-items: end;
+}
+.nicos-pdp-footer__wrapper .page-wrapper .social-links img {
+  max-width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+  .nicos-pdp-footer__wrapper .page-wrapper {
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+  }
+
+  .nicos-pdp-footer__wrapper .page-wrapper .primary-link-area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .menu-area {
+    flex-direction: column;
+  }
+  .nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area .menu-area {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nicos-pdp-footer__wrapper .page-wrapper {
+    gap: 40px;
+  }
+  .nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .menu-area {
+    gap: 16px;
+  }
+  .nicos-pdp-footer__wrapper .page-wrapper .primary-link-area .menu-area a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26.53px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nicos-pdp-footer__wrapper .page-wrapper .secondary-link-area {
+    margin-top: -30px;
+  }
+}

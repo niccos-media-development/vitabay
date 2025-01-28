@@ -1,0 +1,143 @@
+{% assign current_variant = product.selected_or_first_available_variant %}
+<div
+  class="product__subs__wrap"
+  {% if animations_enabled %}
+    data-aos="hero"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-aos-order="{{ animation_order }}"
+  {% endif %}
+>
+  <fieldset class="product__subs" data-subscription-selectors>
+    {% comment %}
+      The input with name="selling_plan" submits to cart
+      <input type="hidden" name="selling_plan" value="{{ product.selected_selling_plan.id }}" />
+    {% endcomment %}
+    <legend class="visually-hidden">{{ 'products.product.subscription' | t }}</legend>
+
+    {% for selling_plan_group in product.selling_plan_groups %}
+      <label class="product__subs__option">
+        <div class="product__subs__group product__subscription">
+          <div class="product__subs_heading">
+            <span class="heading">{{ block.settings.subscriptions_text }}</span>
+            <span class="subscription-purchase-price">
+              <span class="subscription-price">
+                {{- current_variant.selling_plan_allocations[0].price | money_without_trailing_zeros -}}
+              </span>
+              <s>{{ current_variant.price | money_without_trailing_zeros }} </s>
+            </span>
+          </div>
+
+          <input
+            type="radio"
+            data-toggles-group
+            name="selling-plan-group"
+            value="{{ selling_plan_group.id }}"
+            {% if selling_plan_group.selling_plan_selected %}
+              checked
+            {% endif %}
+          >
+          <span class="selling-plan-group-name">{{ selling_plan_group.name }}</span>
+
+          <div
+            class="product__subs__plans{% unless selling_plan_group.selling_plan_selected %} hidden{% endunless %}"
+            data-group-toggle="{{ selling_plan_group.id }}"
+          >
+            <div class="product__subs_list">
+              <span class="product__subs__list__heading">Lieferung:</span>
+              <select onchange="updatePlan(event)" class="selling_plan_select">
+                {% for plan in selling_plan_group.selling_plans %}
+                  <option
+                    value="{{ plan.id }}"
+                    {% if plan.selected %}
+                      selected
+                    {% endif %}
+                  >
+                    {{ plan.name }}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="product__subs_checklist">
+              {% for i in (1..5) %}
+                {% assign checklist_text = 'checklist_text_' | append: i %}
+                {% assign checklist_text = block.settings[checklist_text] %}
+                <div class="checklist_item {% if i >2 %}item-hidden{% endif %}">
+                  <svg width="13" height="10" viewBox="0 0 13 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.46106 9.14688L0.578247 5.26406L1.13606 4.70703L4.46106 8.03203L11.6142 0.878906L12.1712 1.43672L4.46106 9.14688Z" fill="black"/>
+                  </svg>
+                  <span>{{ checklist_text }}</span>
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="expand-collapse-container">
+              <span class="expand-option">Mehr Informationen</span>
+            </div>
+
+            {% for plan in selling_plan_group.selling_plans %}
+              <label class="product__subs__option hidden">
+                <input
+                  type="radio"
+                  name="selling_plan"
+                  value="{{ plan.id }}"
+                  {% if plan.selected %}
+                    checked
+                  {% endif %}
+                >
+                <span>{{ plan.name }}</span>
+              </label>
+            {% endfor %}
+          </div>
+          <span class="product-savings-badge">
+            {% liquid
+              assign subscription_price = current_variant.selling_plan_allocations[0].price
+              assign regular_price = current_variant.price
+              assign discount = regular_price | minus: subscription_price
+              assign discount_percent = discount | times: 100 | divided_by: regular_price | round: 0
+            %}
+            Spare {{ discount_percent }}%
+          </span>
+        </div>
+      </label>
+    {% endfor %}
+
+    {% unless product.requires_selling_plan %}
+      <label class="product__subs__option">
+        <div class="product__subs__group single-purchase">
+          <input
+            type="radio"
+            name="selling-plan-group"
+            value=""
+            data-toggles-group
+            class="single-purchase-input"
+            {% unless product.selected_selling_plan %}
+              checked
+            {% endunless %}
+          >
+          <span class="single-purchase-text">{{ 'products.product.one_time_purchase' | t }}</span>
+
+          <span class="single-purchase-price">
+            <span class="single-price">
+              {{- product.selected_or_first_available_variant.price | money_without_trailing_zeros -}}
+            </span>
+            <s>{{ product.selected_or_first_available_variant.compare_at_price | money_without_trailing_zeros }} </s>
+          </span>
+        </div>
+      </label>
+    {% endunless %}
+  </fieldset>
+  <p
+    data-plan-description
+    class="product__subs__description{% unless product.selected_selling_plan %} hidden{% endunless %}"
+  >
+    {{ product.selected_selling_plan.description }}
+  </p>
+</div>
+
+<script>
+  const updatePlan = (event) => {
+    const parent = event.target.closest('.product__subscription');
+    const selectedPlan = parent.querySelector(`.product__subs__option input[value="${event.target.value}"]`);
+    selectedPlan.checked = true;
+  };
+</script>

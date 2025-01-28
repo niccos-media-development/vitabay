@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_hzaDkR": {
+      "type": "section-text",
+      "blocks": {
+        "heading_GLizXc": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Dr. med Harald Pfeffer - Gründungsvater von Vitabay<\/p>",
+            "size": 80,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GLizXc"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_WijyQp": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<div style=\"margin-bottom:-10px;\">\n<img class=\"desktop-banner\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Kein_Titel_3000_x_44_px.jpg?v=1714245220\">\n\n<img class=\"mobile-banner\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Design_ohne_Titel_59.jpg?v=1714241543\">\n<\/div>\n<style>\n@media screen and (max-width:767px) {\n.desktop-banner {\ndisplay:none;\n}\n}\n\n@media screen and (min-width:768px) {\n.mobile-banner {\ndisplay:none;\n}\n}\n<\/style>",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_timeline_TNmN4r": {
+      "type": "section-timeline",
+      "blocks": {
+        "item_Gaxr6L": {
+          "type": "item",
+          "settings": {
+            "title": "Aufgewachsen in Gießen",
+            "date": "1946 - 1966",
+            "image": "shopify:\/\/shop_images\/AdobeStock_282257245_2c011ffa-414a-40a9-b73a-4591c246e3c5.jpg",
+            "hide_image": false,
+            "card_title": "Aufgewachsen",
+            "card_text": "Der in Gießen geborene und aufgewachsene Harald Pfeffer beendete im Jahr 1966 seine schulische Laufbahn mit dem Abitur. Bereits kurz nach Abschluss der Schule beschloss er, sein Medizinstudium zu beginnen.",
+            "card_reverse": false
+          }
+        },
+        "item_zw7yrq": {
+          "type": "item",
+          "settings": {
+            "title": "Studium & Approbation",
+            "date": "1967-1978",
+            "image": "shopify:\/\/shop_images\/ausbildung.png",
+            "hide_image": false,
+            "card_title": "Ausbildung zum Mediziner",
+            "card_text": "Bereits im Folgejahr begann Harald Pfeffer das Studium der Humanmedizin und erhielt im Jahr 1974 seine Approbation als Mediziner, einhergehend mit seiner Promotion in Gießen. Anschließend arbeitet Dr.med. Harald Pfeffer zunächst in der klinischen Chirurgie, worauf zwei Jahre der klinischen Inneren Medizin folgten.",
+            "card_reverse": true
+          }
+        },
+        "item_tVdXCV": {
+          "type": "item",
+          "settings": {
+            "title": "Eigene Nederlassung",
+            "date": "1978",
+            "image": "shopify:\/\/shop_images\/gruendung.png",
+            "hide_image": false,
+            "card_title": "Gründung seiner Arztpraxis",
+            "card_text": "Am 01.04.1978 eröffnete Dr. med. Harald Pfeffer seine eigene Praxis für Allgemeinmedizin in Reiskirchen. Acht Jahre lang wurde die Praxis von Harald Pfeffer geleitet, bis er sie schließlich im Juni 2003 an seinen Nachgänger übergab.",
+            "card_reverse": false
+          }
+        },
+        "item_yeYGBR": {
+          "type": "item",
+          "settings": {
+            "title": "Facharztanerkennung",
+            "date": "1979",
+            "image": "shopify:\/\/shop_images\/anerkennung.jpg",
+            "hide_image": false,
+            "card_title": "Facharzt für Allgemeinmedizin",
+            "card_text": "Im Jahr 1979 erhielt Dr. med. Harald Pfeffer seine Anerkennung als Facharzt der Allgemeinmedizin.",
+            "card_reverse": true
+          }
+        },
+        "item_jtXpP4": {
+          "type": "item",
+          "settings": {
+            "title": "Nebentätigkeiten",
+            "date": "1998-2000",
+            "image": "shopify:\/\/shop_images\/weitere_taetigkeiten.png",
+            "hide_image": false,
+            "card_title": "Weitere Tätigkeiten",
+            "card_text": "Zeitgleich arbeitete Dr. med. Harald Pfeffer als Pharmakotherapieberater und Prüfarzt der KV und als leitender Arzt eines privaten Instituts bis ins Jahr 2000.",
+            "card_reverse": false
+          }
+        },
+        "item_ew78Dy": {
+          "type": "item",
+          "settings": {
+            "title": "Gründung",
+            "date": "1999",
+            "image": "shopify:\/\/shop_images\/gruendung_vitabay.jpg",
+            "hide_image": false,
+            "card_title": "Gründung von Vitabay",
+            "card_text": "Ursprünglich begann Vitabay als Partnerschaft mit verschiedenen US-Unternehmen.",
+            "card_reverse": true
+          }
+        },
+        "item_UgRFqD": {
+          "type": "item",
+          "settings": {
+            "title": "Entwicklung & Forschung",
+            "date": "2003",
+            "image": "shopify:\/\/shop_images\/entwicklung_und_forschung.jpg",
+            "hide_image": false,
+            "card_title": "Der Aufbau von Vitabay",
+            "card_text": "Mit größter Begeisterung stützte sich Dr. med. Harald Pfeffer mit seinem Sohn Jens Pfeffer in die Forschung und Entwicklung der Produkte für Vitabay, stets mit der Vision, das Privileg der Gesundheit für jeden zugänglich zu machen.",
+            "card_reverse": false
+          }
+        },
+        "item_zG9NCw": {
+          "type": "item",
+          "settings": {
+            "title": "Medizinprodukte",
+            "date": "2014",
+            "image": "shopify:\/\/shop_images\/MedizinProdukte_ed097557-f735-49ce-ba4f-8b557ca0bd85.jpg",
+            "hide_image": false,
+            "card_title": "Einführung von Medizinprodukte",
+            "card_text": "Im Jahr 2014 wurden Klasse IIa-Medizinprodukte entwickelt, die von Dr. med. Harald Pfeffer stammen.",
+            "card_reverse": true
+          }
+        },
+        "item_6g6phH": {
+          "type": "item",
+          "settings": {
+            "title": "Patent",
+            "date": "2018",
+            "image": "shopify:\/\/shop_images\/Leonith.png",
+            "hide_image": false,
+            "card_title": "Patentierung Leonith Glas",
+            "card_text": "Leonith Glas ist wahrhaft bemerkenswert. Es schützt Supplements vor den schädlichen Einflüssen der Sonne und verlängert dadurch ihre Haltbarkeit erheblich.",
+            "card_reverse": false
+          }
+        }
+      },
+      "block_order": [
+        "item_Gaxr6L",
+        "item_zw7yrq",
+        "item_tVdXCV",
+        "item_yeYGBR",
+        "item_jtXpP4",
+        "item_ew78Dy",
+        "item_UgRFqD",
+        "item_zG9NCw",
+        "item_6g6phH"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 30,
+        "heading_height": 150,
+        "heading_align": "left",
+        "heading_align_mobile": "center",
+        "items_width": 60,
+        "items_width_mobile": 100,
+        "items_align": "center",
+        "items_align_mobile": "center",
+        "items_gap": 0,
+        "items_gap_mobile": 20,
+        "items_mt": 0,
+        "line_thickness": 1,
+        "item_gap": 20,
+        "item_gap_mobile": 8,
+        "item_align": "right",
+        "item_align_mobile": "right",
+        "circle_size": 25,
+        "circle_border_thickness": 1,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 18,
+        "title_size_mobile": 18,
+        "title_height": 100,
+        "date_custom": false,
+        "date_font": "josefin_sans_n4",
+        "date_size": 14,
+        "date_size_mobile": 14,
+        "date_height": 100,
+        "date_mt": 16,
+        "card_padding_vertical": 20,
+        "card_padding_horizontal": 20,
+        "card_radius": 8,
+        "card_border_thickness": 0,
+        "card_align": "left",
+        "card_align_mobile": "left",
+        "image_radius": 8,
+        "image_border_thickness": 0,
+        "image_ratio": "landscape",
+        "image_ratio_mobile": "landscape",
+        "card_title_custom": false,
+        "card_title_font": "josefin_sans_n4",
+        "card_title_size": 18,
+        "card_title_size_mobile": 16,
+        "card_title_height": 130,
+        "card_title_mt": 16,
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_height": 150,
+        "card_text_mt": 8,
+        "line_color": "#5acf6d",
+        "circle_color": "#119515",
+        "circle_border_color": "#119515",
+        "title_color": "#000000",
+        "date_color": "#000000",
+        "card_bg": "#ffffff",
+        "card_border_color": "#000000",
+        "image_border_color": "#000000",
+        "card_title_color": "#000000",
+        "card_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#f3f3f3",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 160,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "recent_products_FGNpCy": {
+      "type": "recent-products",
+      "settings": {
+        "product_recently_limit": 4,
+        "product_recently_minimum": 4,
+        "title": "Zuletzt angesehen",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_hzaDkR",
+    "section_custom_html_WijyQp",
+    "section_timeline_TNmN4r",
+    "recent_products_FGNpCy"
+  ]
+}

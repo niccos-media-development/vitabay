@@ -1,0 +1,141 @@
+{{ 'nicos-section-pdp-footer.css' | asset_url | stylesheet_tag }}
+
+<div class="nicos-pdp-footer__wrapper">
+  <div class="page-wrapper">
+    <div class="primary-link-area">
+      <div class="site-logo">
+        <a href="https://www.vitabay.de/">
+          {% liquid
+            if section.settings.logo != blank
+              echo section.settings.logo | image_url: width: 50 | image_tag: loading: 'lazy', alt: section.settings.logo.alt_text | escape
+            else
+              echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+            endif
+          %}
+        </a>
+      </div>
+      <div class="menu-area">
+        {% for link in section.settings.primary_menu.links %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="social-links">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'social_links' %}
+            <a href="{{ block.settings.social_link }}">
+              {% liquid
+                if block.settings.social_image != blank
+                  echo block.settings.social_image | image_url: width: 50 | image_tag: loading: 'lazy', alt: block.settings.social_image.alt_text | escape
+                else
+                  #echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+                endif
+              %}
+            </a>
+        {% endcase %}
+      {% endfor %}
+    </div>
+
+    <div class="secondary-link-area">
+      <div class="menu-area">
+        {% for link in section.settings.secondary_menu.links %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+
+      <div class="copy-right-and-payment">
+        <p>{{ section.settings.copy_right }}</p>
+        <div class="payment-options">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'payment_options' %}
+                {% liquid
+                  if block.settings.payment_image != blank
+                    echo block.settings.payment_image | image_url: width: 50 | image_tag: loading: 'lazy', alt: block.settings.payment_image.alt_text | escape
+                  else
+                    #echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+                  endif
+                %}
+            {% endcase %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Nicos - Footer",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "primary_menu",
+      "label": "Primary Menu",
+      "info": "Add primary menu links here."
+    },
+    {
+      "type": "link_list",
+      "id": "secondary_menu",
+      "label": "Secondary Menu",
+      "info": "Add secondary menu links here."
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo",
+      "info": "Add a logo to the footer."
+    },
+    {
+      "type": "text",
+      "id": "copy_right",
+      "label": "Copy Right",
+      "default": "Copyright © 2024, Vitabay",
+      "info": "Add a copy right text to the footer."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "social_links",
+      "name": "Social Links",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "social_image",
+          "label": "Social Image",
+          "info": "Add a social image to the footer."
+        },
+        {
+          "type": "url",
+          "id": "social_link",
+          "label": "Social Link",
+          "info": "Add a social link to the footer."
+        }
+      ]
+    },
+    {
+      "type": "payment_options",
+      "name": "Payment Options",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "payment_image",
+          "label": "Payment Image",
+          "info": "Add a payment image to the footer."
+        }
+      ]
+    }
+  ],
+
+  "enabled_on": {
+    "groups": ["footer"]
+  },
+  "presets": [
+    {
+      "name": "Nicos - Footer"
+    }
+  ]
+}
+{% endschema %}

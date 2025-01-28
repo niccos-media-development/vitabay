@@ -1,0 +1,88 @@
+:root {
+  --fff-white: #fff;
+}
+
+.nicos-testimonal__wrapper .page-wrapper .nicos-testimonal__container {
+  display: flex;
+}
+
+.nicos-testimonal__wrapper .section-img {
+  /* max-width: 556px; */
+  flex: 0 0 50%;
+}
+.nicos-testimonal__wrapper .section-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+.nicos-testimonal__wrapper .section-content {
+  padding: 80px 54px;
+  padding-bottom: 54px;
+  border-radius: 0 20px 20px 0;
+}
+.nicos-testimonal__wrapper .section-content .header-area p {
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 20.64px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--fff-white);
+}
+.nicos-testimonal__wrapper .section-content .header-area h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 41.27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--fff-white);
+}
+.nicos-testimonal__wrapper .section-content .details-area p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.53px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--fff-white);
+}
+
+@media screen and (max-width: 1023px) {
+  .nicos-testimonal__wrapper {
+    margin-bottom: 17px !important;
+  }
+  .nicos-testimonal__wrapper .page-wrapper {
+    max-width: 100%;
+  }
+
+  .nicos-testimonal__wrapper .page-wrapper .nicos-testimonal__container {
+    flex-direction: column;
+  }
+  .nicos-testimonal__wrapper .section-img img {
+    border-radius: 0;
+    vertical-align: bottom;
+  }
+  .nicos-testimonal__wrapper .section-content {
+    border-radius: 0;
+  }
+  .nicos-testimonal__wrapper .section-content {
+    padding: 32px 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nicos-testimonal__wrapper {
+    margin-bottom: 0 !important;
+  }
+  .nicos-testimonal__wrapper .page-wrapper {
+    max-width: 100%;
+  }
+  .nicos-testimonal__wrapper .section-img {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .nicos-testimonal__wrapper .section-content {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+}

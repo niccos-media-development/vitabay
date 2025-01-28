@@ -1,0 +1,56 @@
+<div class="hero-image-container">
+  {% if collection.metafields.custom.hero_banner != blank %}
+    <img
+      class="desktop-hero"
+      src="{{ collection.metafields.custom.hero_banner | img_url: '2024x2024' }}"
+      alt="Hero Banner"
+      height="auto"
+      width="auto"
+    >
+  {% endif %}
+  {% if collection.metafields.custom.mobile_hero_banner != blank %}
+    <img
+      class="mobile-hero"
+      src="{{ collection.metafields.custom.mobile_hero_banner | img_url: '2024x2024' }}"
+      alt="Hero Banner"
+      height="auto"
+      width="auto"
+    >
+  {% endif %}
+</div>
+
+<style>
+ .mobile-hero {
+    display: none !important;
+  }
+
+  @media (max-width: 699px) {
+    .desktop-hero {
+      display: none !important;
+    }
+    .mobile-hero {
+      display: block !important;
+    }
+  }
+
+  .hero-image-container img {
+      width: 100%; 
+      height: auto;
+      display: block; 
+    }
+</style>
+
+{% schema %}
+  {
+    "name": "Category Banner",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Category Banner"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header","aside"]
+    }
+  }
+  {% endschema %}

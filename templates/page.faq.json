@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "Wo ist mein Paket?",
+            "text": "<p>Wir stellen mit unserem Versanddienstleister DHL Ihr Paket innerhalb von 2 Werktagen nach Versand zu. Sobald Ihr Paket losgeschickt wird, erhalten Sie eine Versandbestätigung per E-Mail. Mit der Sendungsnummer darin können Sie Ihr Paket jederzeit <a href=\"https:\/\/www.dhl.de\/de\/privatkunden\/dhl-sendungsverfolgung.html\" target=\"_blank\">hier<\/a> verfolgen oder Sie klicken auf den Link in Ihrer Versandbestätigung.<\/p><p>Sie möchten DHL zum Stand Ihrer Sendung kontaktieren?<\/p><ul><li><a href=\"https:\/\/www.dhl.de\/de\/privatkunden\/hilfe-kundenservice.html\">Hier gelangen Sie zum DHL-Kundenservice<\/a><\/li><li>DHL Hotline für Privatkunden: <a href=\"tel:00492284333112\">0228-4333112<\/a><\/li><\/ul>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "Meine Lieferung verzögert sich. Wann bekomme ich mein Paket?",
+            "text": "<p>Wir möchten, dass Sie schnellstmöglich Ihre gewünschten Artikel erhalten. Wir übergeben Ihre Bestellung innerhalb von 24 Stunden an unseren Versandpartner DHL. Die Zustellung im Inland erfolgt erfahrungsgemäß in 1-2 Werktagen. Damit Sie genau ermitteln können, wann die Bestellung bei Ihnen eintreffen wird, rechnen Sie bitte die Lieferzeit hinzu, welche in der untenstehenden Tabelle angegeben ist. Saisonal oder situationsbedingt kann es auch etwas länger dauern.<\/p>"
+          }
+        },
+        "accordion_block_1_3": {
+          "type": "text",
+          "settings": {
+            "title": "Was passiert, wenn das Paket nicht zugestellt werden konnte?",
+            "text": "<p>Das Paket wird von DHL an uns retourniert. Sobald das Paket im Lager eingetroffen und überprüft ist, wird Ihnen der Rechnungsbetrag erstattet. Dieser Vorgang kann je nach saisonalem Bestellaufkommen bis zu 2 Wochen in Anspruch nehmen.<\/p>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "Ist eine Lieferung ins Ausland möglich?",
+            "text": "<p>Ja, wir liefern EU-weit. Die Versandkosten können je nach Destination variieren. Eine Lieferung in Nicht-EU-Länder ist leider nicht möglich.<\/p>"
+          }
+        },
+        "text_M4jrtT": {
+          "type": "text",
+          "settings": {
+            "title": "Kann DHL erneut zustellen?",
+            "text": "<p>Wir bedauern, dass wir in diesem Fall leider keine erneute Sendung veranlassen können. Die Sendung ist bereits auf dem Rückweg und der Betrag wird Ihnen automatisch gutgeschrieben, wenn das Paket im Lager angekommen und überprüft ist. Bitte bestellen Sie Ihre Ware erneut.<\/p>"
+          }
+        },
+        "text_FYpVFd": {
+          "type": "text",
+          "settings": {
+            "title": "Wie hoch sind die Versandkosten?",
+            "text": "<p>Die Kosten für den Versand können Sie hier einsehen: <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Versandkosten<\/a><\/p>"
+          }
+        },
+        "text_qiagLL": {
+          "type": "text",
+          "settings": {
+            "title": "Kann ich mein Paket an eine Packstation liefern lassen?",
+            "text": "<p>Ja, markieren Sie bei der Eingabe Ihrer Lieferadresse das Feld „Die Lieferadresse weicht von der Rechnungsadresse ab. (Packstation bitte hier angeben)“. Es öffnet sich ein Menü, in dem Sie die nächstgelegene Packstation bzw. Postfiliale suchen oder eine alternative Lieferadresse eingeben können.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_2",
+        "accordion_block_1_3",
+        "accordion_block_1_4",
+        "text_M4jrtT",
+        "text_FYpVFd",
+        "text_qiagLL"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Versand",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "accordion-section-2": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_2_0": {
+          "type": "text",
+          "settings": {
+            "title": "Kann DHL erneut zustellen?",
+            "text": "<p>Wir bedauern, dass wir in diesem Fall leider keine erneute Sendung veranlassen können. Die Sendung ist bereits auf dem Rückweg und der Betrag wird Ihnen automatisch gutgeschrieben, wenn das Paket im Lager angekommen und überprüft ist. Bitte bestellen Sie Ihre Ware erneut.<\/p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "Ich möchte meine Bestellung zurücksenden. Wie soll ich vorgehen?",
+            "text": "<p><a href=\"https:\/\/www.vitabay.net\/widerrufsrecht\">Alle Informationen zu Widerruf und Warenrücksendung erhalten Sie hier!<\/a><\/p><p>Unangebrochene\/Versiegelte Ware kann binnen 14 Tage nach Kauf retourniert werden.<\/p><ul><li>Versand nur als DHL Paket mit Sendungsverfolgung.<\/li><li>Ausreichend frankieren und keine unfreien Sendungen verschicken, diese können vom Lager leider nicht angenommen werden.<\/li><li>Ihr Retourenpaket muss versichert und mit Paketnummer an uns versendet werden, nur so kann DHL Ihnen bei Verlust den Schaden ersetzen.<\/li><li>Bitte legen Sie eine Kopie der Rechnung und das ausgefüllte Widerrufsformular dem Paket bei.<\/li><li>Schreiben Sie die Retourennummer: R-(+ Ihre BESTELLNUMMER) gut leserlich auf Ihr Paket und auf die Rechnungskopie.<\/li><\/ul>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Ich habe nicht das erhalten, was ich bestellt habe.",
+            "text": "<p>Schreiben Sie eine E-Mail mit dem Grund Ihrer Reklamation an: <a href=\"mailto:widerruf@vitabay.net\">widerruf@vitabay.net<\/a><\/p><p>Bei beschädigter Ware fügen Sie Ihrer E-Mail bitte Fotos von den unbrauchbaren Produkten hinzu.<\/p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Ich möchte meine Bestellung stornieren.",
+            "text": "<p>Wenn sich Ihre Bestellung noch nicht auf dem Versandweg befindet, können Sie diese Bestellung stornieren.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_2_0",
+        "accordion_block_2_1",
+        "accordion_block_2_2",
+        "accordion_block_2_3"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Retouren",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accordion-section-1",
+    "accordion-section-2"
+  ]
+}

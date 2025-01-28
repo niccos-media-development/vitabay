@@ -1,0 +1,45 @@
+{% unless template contains "product" %}
+<div class="mobile__search__container">
+<predictive-search><form class="search-form" action="/search" method="get" role="search" data-search-form="">
+<input name="options[prefix]" type="hidden" value="last"><div class="search-form__inner" data-search-form-inner="" tabindex="-1">
+<div class="search-form__input-holder">
+<label for="searchInput-desktop-compress" class="search-form__label">
+<span class="visually-hidden">Suchen Sie auf unserer Website nach Produkten</span><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 192 192"><path d="M87 150c34.794 0 63-28.206 63-63s-28.206-63-63-63-63 28.206-63 63 28.206 63 63 63ZM131.55 131.55 168 168" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></label>
+
+<input placeholder="Wonach suchst du?" type="search" id="searchInput-desktop-compress" class="search-form__input" name="q" value="" aria-label="Durchsuchen Sie unseren Shop" role="combobox" aria-expanded="true" aria-owns="searchResults-desktop-compress" aria-controls="searchResults-desktop-compress" aria-haspopup="listbox" aria-autocomplete="list" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false" aria-activedescendant="">
+
+<button class="search-form__submit visually-hidden" type="submit" tabindex="-1" aria-label="Suchen"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 192 192"><path d="M87 150c34.794 0 63-28.206 63-63s-28.206-63-63-63-63 28.206-63 63 28.206 63 63 63ZM131.55 131.55 168 168" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+
+
+</div>
+</div>
+
+<div id="searchResults-desktop-compress" class="search-popdown__results"><div class="predictive-search" data-predictive-search-results="" data-scroll-lock-scrollable="">
+<div class="predictive-search__loading-state">
+<div class="predictive-search__loader loader loader--line"><div class="loader-indeterminate"></div></div>
+</div>
+</div>
+
+<span class="predictive-search-status visually-hidden" role="status" aria-hidden="true" data-predictive-search-status=""></span><div id="popularSearches-desktop-compress" class="popular-searches caps " data-popular-searches="" data-scroll-lock-scrollable="">
+<div class="popular-searches__wrapper"><div class="predictive-search__group" role="group" aria-labelledby="popularSearchesCollectionLinks-desktop-compress">
+<p id="popularSearchesCollectionLinks-desktop-compress" class="predictive-search__heading label-typography">
+<span>Durchsuche Kategorien</span>
+</p>
+
+<div class="predictive-search__list" role="listbox">
+
+</div>
+</div></div>
+</div></div>
+</form></predictive-search>
+</div>
+{% endunless %}
+{% schema %}
+{
+"name": "Mobile Search",
+"settings": [],
+"presets": [{
+  "name":"Mobile Search"
+}]
+}
+{% endschema %}
