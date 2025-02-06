@@ -1,1 +1,410 @@
-{"wrapper":"div.niccos-product-template","sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{"subheading":"none","show_rating":true,"show_rating_count":true,"shipping_text":"inkl. MwSt. & Versandkosten frei ab 60€","padding_bottom":0}},"product_checklist_QGbccK":{"type":"product_checklist","settings":{}},"testiomonial_jaiEjV":{"type":"testiomonial","settings":{"testiomonial_text":"{{ product.metafields.custom.arzt_zitat.value }}","testiomonial_subtext":"Dr. Med. Harald Pfeffer","image":"shopify:\/\/shop_images\/image_67.png","additional_text":"","margin_top":0,"margin_bottom":18}},"form":{"type":"form","settings":{"show_labels":true,"show_payment":false,"show_quantity":false,"show_payment_button":false,"enable_subscriptions_selectors":true,"subscriptions_text":"Abonnieren und Sparen!","checklist_text_1":"Jederzeit flexibel kündbar","checklist_text_2":"Wähle die Häufigkeit die zu dir passt","checklist_text_3":"Kostenloser Versand ab 60€","checklist_text_4":"Kostenlose Retoure","checklist_text_5":"Sichere Zahlung","padding_bottom":20}},"delivery_type_MfL8PN":{"type":"delivery_type","settings":{"image_1":"shopify:\/\/shop_images\/g10.png","delivery_text_1":"Testen Sie unsere Gesundheitsprodukte risikofrei und erleben Sie, wie sie Ihren Alltag positiv beeinflussen können.","image_2":"shopify:\/\/shop_images\/image_68.png","delivery_text_2":"Wir versenden klimafreundlich mit DHL GoGreen und garantieren eine schnelle Lieferung innerhalb von 1-2 Tagen.","delivery_text_3":"Lieferung in 1-3 Werktagen","delivery_text_4":"Lieferung in 1-3 Werktagen","delivery_text_5":"Lieferung in 1-3 Werktagen","margin_top":0,"margin_bottom":0}},"pharmacy_pWrpUV":{"type":"pharmacy","settings":{"heading":"Online Apotheke","margin_bottom":24}},"product_accordion_bN79CW":{"type":"product_accordion","settings":{"accordion_heading":"Dosierung","heading_style":"font-body","accordion_text":"<p>[custom.dosierung-variante]<\/p>","enable_metafield_page_content":false,"accordion_page":"","enable_product":false,"padding_bottom":20}},"product_accordion_PQ8wgY":{"type":"product_accordion","settings":{"accordion_heading":"Inhaltsstoffe","heading_style":"font-body","accordion_text":"<p>[custom.n_hrwerttabelle]<\/p><p><\/p><p><\/p>","enable_metafield_page_content":true,"accordion_page":"","enable_product":false,"padding_bottom":20}},"product_accordion_Wpjkde":{"type":"product_accordion","settings":{"accordion_heading":"Laboranalyse","heading_style":"font-body","accordion_text":"<p>[custom.laborzertifikat]<\/p>","enable_metafield_page_content":false,"accordion_page":"","enable_product":false,"padding_bottom":20}}},"block_order":["title","product_checklist_QGbccK","testiomonial_jaiEjV","form","delivery_type_MfL8PN","pharmacy_pWrpUV","product_accordion_bN79CW","product_accordion_PQ8wgY","product_accordion_Wpjkde"],"settings":{"product_sticky_enable":true,"image_layout":"carousel","image_width":"standard","product_image_aspect_ratio":true,"enable_zoom":true,"enable_video_looping":false,"bg_color":"","width":"wrapper","padding_top":60,"padding_bottom":60}},"niccos_two_grid_conent_WTifiq":{"type":"niccos-two-grid-conent","blocks":{"content_block_k7WhHV":{"type":"content_block","settings":{"swap":false,"enable_bullet_points":true,"label":"","heading":"{{ product.metafields.product_usp_title.product_usp_title | metafield_text }}","conent":"<p>{{ product.description }}<\/p>","choose_media":"image","image":"{{ product.metafields.custom.picture.value }}","video":"shopify:\/\/files\/videos\/The Shopify Story.mp4"}},"content_block_D8A3eA":{"type":"content_block","settings":{"swap":true,"enable_bullet_points":false,"label":"","heading":"","conent":"<h4><strong>Deutsche Apothekenqualität<\/strong><\/h4><p>{{ product.metafields.custom.qualit_t | metafield_tag }}<\/p>","choose_media":"image","image":"shopify:\/\/shop_images\/Rectangle_12168.png"}}},"block_order":["content_block_k7WhHV","content_block_D8A3eA"],"settings":{"top_margin":21,"bottom_margin":35}},"nicos_testimonial_BGWfAC":{"type":"nicos-testimonial","settings":{"heading":"Dr. med. Harald Pfeffer","subheading":"Gründungsvater von Vitabay","content":"<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>","image":"shopify:\/\/shop_images\/image_2.png","background_color":"#05371e","text_color":"#ffffff","heading_color":"#ffffff","subheading_color":"#ffffff","top_margin":0,"bottom_margin":64}},"niccos_section_accordions_Bx9Krm":{"type":"niccos-section-accordions","blocks":{"text_MrjXwx":{"type":"text","settings":{"title":"","text":"<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"}},"text_NGprFW":{"type":"text","settings":{"title":"How should I take the Melatonin 3 mg Chewable Tablets?","text":"<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"}},"text_fQF3F6":{"type":"text","settings":{"title":"Are these tablets habit-forming?","text":"<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"}},"text_eTU43y":{"type":"text","settings":{"title":"Can I take these melatonin tablets every night?","text":"<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"}},"text_APp8jT":{"type":"text","settings":{"title":"Are the tablets suitable for vegans and free from allergens?","text":"<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"}}},"block_order":["text_MrjXwx","text_NGprFW","text_fQF3F6","text_eTU43y","text_APp8jT"],"settings":{"layout":"one-column","show_accordion_divider":false,"enable_metafields":true,"title":"Häufig gestellte Fragen","subheading":"","text":"","tabs_bg_color":"#f7f7f7","background_color":"#f7f7f7","width":"wrapper--narrow","padding_top":42,"padding_bottom":74}},"1722832848ff9b7ffc":{"type":"apps","blocks":{"reviews_io_reviewsio_polaris_L3qBPK":{"type":"shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9","settings":{"star":"#0d9410","review_type":"product_review","per_page":5,"primary_btn_bg_color":"#0d9410","primary_btn_border_color":"#0d9410","primary_btn_text_color":"#ffffff","secondary_btn_border_color":"#0d9410","secondary_btn_text_color":"#000000","border_color":"#000000","heading_text_color":"#000000","heading_font":"helvetica_n4","body_text_color":"#000000","badge_icon_color":"#0d9410","badge_text_color":"#000000","enable_rich_snippets":false,"show_location":false,"show_tab_selector":false,"show_dates":false,"show_avatar":false,"enable_sentiment_analysis":false,"enable_replies":false,"widget_spacing":0,"capitalise_headers_and_buttons":false,"show_review_title":false,"default_sort":"highest_rating"}}},"block_order":["reviews_io_reviewsio_polaris_L3qBPK"],"settings":{"bg_color":"","width":"wrapper","padding_top":60,"padding_bottom":60}},"nicos_icon_discription_qddptC":{"type":"nicos-icon-discription","blocks":{"icon_text_CMhdtP":{"type":"icon-text","settings":{"label":"Von Familie für Familie","subheading":"<p>Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.<\/p>","icon":"shopify:\/\/shop_images\/Zeichenflaeche_1_54ca76bf-3942-4441-af49-002826577ea9_2.png"}},"icon_text_EDcrfe":{"type":"icon-text","settings":{"label":"Leidenschaft für Gesundheit","subheading":"<p>Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.<\/p>","icon":"shopify:\/\/shop_images\/Zeichenflaeche_1_2_2.png"}},"icon_text_i3TYpJ":{"type":"icon-text","settings":{"label":"Aktive Forschung","subheading":"<p>Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.<\/p>","icon":"shopify:\/\/shop_images\/Zeichenflaeche_1_1_2.png"}},"icon_text_8ViqHi":{"type":"icon-text","settings":{"label":"Aktive Forschung","subheading":"<p>Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung<\/p>","icon":"shopify:\/\/shop_images\/Zeichenflaeche_1_3_1.png"}}},"block_order":["icon_text_CMhdtP","icon_text_EDcrfe","icon_text_i3TYpJ","icon_text_8ViqHi"],"settings":{"heading":"Unsere Werte bei Vitabay","background_image":"shopify:\/\/shop_images\/Muster_zusammengefugt_2.png","top_margin":0,"bottom_margin":0}},"niccos_related_products_WGAAkk":{"type":"niccos-related-products","blocks":{"related_YbWUjB":{"type":"related","settings":{"title":"Das könnte dir auch gefallen","product_recommendations_limit":6}}},"block_order":["related_YbWUjB"],"settings":{"enable_tabs":true,"bg_color":"","width":"wrapper","padding_top":60,"padding_bottom":60}}},"order":["main","niccos_two_grid_conent_WTifiq","nicos_testimonial_BGWfAC","niccos_section_accordions_Bx9Krm","1722832848ff9b7ffc","nicos_icon_discription_qddptC","niccos_related_products_WGAAkk"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.niccos-product-template",
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "show_rating": true,
+            "show_rating_count": true,
+            "shipping_text": "inkl. MwSt. & Versandkosten frei ab 60€",
+            "padding_bottom": 0
+          }
+        },
+        "product_checklist_QGbccK": {
+          "type": "product_checklist",
+          "settings": {}
+        },
+        "testiomonial_jaiEjV": {
+          "type": "testiomonial",
+          "settings": {
+            "testiomonial_text": "{{ product.metafields.custom.arzt_zitat.value }}",
+            "testiomonial_subtext": "Dr. med. Harald Pfeffer",
+            "image": "shopify:\/\/shop_images\/image_67.png",
+            "additional_text": "",
+            "margin_top": 0,
+            "margin_bottom": 18
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_payment": false,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": true,
+            "subscriptions_text": "Abonnieren und sparen!",
+            "checklist_text_1": "Jederzeit flexibel kündbar",
+            "checklist_text_2": "Lieferhäufigkeit richtet sich nach deinem Bedarf",
+            "checklist_text_3": "Kostenlose Retoure",
+            "checklist_text_4": "Sichere Zahlung",
+            "checklist_text_5": "Einfach und effizient",
+            "padding_bottom": 20
+          }
+        },
+        "delivery_type_MfL8PN": {
+          "type": "delivery_type",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Group_21203.jpg",
+            "delivery_text_1": "Bitte beachte, dass die Lieferung unter Umständen noch im vorherigen Verpackungsdesign erfolgen kann. Dies hat keinen Einfluss auf die Qualität oder den Inhalt des Produkts. Weitere Informationen findest <a href=\"https:\/\/www.vitabay.de\/pages\/hinweise-zur-umstellung-des-vitabay-designs\">du hier<\/a>.",
+            "image_2": "shopify:\/\/shop_images\/Versand_mit_DHL_GoGreen.png",
+            "delivery_text_2": "Wir versenden Dein Paket mit DHL GoGreen, einem umweltfreundlichen Versandservice. Dein Paket wird schnellstmöglich zugestellt, damit du es so bald wie möglich in den Händen halten kannst.\nVielen Dank für dein Vertrauen! 💚",
+            "delivery_text_3": "Lieferung in 1-3 Werktagen",
+            "delivery_text_4": "Lieferung in 1-3 Werktagen",
+            "delivery_text_5": "Lieferung in 1-3 Werktagen",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "pharmacy_pWrpUV": {
+          "type": "pharmacy",
+          "settings": {
+            "heading": "Online Apotheke",
+            "margin_bottom": 24
+          }
+        },
+        "product_accordion_bN79CW": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Dosierung",
+            "heading_style": "font-body",
+            "accordion_text": "<p>[custom.dosierung-variante]<\/p>",
+            "enable_metafield_page_content": false,
+            "accordion_page": "",
+            "enable_product": false,
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_PQ8wgY": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Inhaltsstoffe",
+            "heading_style": "font-body",
+            "accordion_text": "<p>[custom.n_hrwerttabelle]<\/p><p><\/p><p><\/p>",
+            "enable_metafield_page_content": true,
+            "accordion_page": "",
+            "enable_product": false,
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_Wpjkde": {
+          "type": "product_accordion",
+          "settings": {
+            "accordion_heading": "Laboranalyse",
+            "heading_style": "font-body",
+            "accordion_text": "<p>[custom.laborzertifikat]<\/p>",
+            "enable_metafield_page_content": false,
+            "accordion_page": "",
+            "enable_product": false,
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "product_checklist_QGbccK",
+        "testiomonial_jaiEjV",
+        "form",
+        "delivery_type_MfL8PN",
+        "pharmacy_pWrpUV",
+        "product_accordion_bN79CW",
+        "product_accordion_PQ8wgY",
+        "product_accordion_Wpjkde"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_two_grid_conent_WTifiq": {
+      "type": "niccos-two-grid-conent",
+      "blocks": {
+        "content_block_k7WhHV": {
+          "type": "content_block",
+          "settings": {
+            "swap": false,
+            "enable_bullet_points": true,
+            "label": "",
+            "heading": "{{ product.metafields.product_usp_title.product_usp_title | metafield_text }}",
+            "conent": "{{ product.description }}",
+            "choose_media": "image",
+            "image": "{{ product.metafields.custom.picture.value }}",
+            "video": "shopify:\/\/files\/videos\/The Shopify Story.mp4"
+          }
+        },
+        "content_block_D8A3eA": {
+          "type": "content_block",
+          "settings": {
+            "swap": true,
+            "enable_bullet_points": false,
+            "label": "",
+            "heading": "",
+            "conent": "<h4><strong>Deutsche Apothekenqualität<\/strong><\/h4><p>Vitabay steht für die Kombination aus neuester Technologie und hochwertigen Inhaltsstoffen. Deshalb bestehen alle unsere Produkte aus den besten Rohstoffen, die wir nach deutschen Qualitätsstandards auswählen. Dabei ist es für uns selbstverständlich, dass auch die Produktion aller Vitabay Produkte nach diesen Standards ausgerichtet ist. Wegen unseres hohen Anspruchs an die Qualität aller Vitabay Produkte sind diese frei von genetisch veränderten Rohstoffen (gmo-frei¹), Nanopartikeln und Konservierungsstoffen.  Um eine konstante Spitzenqualität garantieren zu können, lassen wir alle unsere Produkte regelmäßig und freiwillig in unabhängigen Laboren überprüfen.<br\/><br\/>Da wir den Anspruch an uns selbst haben, unsere Produkte stets auf der Erkenntnis der neuesten medizinischen Forschung anzubieten, entwickeln wir unsere eigenen Rezepturen stets weiter. So haben Vitabay Nahrungsergänzungsmittel schon heute deutlich höhere Bioverfügbarkeit² als andere Nahrungsergänzungsmittel und etwa 85 % Prozent unseres Produktsortiments sind vegan. Dabei arbeiten wir vorzugsweise mit Inhaltsstoffen, die eine nachgewiesene hohe Bioaktivität³ haben. So stellen wir sicher, dass du den maximalen Nutzen aus der Einnahme deiner Nahrungsergänzungsmittel ziehen kannst.<\/p><p>Bei Vitabay liegt uns nicht nur die Gesundheit am Herzen, sondern auch die Zukunft. Deshalb sind unsere Verpackungen phthalatfrei⁴ und ressourcenschonend hergestellt. Das freut nicht nur dich, als Kunden, sondern auch die Umwelt.<\/p>",
+            "choose_media": "image",
+            "image": "shopify:\/\/shop_images\/Rectangle_12168.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_k7WhHV",
+        "content_block_D8A3eA"
+      ],
+      "settings": {
+        "top_margin": 21,
+        "bottom_margin": 35
+      }
+    },
+    "nicos_testimonial_BGWfAC": {
+      "type": "nicos-testimonial",
+      "settings": {
+        "heading": "Dr. med. Harald Pfeffer",
+        "subheading": "Gründungsvater von Vitabay",
+        "content": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „<em>Gesundheit gehört in die Welt und nicht in die vier Wände<\/em>\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert medizinischem Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>",
+        "image": "shopify:\/\/shop_images\/image_2.png",
+        "background_color": "#05371e",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "top_margin": 0,
+        "bottom_margin": 64
+      }
+    },
+    "niccos_section_accordions_Bx9Krm": {
+      "type": "niccos-section-accordions",
+      "blocks": {
+        "text_MrjXwx": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_NGprFW": {
+          "type": "text",
+          "settings": {
+            "title": "How should I take the Melatonin 3 mg Chewable Tablets?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_fQF3F6": {
+          "type": "text",
+          "settings": {
+            "title": "Are these tablets habit-forming?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_eTU43y": {
+          "type": "text",
+          "settings": {
+            "title": "Can I take these melatonin tablets every night?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_APp8jT": {
+          "type": "text",
+          "settings": {
+            "title": "Are the tablets suitable for vegans and free from allergens?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MrjXwx",
+        "text_NGprFW",
+        "text_fQF3F6",
+        "text_eTU43y",
+        "text_APp8jT"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "enable_metafields": true,
+        "title": "Häufig gestellte Fragen",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#f7f7f7",
+        "background_color": "#f7f7f7",
+        "width": "wrapper--narrow",
+        "padding_top": 42,
+        "padding_bottom": 74
+      }
+    },
+    "1722832848ff9b7ffc": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_L3qBPK": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#0d9410",
+            "review_type": "product_review",
+            "per_page": 5,
+            "primary_btn_bg_color": "#0d9410",
+            "primary_btn_border_color": "#0d9410",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#0d9410",
+            "secondary_btn_text_color": "#000000",
+            "border_color": "#000000",
+            "heading_text_color": "#000000",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#000000",
+            "badge_icon_color": "#0d9410",
+            "badge_text_color": "#000000",
+            "enable_rich_snippets": false,
+            "show_location": false,
+            "show_tab_selector": false,
+            "show_dates": false,
+            "show_avatar": false,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "highest_rating"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_L3qBPK"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "nicos_icon_discription_qddptC": {
+      "type": "nicos-icon-discription",
+      "blocks": {
+        "icon_text_CMhdtP": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Von Familie für Familie",
+            "subheading": "<p>Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_54ca76bf-3942-4441-af49-002826577ea9_2.png"
+          }
+        },
+        "icon_text_EDcrfe": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Leidenschaft für Gesundheit",
+            "subheading": "<p>Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2.png"
+          }
+        },
+        "icon_text_i3TYpJ": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Aktive Forschung",
+            "subheading": "<p>Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_2.png"
+          }
+        },
+        "icon_text_8ViqHi": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Aktive Forschung",
+            "subheading": "<p>Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_3_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_CMhdtP",
+        "icon_text_EDcrfe",
+        "icon_text_i3TYpJ",
+        "icon_text_8ViqHi"
+      ],
+      "settings": {
+        "heading": "Unsere Werte bei Vitabay",
+        "background_image": "shopify:\/\/shop_images\/Muster_zusammengefugt_2.png",
+        "top_margin": 0,
+        "bottom_margin": 0
+      }
+    },
+    "niccos_related_products_WGAAkk": {
+      "type": "niccos-related-products",
+      "blocks": {
+        "related_YbWUjB": {
+          "type": "related",
+          "settings": {
+            "title": "Das könnte dir auch gefallen",
+            "product_recommendations_limit": 6
+          }
+        }
+      },
+      "block_order": [
+        "related_YbWUjB"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1738078999e0bd9d30": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_BLyDNR": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-Vg42gv\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_BLyDNR"
+      ],
+      "settings": {
+        "bg_color": "#0e432c",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_html_3AKCxG": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<script type=\"text\/javascript\" async=\"\" src=\"https:\/\/static.klaviyo.com\/onsite\/js\/\nUkFkZN\/klaviyo.js\"><\/script>",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "niccos_two_grid_conent_WTifiq",
+    "nicos_testimonial_BGWfAC",
+    "niccos_section_accordions_Bx9Krm",
+    "1722832848ff9b7ffc",
+    "nicos_icon_discription_qddptC",
+    "niccos_related_products_WGAAkk",
+    "1738078999e0bd9d30",
+    "section_custom_html_3AKCxG"
+  ]
+}

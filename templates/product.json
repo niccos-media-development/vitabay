@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -75,10 +84,18 @@
             "padding_bottom": 20
           }
         },
-        "custom_code_k3mhLP": {
-          "type": "custom_code",
+        "icon_xXixzW": {
+          "type": "icon",
           "settings": {
-            "custom_code": "<div class=\"FWG_Product__Info--row\">\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/1.webp?v=1647020886\" alt=\"in 2-3 Tagen bei dir€ loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">in 2-3 Tagen bei dir<\/p>\n    <\/div>  \n  <\/div>\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/2.webp?v=1647020898\" alt=\"Einfache Retouren\" loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">Kostenlose Retouren<\/p>\n    <\/div>  \n  <\/div>\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/3.webp?v=1647020898\" alt=\"Geld-Zurück-Garantie\" loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">Geld-Zurück-Garantie<\/p>\n    <\/div>  \n  <\/div>\n  <div class=\"FWG_Product__Info--column\">\n    <div class=\"FWG_Product__Info--badgeContainer\">\n      <img class=\"Image FWG_Product__Info--image\" src=\"\/\/freiluftkind.de\/cdn\/shop\/files\/4.webp?v=1647020898\" alt=\"96.8% Zufriedenheit\" loading=\"lazy\" style=\"margin-right: 12px\">\n      <p class=\"FWG_Product__Info--badgeText\">96.8% Zufriedenheit<\/p>\n    <\/div>  \n  <\/div>\n<\/div>\n\n<style>\n.FWG_Product__Info--row {\n    margin-bottom:0px;\n    display: flex;\n    flex-wrap: wrap;\n    height: 90px;\n}\n\n.FWG_Product__Info--column {\n    width: 50%;\n}\n\n.FWG_Product__Info--badgeContainer {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 8px 4px;\n    border-radius: 50px;\n    border: 1px solid rgb(var(--border-color));\n    background: rgba(0,0,0,0.04);\n}\n\n.FWG_Product__Info--image {\n    width: 18px;\n}\n\n.FWG_Product__Info--badgeText {\n    color: #000;\n    font-size: 9px;\n    font-family: var(--text-font-family);\n    font-weight: var(--text-font-weight);\n    font-style: var(--text-font-style);\n    letter-spacing: 0.05em;\n    margin-top: 0px;\n    margin-bottom:0px !important;\n}\n<\/style>",
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/Versand_mit_DHL_GoGreen.png",
+            "icon_width": 50,
+            "icon_text": "Deine Produkte werden mit DHL GoGreen nachhaltig versendet.",
+            "text_size": 85,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
             "padding_bottom": 20
           }
         },
@@ -92,21 +109,6 @@
             "enable_product": true,
             "padding_bottom": 20
           }
-        },
-        "info_3UJMWm": {
-          "type": "info",
-          "settings": {
-            "offer_text_1": "90 Tage Geld zurück Garantie",
-            "buy2_offer_text": "Wir sind so von unseren Produkten überzeugt, das du bei uns eine 90 Tage Geld zurück Garantie hast.",
-            "buy2_discount_info": "",
-            "background_color": "#f2fdf2",
-            "border_color": "#00b388",
-            "text_color": "#008b10",
-            "bestseller_background": "#00b388",
-            "bestseller_text_color": "#ffffff",
-            "offer_background": "#d6403d",
-            "offer_text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
@@ -116,9 +118,8 @@
         "icon_B6ggte",
         "icon_xiQw83",
         "form",
-        "custom_code_k3mhLP",
-        "product_accordion_wLkUhC",
-        "info_3UJMWm"
+        "icon_xXixzW",
+        "product_accordion_wLkUhC"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -156,7 +157,7 @@
           "type": "text",
           "settings": {
             "title": "Dosierung",
-            "text": "<p>{{ product.metafields.custom.accordion_text_1.value }}<\/p><p>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<\/p>"
+            "text": "<p>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<\/p>"
           }
         },
         "text_XMTE7W": {
@@ -412,7 +413,7 @@
           "type": "content",
           "settings": {
             "full_width": false,
-            "content": "<p><strong>Lagerung<\/strong><br\/>Kühl und trocken lagern. Aus direktem Sonnenlicht und von Hitze fernhalten.<\/p><p><\/p><p><\/p><p><strong>VERZEHREMPFEHLUNG<br\/><\/strong>{{ product.metafields.custom.accordion_text_1.value }}<br\/><\/p><p><br\/><strong>NAHRUNGSERGÄNZUNGSMITTEL<\/strong><br\/>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<br\/><br\/><\/p>",
+            "content": "<p><strong>Lagerung<\/strong><br\/>Kühl und trocken lagern. Aus direktem Sonnenlicht und von Hitze fernhalten.<\/p><p><\/p><p><\/p><p><strong>VERZEHREMPFEHLUNG<br\/><\/strong><br\/><\/p><p><br\/><strong>NAHRUNGSERGÄNZUNGSMITTEL<\/strong><br\/>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<br\/><br\/><\/p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -898,8 +899,10 @@
             "show_tab_selector": false,
             "show_dates": false,
             "show_avatar": true,
+            "enable_sentiment_analysis": false,
             "enable_replies": false,
             "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
             "show_review_title": false,
             "default_sort": "highest_rating"
           }
