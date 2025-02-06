@@ -34,62 +34,6 @@
   }
 {%- endstyle -%}
 
-<style>
-.shoppable-blog h2.section__heading.shoppable-blog__heading.aos-init.aos-animate {
-    text-align: left;
-    font-weight: 700;
-    color: #212121;
-}
- button.flickity-button.flickity-prev-next-button.next {
-    top: -53px!important;
-    z-index: 99;
-    box-shadow: none;
-    opacity: 1 !important;
-}
- .flickity-prev-next-button:before {
-    background: #14BE5F!important;
-}
-.flickity-prev-next-button {
-    opacity: 1!important;
-}
- button.flickity-button.flickity-prev-next-button.previous {
-    right: 126px!important;
-    left: auto!important;
-    top: -52px!important;
-    box-shadow: none;
-    z-index: 999;
-}  
-a.blog-post.btn.btn--solid.btn--small.btn--primary {
-    display:none;
-}
-
-  
-@media only screen and (max-width: 680px) {
-.shoppable-blog__slider {
-    display: block;
-}
-.shoppable-blog__slider .blog-item.blog-item--horizontal {
-    width: 100%;
-    padding: 15px;
-}  
-a.blog-post.btn.btn--solid.btn--small.btn--primary {
-    background-color: transparent;
-    color: #5AD291;
-    border: 2px solid;
-    display:block;
-}  
-a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
-    background-color: #5AD291;
-    color: #fff;
-}  
-}
-  
-  
-</style>
-
-
-
-
 <section
   id="ShoppableBlog--{{ section.id }}"
   class="section-padding shoppable-blog{% if bg_color_secondary %} bg-secondary{% endif %}"
@@ -269,9 +213,8 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
               </a>
 
               <div class="blog-item__article__content">
-                 {% unless section.settings.show_title_out_side %}
                 <h3 class="blog-item__article__title h4">{{ article_title }}</h3>
-                  {% endunless %}
+
                 {%- if article_tags != blank and show_tags -%}
                   {%- assign tag_time = '' -%}
 
@@ -338,22 +281,12 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
                 </div>
               </div>
             {%- endif -%}
-            {% if section.settings.show_title_out_side %}
-            <div class="blog-item__article__content_custom">
-                <h3 class="custom_article_title">{{ article_title }}</h3>
-                <p>{{ article.content | truncate: 500, "..." }}</p>
-              </div>
-            {% endif %}
-             </div>
+          </div>
         {%- else -%}
           {%- render 'no-blocks' -%}
         {%- endfor -%}
       </div>
     </div>
-
-<a class="blog-post btn btn--solid btn--small btn--primary" href="https://www.vitabay.de/blogs/news" style="padding: 14px 41px;border-radius: 30px;">See more blog posts</a>
-
-    
   </div>
 </section>
 
@@ -372,12 +305,6 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
       "id": "show_tags",
       "label": "Show tags",
       "default": true
-    },
-     {
-      "type": "checkbox",
-      "id": "show_title_out_side",
-      "label": "Show Title below",
-      "default": false
     },
     {
       "type": "range",

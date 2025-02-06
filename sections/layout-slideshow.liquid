@@ -89,19 +89,7 @@
 -%}
 
 {%- style -%}
-.slideshow-banner h1 {
-    max-width: 540px;
-}
-.slideshow-banner .custom-banner-content p {
-    max-width: 440px;
-    line-height: 1.4em;
-}
-.slideshow-banner .inner-wrapper {
-    width: 100%;
-    max-width: 1110px;
-    padding: 0px 30px;
-}
-  
+
   {{ heading_font | font_face: font_display: 'swap' }}
   {{ text_font | font_face: font_display: 'swap' }}
   {{ button_font | font_face: font_display: 'swap' }}
@@ -215,10 +203,9 @@
   
   .button-wrapper-{{ section.id }} {
     margin-top: {{ button_mt | times: 0.75 | round: 0 }}px;
-    display: grid;
-    justify-content: center;
-      gap: 27px;
-      justify-items: center;
+    display: flex;
+    justify-content: flex-start;
+    gap: 27px;
   }
   
   .tab-wrapper-{{ section.id }} {
@@ -305,7 +292,7 @@
     text-transform: unset;
     text-decoration: none;
     padding: {{ button_padding_vertical_mobile }}px {{ button_padding_horizontal_mobile }}px;
-    border-radius: {{ button_radius }}px !important;
+    border-radius: {{ button_radius }}px;
     border: {{ button_border_thickness }}px solid {{ button_border_color }};
     background-color: {{ button_bg_color }};
     transition: all 0.25s ease 0s;
@@ -335,7 +322,7 @@
     text-transform: unset;
     text-decoration: none;
     padding: {{ second_button_padding_vertical_mobile }}px {{ second_button_padding_horizontal_mobile }}px;
-    border-radius: {{ second_button_radius }}px !important;
+    border-radius: {{ second_button_radius }}px;
     border: {{ second_button_border_thickness }}px solid {{ second_button_border_color }};
     background-color: {{ second_button_bg_color }};
     transition: all 0.25s ease 0s;
@@ -344,11 +331,7 @@
     z-index: 2;
     border-radius: 1rem;
   }
-      
-  @media(max-width: 749px) {
-      .first-btn-{{ section.id }}, .second-btn-{{ section.id }} {min-width: 200px;}
-  }
-  
+
   .second-btn-{{ section.id }}:hover {
     color: {{ second_button_hover_color }};
     border: {{ second_button_border_thickness }}px solid {{ second_button_border_hover_color }};
@@ -371,36 +354,26 @@
     z-index: 1;
     height: auto;
     object-fit: contain;
+    right: 10%;
+    bottom: -6%;
     width: 100px;
     display:none;
   }
-  .section-{{ section.id }} .promo_image_1{
-      right: {{ section.settings.promo_image1_left }}%;
-      bottom: {{ section.settings.promo_image1_top }}%;
-      width: {{ section.settings.promo_image1_width }}px;
-    }
-    .section-{{ section.id }} .promo_image_2{
-      right: {{ section.settings.promo_image2_left }}%;
-      bottom: {{ section.settings.promo_image2_top }}%;
-      width: {{ section.settings.promo_image2_width }}px;
-    }
-    .section-{{ section.id }} .promo_image_3{
-      right: {{ section.settings.promo_image3_left }}%;
-      bottom: {{ section.settings.promo_image3_top }}%;
-      width: {{ section.settings.promo_image3_width }}px;
-    }
+
     @media(min-width: 1000px) {
     .section-{{ section.id }} {
-      /* margin-left: var(--gutter); */
-      /* margin-right: var(--gutter); */
+      margin-left: var(--gutter);
+      margin-right: var(--gutter);
     }
     }
       
   @media(min-width: 750px) {
-    .section-{{ section.id }} .promo-image {
+    .promo-image{
+      right: 10%;
+      bottom: -14%;
+      width: 200px;
       display: block !important;
     }
-  
     .section-{{ section.id }} {
       margin-top: {{ margin_top }}px;
       margin-bottom: {{ margin_bottom }}px;
@@ -416,8 +389,8 @@
     
     .swiper-{{ section.id }} {
       height: var(--desktop-height);
-      /* border-bottom-right-radius: 16px;
-      border-bottom-left-radius: 16px; */
+      border-bottom-right-radius: 16px;
+      border-bottom-left-radius: 16px;
     }
     
     .banner-mobile-only {
@@ -458,8 +431,6 @@
 
     .button-wrapper-{{ section.id }} {
       margin-top: {{ button_mt }}px;
-        display: flex;
-              justify-content: flex-start;
     }
 
     .first-btn-{{ section.id }} {
@@ -564,74 +535,14 @@
 <style>
   @media (min-width: 1201px) {
     .section-margins {
-      /* margin-left: var(--gutter); */
-      /* margin-right: var(--gutter); */
+      margin-left: var(--gutter);
+      margin-right: var(--gutter);
     }
   }
 </style>
-
-<style>
-
-a.second-btn-template--24204083986765__layout_slideshow_UjrkFB:hover {
-    background-color: #0e432c;
-    border: 1px solid #0e432c;
-}
-  
-@media only screen and (max-width: 1680px) {
-.slideshow-banner img.promo-image.promo_image_1 {
-    width: 480px;
-}
-.swiper.swiper-template--24204083986765__layout_slideshow_UjrkFB {
-    height: auto;
-}  
-}
-
-
-@media only screen and (max-width: 1280px) {
-.slideshow-banner img.promo-image.promo_image_1 {
-    width: 400px;
-}
-
-}
-
-  
-@media only screen and (max-width: 1180px) {
-.slideshow-banner img.promo-image.promo_image_1 {
-    width: 350px;
-}
-.slideshow-banner h1 {
-    max-width: 500px;
-} 
-.slideshow-banner .custom-banner-content p {
-    max-width: 500px;
-}  
-}
-@media only screen and (max-width:880px) {
-.slideshow-banner img.promo-image.promo_image_1 {
-    display: none!important;
-}
-}
-  
-@media only screen and (max-width:749px) {
-.slideshow-banner h1, .slideshow-banner .custom-banner-content p {
-    margin: 0 auto;
-}
-.heading-template--24204083986765__layout_slideshow_UjrkFB {
-    margin-top: 70px;
-}  
-}
-
-  
-  
-</style>
-
-
-
-
-  
 {% endif %}
 <div
-  class="slideshow-banner section-{{ section.id }} slideshow-{{ section.id }} section-margins"
+  class="section-{{ section.id }} slideshow-{{ section.id }} section-margins"
   style="
     background-color:{{ background_color }};
     background-image: {{ background_gradient }};
@@ -724,7 +635,7 @@ a.second-btn-template--24204083986765__layout_slideshow_UjrkFB:hover {
                 {% endif %}
               "
             ></div>
-            <div class="inner-wrapper text-content-{{ section.id }}">
+            <div class="text-content-{{ section.id }}">
               
               {% if block.settings.custom_code != blank %}
                {{ block.settings.custom_code }}
@@ -737,7 +648,7 @@ a.second-btn-template--24204083986765__layout_slideshow_UjrkFB:hover {
               {% endif %}
           
               {% if block.settings.text != blank %}
-                <div class="custom-banner-content text-{{ section.id }}">
+                <div class="text-{{ section.id }}">
                   <p>{{ block.settings.text }}</p>
                 </div>
               {% endif %}
@@ -829,22 +740,8 @@ a.second-btn-template--24204083986765__layout_slideshow_UjrkFB:hover {
         {% endif %}
     </div>
   </div>
-     {% if section.settings.promo_image_3 %}
-  <img class="promo-image promo_image_3" 
-    src="{{ section.settings.promo_image_3 | img_url: 'master' }}"
-    alt="{{ image.alt | escape }}"
-    width="100%" height="100%"
-    {% if lazy %}loading= "lazy"{% else %}loading= "eager"{% endif %}>
-    {% endif %}
-        {% if section.settings.promo_image_2 %}
-  <img class="promo-image promo_image_2" 
-    src="{{ section.settings.promo_image_2 | img_url: 'master' }}"
-    alt="{{ image.alt | escape }}"
-    width="100%" height="100%"
-    {% if lazy %}loading= "lazy"{% else %}loading= "eager"{% endif %}>
-    {% endif %}
   {% if section.settings.promo_image %}
-  <img class="promo-image promo_image_1" 
+  <img class="promo-image" 
     src="{{ section.settings.promo_image | img_url: 'master' }}"
     alt="{{ image.alt | escape }}"
     width="100%" height="100%"
@@ -877,110 +774,8 @@ a.second-btn-template--24204083986765__layout_slideshow_UjrkFB:hover {
     {
       "type": "image_picker",
       "id": "promo_image",
-      "label": "Promo Image 1",
+      "label": "Image",
       "info":  "Add Promo Image"
-    },
-    {
-      "type": "range",
-      "id": "promo_image1_left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Promo Image Position From right",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "promo_image1_top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Promo Image Position From Bottom",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "promo_image1_width",
-      "min": 0,
-      "max": 1000,
-      "step": 10,
-      "unit": "px",
-      "label": "Promo Image Width",
-      "default": 200
-    },
-     {
-      "type": "image_picker",
-      "id": "promo_image_2",
-      "label": "Promo Image 2",
-      "info":  "Add Promo Image"
-    },
-    {
-      "type": "range",
-      "id": "promo_image2_left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Promo Image Position From right",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "promo_image2_top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Promo Image Position From Bottom",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "promo_image2_width",
-       "min": 0,
-      "max": 1000,
-      "step": 10,
-      "unit": "px",
-      "label": "Promo Image Width",
-      "default": 200
-    },
-     {
-      "type": "image_picker",
-      "id": "promo_image_3",
-      "label": "Promo Image 3",
-      "info":  "Add Promo Image"
-    },
-    {
-      "type": "range",
-      "id": "promo_image3_left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Promo Image Position From right",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "promo_image3_top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "%",
-      "label": "Promo Image Position From Bottom",
-      "default": 50
-    },
-    {
-      "type": "range",
-      "id": "promo_image3_width",
-       "min": 0,
-      "max": 1000,
-      "step": 10,
-      "unit": "px",
-      "label": "Promo Image Width",
-      "default": 200
     },
     {
       "type": "range",

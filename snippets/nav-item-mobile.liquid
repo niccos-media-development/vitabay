@@ -57,28 +57,8 @@
           </li>
         {%- endfor -%}
       </ul>
-            <div class="new_main_calll_nav">
-        <div class="new_main_image">
-          {% for block in section.blocks %}
-            {%- case block.type -%}
-            {%- when 'mobileimage' -%}
-            <a class="image_main_new_calll" href="{{ block.settings.url }}">
-              <div class="imag_menu_image">
-                <img src="{{ block.settings.feat_image | img_url:'master' }}" />
-              </div>
-              <div class="imag_menu_text">
-              <h3>{{ block.settings.title }}</h3>
-                <p>{{ block.settings.text}}</p>
-              </div>
-            </a>
-              {% endcase %}
-          {% endfor %}
-        </div>
-  </div>
     </div>
-
   </li>
-
 {%- else -%}
   <li class="mobile-menu__item mobile-menu__item--level-1{% if link.active %} mobile-menu__item--active{% endif %}">
     <a href="{{ link.url }}" class="mobile-navlink mobile-navlink--level-1{% if highlight_item == link_title_lowercase %} mobile-navlink--highlight{% endif %}">

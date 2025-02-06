@@ -80,53 +80,10 @@
       }
     }
   {%- endif -%}
-   #SectionBannerImage--{{ section.id }} span.text-highlight__break {
-      color: #05371E;
-      font-family: Circe;
-      font-size: 38px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 120%;
-  }
-  #SectionBannerImage--{{ section.id }} p{
-    color: #05371E;
-    leading-trim: both;
-    text-edge: cap;
-    font-family: Circe;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-  }
-  @media only screen and (max-width: 767px) {
-   #SectionBannerImage--{{ section.id }} span.text-highlight__break {
-    font-size: 32px;
-  }
-     #SectionBannerImage--{{ section.id }} p{font-size: 16px;}
-  }
 {%- endstyle -%}
-<style>
-.custom-banner-image .banner-image__text-container {
-    margin: 0 auto;
-    max-width: 1190px;
-}
-
-@media only screen and (max-width: 768px) {
-.banner-image__text-wrapper {
-    padding-top: 25rem;
-    padding-bottom: 0;
-}
-}
-
-  
-</style>
-
-
-
-    
 
 <section id="SectionBannerImage--{{ section.id }}"
-  class="custom-banner-image banner-image banner-image--{{ transition }}{% unless animations_enabled %} banner--no-animation{% endunless %}{% if img_in_class %} img-in{% endif %}"
+  class="banner-image banner-image--{{ transition }}{% unless animations_enabled %} banner--no-animation{% endunless %}{% if img_in_class %} img-in{% endif %}"
   data-section-id="{{ section.id }}"
   data-section-type="banner-image"
   data-zoom-animation="{{ enable_zoom_animation }}">
@@ -309,7 +266,7 @@
                       {%- assign animation_order = animation_order | plus: 1 -%}
                     {% endif %}
                     {{ block.shopify_attributes }}>
-                    <a class="banner-image__btn video-text-link" href="{{ video_link | default: '#!' }}" 
+                    <a class="banner-image__btn video-text-link" href="{{ video_link | default: '#!' }}"
                       {% unless video_link == blank %}
                       data-video-play="{%- render 'photoswipe-video-html' item_link: video_link , item_link_type: video_type, item_link_id: video_id, item_id: video_parent_id -%}"
                       {% endunless %}>
@@ -478,8 +435,7 @@
         assign title = title_mod
     endcase
   endif
--%}
-{%- style -%}
+-%}{%- style -%}
                   #BannerHeading--{{ block_id }}.text__heading {
                     --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ text_size_mobile }});
 
@@ -570,7 +526,7 @@
                           data-aos-order="{{ animation_order }}"
                           {%- assign animation_order = animation_order | plus: 1 -%}
                         {% endif %}>
-                        <a class="banner-image__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}" href="{{ button_1_link }}" style="padding: 14px 41px;border-radius: 30px;">{{ button_1_text | escape }}</a>
+                        <a class="banner-image__btn btn {{ button_1_style }} {{ button_1_size }} {{ button_1_color }}" href="{{ button_1_link }}">{{ button_1_text | escape }}</a>
                       </div>
                     {%- endif -%}
 
@@ -582,7 +538,7 @@
                           data-aos-order="{{ animation_order }}"
                           {%- assign animation_order = animation_order | plus: 1 -%}
                         {% endif %}>
-                        <a class="banner-image__btn btn {{ button_2_style }} {{ button_2_size }} {{ button_2_color }}" href="{{ button_2_link }}" style="padding: 14px 41px;border-radius: 30px;">{{ button_2_text | escape }}</a>
+                        <a class="banner-image__btn btn {{ button_2_style }} {{ button_2_size }} {{ button_2_color }}" href="{{ button_2_link }}">{{ button_2_text | escape }}</a>
                       </div>
                     {%- endif -%}
                   </div>

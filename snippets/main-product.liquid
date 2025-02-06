@@ -772,7 +772,7 @@
 
                       {%- capture tabs -%}
       {{ tabs }}
-      <div class="tab{% unless has_current %} current{% endunless %}" data-tab="{{ index }}">
+      <div class="tab {% unless has_current %} current{% endunless %}" data-tab="{{ index }}">
         {%- if info_page.content != blank -%}
           {{ info_page.content }}
         {%- else -%}
@@ -1122,7 +1122,7 @@
                         {% endif %} -->
                         <span class="swatch-title">{{ value | escape_once  }} </span>
                         {% if is_image_swatch %}
-                          <span class="swatch-price">{{ value.variant.product.variants[0].selling_plan_allocations[0].price | money_without_trailing_zeros  }} / Stk.</span>
+                          <span class="swatch-price" data-formate="money" data-optionvalue="{{value}}" data-optionindex="{{ option.name}}">{{ value.variant.product.variants[0].selling_plan_allocations[0].price | money_without_trailing_zeros  }} / Stk.</span>
                           {%  unless forloop.first %}  
                             <span class="swatch-badge">
                               {% liquid 
@@ -1748,7 +1748,7 @@
                           <div class="payment-method-image-wrapper">
                             {% liquid
                               if image
-                                echo image | image_url: width: 90 | image_tag: loading: 'lazy', alt: image.alt_text | escape
+                                echo image | image_url: width: 100 | image_tag: loading: 'lazy', alt: image.alt_text | escape
                               else
                                 echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
                               endif

@@ -88,7 +88,7 @@
     data-hover-disclosure-toggle
   {% endif %}>
   <a href="{{ link.url }}" data-top-link class="navlink navlink--toplevel{{ link_hover_dot_class }}{% if highlight_item == link_title_lowercase %} navlink--highlight{% endif %}{% if settings.nav_caps_toplevel %} caps{% endif %}">
-    <span class="navtext">{{ link_title }}  {%- if expands -%} <div class="main_call_image"><img src="https://cdn.shopify.com/s/files/1/0696/3504/7736/files/chevron-right.svg?v=1736763502"></div> {% endif %}</span>
+    <span class="navtext">{{ link_title }}</span>
   </a>
   {%- if expands -%}
     <div class="header__dropdown"
@@ -106,7 +106,7 @@
                       {%- render 'header-link-image' with enable: section.settings.show_images, link: link, aspect_ratio: section.settings.image_aspect_ratio -%}
                     {%- endcapture -%}
 
-                    <div class="dropdown__family custom_{{ forloop.index }} blossom_new_menu">
+                    <div class="dropdown__family">
                       {%- assign link_title = link.title | strip_html | escape -%}
                       {%- assign link_title_lowercase = link.title | downcase | strip_html | escape -%}
                       <a href="{{ link.url }}" class="navlink navlink--child{{ link_hover_dot_class }}{% if link_image_markup != blank %} navlink--image{% endif %}{% if link.active %} navlink--active{% endif %}{% if highlight_item == link_title_lowercase %} navlink--highlight{% endif %}">

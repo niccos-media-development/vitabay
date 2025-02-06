@@ -150,7 +150,7 @@
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     {{ selector_id }} {
-      --grid-item: {{ 100.0 | divided_by: columns_small }}%;
+      --grid-item: {{ 100.0 | divided_by: columns_small | round: 4 }}%;
     }
   }
 
@@ -162,106 +162,24 @@
       }
     {% endif %}
   }
-
 {%- endstyle -%}
-<style>
-  .list-collection-custom .wrapper--full-padded {
-    max-width: 1190px;
-}
-.list-collection-custom h2.section__heading.h2.aos-init.aos-animate {
-    font-family: 'Circe';
-    font-size: 38px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}  
-.list-collection-custom .list-collections__item {
-    max-width: 155px;
-} 
-.list-collection-custom .list-collections__item__title {
-    max-width: 110px;
-    margin: 0 auto;
-    padding: 0px 3px;
-    height: 50px;
-}
-.list-collection-custom .list-collections__item__image {
-    border-radius: 15px 15px 0 0!important;
-}
-.list-collection-custom:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 329px;
-    height: 542px;
-    z-index: 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(https://cdn.shopify.com/s/files/1/0696/3504/7736/files/Group_1_1_1.png?v=1735975031);
-    top: 0;
-    background-position: center;
-}
-.list-collection-custom {
-    position:relative;
-}
-  
-@media only screen and (max-width: 1400px) {
-.list-collection-custom:before {
-    width: 300px;
-    height: 403px;
-    background-position: bottom;
-}
-}
-
-@media only screen and (max-width: 1200px) {
-.list-collection-custom .list-collections__item {
-    max-width: 140px;
-}
-.list-collection-custom:before {
-    height: 409px;
-    width: 250px;
-} 
-}
-  
-@media only screen and (max-width: 1079px) {
-.list-collection-custom:before {
-    display:none;
-}
-}
-  
-  
-@media only screen and (max-width: 749px) {
-.list-collection-custom h2.section__heading.h2.aos-init.aos-animate {
-    font-size: 32px;
-}
-}
-@media only screen and (max-width: 680px) {
-.list-collection-custom h2.section__heading.h2.aos-init.aos-animate {
-    max-width: 200px;
-}
-}
-  
-</style>
-
-
-
-
-
 
 <section id="{{ id }}"
-  class="list-collection-custom section-padding {{ list_collections_classes }}"
+  class="section-padding {{ list_collections_classes }}"
   data-section-type="list-collections"
   data-section-id="{{ section.id }}"
   data-columns="{{ columns }}">
 
-  <div class="{{ width }}" >
+  <div class="{{ width }}">
     {%- if heading != blank -%}
-      <div class="section__header" style="margin: 0;">
+      <div class="section__header">
         <h2 class="section__heading h2"
           {% if animations_enabled %}
             data-aos="fade-up"
             data-aos-anchor="{{ animation_anchor }}"
             data-aos-delay="{{ animation_delay }}"
             {%- assign animation_delay = animation_delay | plus: 150 -%}
-          {% endif %}style="text-align: left">{{ heading | escape }}</h2>
+          {% endif %}>{{ heading | escape }}</h2>
 
         {%- if settings.show_spacer_lines -%}
           <hr class="section__heading-line"

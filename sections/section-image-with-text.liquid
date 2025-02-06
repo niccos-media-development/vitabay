@@ -243,9 +243,9 @@
 
     {%- if bg_color_set -%}
       {%- if gradient != 'none' -%}
-        --sbg: {{ gradient }};
+        --bg: {{ gradient }};
       {%- else -%}
-        --sbg: {{ bg_color }};
+        --bg: {{ bg_color }};
       {%- endif -%}
     {%- endif %}
 
@@ -265,63 +265,7 @@
   {{ selector_id }} .image-with-text__heading {
     --adjust-heading: calc(var(--FONT-ADJUST-HEADING) * {{ heading_size }});
   }
-  {{ selector_id }}.image-with-text_custom .wrapper.custom_wrap{
-    background: var(--sbg);
-  }
-  @media only screen and (min-width: 768px) {
-    {{ selector_id }}.image-with-text_custom .wrapper.custom_wrap{
-    padding:0;
-  }
-  }
 {%- endstyle -%}
-
-<style>
-.custom-image-text .subheading-text {
-    font-weight: 300;
-}
-.custom-image-text h3.image-with-text__heading.h2.aos-init.aos-animate {
-    font-size: 38px;
-}
-.custom-image-text .image-with-text__content.text-left.wrapper.aos-init.aos-animate {
-    padding: 10% 11%;
-}
-.custom-image-text .wrapper.custom_wrap {
-    width: 100%;
-}  
-.custom-image-text .background-size-cover, .custom-image-text .video-background, .custom-image-text .image-with-text__image {
-    border-radius: 0!important;
-}
-
-@media only screen and (max-width: 1680px) {
-.custom-image-text .image-with-text__content.text-left.wrapper.aos-init.aos-animate {
-    padding: 10% 8%;
-}
-}  
-  
-@media only screen and (max-width: 1480px) {
-.custom-image-text .image-with-text__content.text-left.wrapper.aos-init.aos-animate {
-    padding: 10% 4%;
-}
-}
-  
-@media only screen and (max-width: 880px) {
-.custom-image-text .image-with-text__content.text-left.wrapper.aos-init.aos-animate {
-    padding: 10% 5%;
-}
-.custom-image-text .wrapper.custom_wrap {
-    padding: 0;
-}  
-}  
-
-
-
-  
-  
-</style>
-
-
-
-                
 
 {%- capture content -%}
   {%- if subheading != blank -%}
@@ -478,12 +422,12 @@
 -%}
 
 <section id="{{ id }}"
-  class="custom-image-text section-padding image-with-text_custom image-with-text {{ section_height }} {{ image_width_class }} {{ text_color }}{%- render 'button-fallback-classes', primary_color: button_color, section_bg_color: bg_color -%}"
+  class="section-padding image-with-text {{ section_height }} {{ image_width_class }} {{ text_color }}{%- render 'button-fallback-classes', primary_color: button_color, section_bg_color: bg_color -%}"
   data-section-id="{{ section.id }}"
   data-section-type="image-with-text"
   data-prevent-transparent-header>
   <div class="image-with-text__wrapper">
-    <div class="{{ section_width }} custom_wrap" style="background:{{ section.settings.ba }}">
+    <div class="{{ section_width }}">
       {%- if button_text == blank and button_link != blank -%}
         {%- assign hover_scale = 'hover-scale' -%}
 
@@ -514,7 +458,7 @@
         </div>
 
         {%- unless content == blank -%}
-          <div class="image-with-text__content {{ text_alignment_class }} {{ section_width }}"
+          <div class="image-with-text__content {{ text_alignment_class }}"
             {% if animations_enabled %}
               data-aos="fade-up"
               data-aos-anchor="{{ animation_anchor }}"
