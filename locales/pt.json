@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
@@ -179,12 +188,12 @@
       "checkout": "Finalizar",
       "empty": "O seu carrinho está vazio.",
       "accept_terms": "Você deve aceitar nossos termos e condições.",
-      "accepted_terms": "Aceitou os termos/condições?",
+      "accepted_terms": "Aceitou os termos\/condições?",
       "zero_qty_error": "A quantidade deve ser maior que 0.",
       "limit_error": "Desculpe, parece que não temos esse produto em quantidade suficiente.",
       "continue_shopping": "Continue comprando",
       "close_cart": "Fechar Pedido",
-      "free_shipping_message_html": "Gaste <span data-free-shipping-amount=\"\">{{ amount }}</span> para se qualificar para frete grátis",
+      "free_shipping_message_html": "Gaste <span data-free-shipping-amount=\"\">{{ amount }}<\/span> para se qualificar para frete grátis",
       "qualified_shipping_message": "Parabéns! Seu pedido se qualifica para frete grátis"
     },
     "label": {
@@ -223,7 +232,7 @@
       "show_less": "Mostrar menos",
       "title": "Coleção",
       "to": "Para",
-      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar tudo</a>"
+      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar tudo<\/a>"
     }
   },
   "collections": {
@@ -401,7 +410,7 @@
       "add_product": "Adicionar um Produto",
       "product_title": "Título do Produto",
       "vendor": "Fornecedor",
-      "no_collections_html": "Você não possui nenhuma coleção para ser apresentada aqui. <a href=\"/admin/custom_collections\">Adicione Coleções</a> à primeira página padrão.",
+      "no_collections_html": "Você não possui nenhuma coleção para ser apresentada aqui. <a href=\"\/admin\/custom_collections\">Adicione Coleções<\/a> à primeira página padrão.",
       "add_collection": "Adicionar uma Coleção",
       "collection_title": "Título da Coleção",
       "single_product_title": "Mostrar um único produto",
@@ -590,8 +599,8 @@
       "check_other_stores": "Verificar a disponibilidade em outras lojas",
       "pick_up_available": "Retirada disponível",
       "pick_up_currently_unavailable": "Retirada indisponível no momento",
-      "pick_up_available_at_html": "Retirada disponível em <strong>{{ location_name }}</strong>",
-      "pick_up_unavailable_at_html": "Retirada em <strong>{{ location_name }}</strong> indisponível no momento",
+      "pick_up_available_at_html": "Retirada disponível em <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Retirada em <strong>{{ location_name }}<\/strong> indisponível no momento",
       "kilometers": "km",
       "miles": "mi"
     }

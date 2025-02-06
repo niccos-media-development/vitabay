@@ -169,15 +169,14 @@
 
 
 {%- capture product_title -%}
-  <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
   <a class="product-grid-item__title {{ heading_style }}" href="{{ url }}" aria-label="{{ product.title | strip_html | escape }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
     {{- product.title | strip_html | escape -}}
   </a>
+
+  <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
 {%- endcapture -%}
 
-    
 {%- capture product_info_price -%}
-  <div class="inner_wrapper-price">
   <a class="product-grid-item__price price" href="{{ product.url | within: collection }}"{% if index > 1 %} tabindex="-1"{% endif %} data-grid-link>
     {%- liquid
       if product.price == 0 and product.price_varies == false
@@ -210,8 +209,6 @@
       {%- endif -%}
     {%- endif -%}
   </a>
-
-  
   {%- if current_variant.unit_price_measurement -%}
       {%- capture unit_price_separator -%}
         <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
@@ -226,7 +223,6 @@
         {{ current_variant.unit_price_measurement.reference_unit }}
       </div>
     {%- endif -%}
-  </div>
 {%- endcapture -%}
 
 <div class="product-grid-item {% if carousel %}carousel__item{% else %}grid__item{% endif %} {{ size_desktop }} {{ size_mobile }}{% if tag %} has-tag{% endif %}{% if sold_out %} soldout{% endif %}{{ grid_item_class }}"

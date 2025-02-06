@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,49 +25,49 @@
           "type": "text",
           "settings": {
             "title": "Wo ist mein Paket?",
-            "text": "<p>Wir stellen mit unserem Versanddienstleister DHL Ihr Paket innerhalb von 2 Werktagen nach Versand zu. Sobald Ihr Paket losgeschickt wird, erhalten Sie eine Versandbestätigung per E-Mail. Mit der Sendungsnummer darin können Sie Ihr Paket jederzeit <a href=\"https:\/\/www.dhl.de\/de\/privatkunden\/dhl-sendungsverfolgung.html\" target=\"_blank\">hier<\/a> verfolgen oder Sie klicken auf den Link in Ihrer Versandbestätigung.<\/p><p>Sie möchten DHL zum Stand Ihrer Sendung kontaktieren?<\/p><ul><li><a href=\"https:\/\/www.dhl.de\/de\/privatkunden\/hilfe-kundenservice.html\">Hier gelangen Sie zum DHL-Kundenservice<\/a><\/li><li>DHL Hotline für Privatkunden: <a href=\"tel:00492284333112\">0228-4333112<\/a><\/li><\/ul>"
+            "text": "<p>Wir stellen mit unserem Versanddienstleister DHL dein Paket, in der Regel, innerhalb von 2 Werktagen nach Versand zu. Sobald dein Paket losgeschickt wird, erhältst du eine Versandbestätigung per E-Mail oder WhatsApp. Mit der Sendungsnummer darin kannst du dein Paket jederzeit <a href=\"https:\/\/www.dhl.de\/de\/privatkunden\/dhl-sendungsverfolgung.html\" target=\"_blank\">hier<\/a> verfolgen oder du klickst auf den Link in deiner Versandbestätigung.<\/p><p>Du möchtest DHL zum Stand deiner Sendung kontaktieren?<\/p><ul><li><a href=\"https:\/\/www.dhl.de\/de\/privatkunden\/hilfe-kundenservice.html\">Hier gelangst du zum DHL-Kundenservice<\/a><\/li><li>DHL Hotline für Privatkunden: <a href=\"tel:00492284333112\">0228-4333112<\/a><\/li><\/ul>"
           }
         },
         "accordion_block_1_2": {
           "type": "text",
           "settings": {
             "title": "Meine Lieferung verzögert sich. Wann bekomme ich mein Paket?",
-            "text": "<p>Wir möchten, dass Sie schnellstmöglich Ihre gewünschten Artikel erhalten. Wir übergeben Ihre Bestellung innerhalb von 24 Stunden an unseren Versandpartner DHL. Die Zustellung im Inland erfolgt erfahrungsgemäß in 1-2 Werktagen. Damit Sie genau ermitteln können, wann die Bestellung bei Ihnen eintreffen wird, rechnen Sie bitte die Lieferzeit hinzu, welche in der untenstehenden Tabelle angegeben ist. Saisonal oder situationsbedingt kann es auch etwas länger dauern.<\/p>"
+            "text": "<p>Wir möchten, dass du deine gewünschten Artikel so schnell wie möglich bekommst. Deine Bestellung wird innerhalb von 24 Stunden an unseren Versandpartner DHL übergeben. Die Lieferung innerhalb Deutschlands dauert normalerweise 1-2 Werktage. Damit du genau weißt, wann deine Bestellung bei Dir ankommt, kannst du die Lieferverfolgung nutzen. In saisonalen Spitzenzeiten oder bei besonderen Umständen kann es auch mal länger dauern.<\/p>"
           }
         },
         "accordion_block_1_3": {
           "type": "text",
           "settings": {
             "title": "Was passiert, wenn das Paket nicht zugestellt werden konnte?",
-            "text": "<p>Das Paket wird von DHL an uns retourniert. Sobald das Paket im Lager eingetroffen und überprüft ist, wird Ihnen der Rechnungsbetrag erstattet. Dieser Vorgang kann je nach saisonalem Bestellaufkommen bis zu 2 Wochen in Anspruch nehmen.<\/p>"
+            "text": "<p>Das Paket wird von DHL an uns retourniert. Sobald es bei uns im Lager eingetroffen und überprüft wurde, erstatten wir dir den Rechnungsbetrag. Bitte beachte, dass dieser Vorgang je nach saisonalem Bestellaufkommen bis zu <strong>2 Wochen<\/strong> in Anspruch nehmen kann.<\/p>"
           }
         },
         "accordion_block_1_4": {
           "type": "text",
           "settings": {
             "title": "Ist eine Lieferung ins Ausland möglich?",
-            "text": "<p>Ja, wir liefern EU-weit. Die Versandkosten können je nach Destination variieren. Eine Lieferung in Nicht-EU-Länder ist leider nicht möglich.<\/p>"
+            "text": "<p>Ja, wir liefern auch ins Ausland. Welche Länder wir beliefern kannst du in unseren Versandrichtlinien nachlesen.<\/p>"
           }
         },
         "text_M4jrtT": {
           "type": "text",
           "settings": {
             "title": "Kann DHL erneut zustellen?",
-            "text": "<p>Wir bedauern, dass wir in diesem Fall leider keine erneute Sendung veranlassen können. Die Sendung ist bereits auf dem Rückweg und der Betrag wird Ihnen automatisch gutgeschrieben, wenn das Paket im Lager angekommen und überprüft ist. Bitte bestellen Sie Ihre Ware erneut.<\/p>"
+            "text": "<p>Leider haben wir darauf keinen Einfluss. Dein Paket wird an uns zurückgegeben und wir wickeln deine Rückerstattung ab.<\/p><p>Bestell deine Ware einfach erneut.<\/p>"
           }
         },
         "text_FYpVFd": {
           "type": "text",
           "settings": {
             "title": "Wie hoch sind die Versandkosten?",
-            "text": "<p>Die Kosten für den Versand können Sie hier einsehen: <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Versandkosten<\/a><\/p>"
+            "text": "<p>Die Kosten für den Versand variiert je nach Land. Hier kannst du nachsehen: <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Versandkosten<\/a><\/p>"
           }
         },
         "text_qiagLL": {
           "type": "text",
           "settings": {
             "title": "Kann ich mein Paket an eine Packstation liefern lassen?",
-            "text": "<p>Ja, markieren Sie bei der Eingabe Ihrer Lieferadresse das Feld „Die Lieferadresse weicht von der Rechnungsadresse ab. (Packstation bitte hier angeben)“. Es öffnet sich ein Menü, in dem Sie die nächstgelegene Packstation bzw. Postfiliale suchen oder eine alternative Lieferadresse eingeben können.<\/p>"
+            "text": "<p>Ja, markiere bei der Eingabe deiner Lieferadresse das Feld „Die Lieferadresse weicht von der Rechnungsadresse ab. (Packstation bitte hier angeben)“. Es öffnet sich ein Menü, in dem du die nächstgelegene Packstation bzw. Postfiliale suchen oder eine alternative Lieferadresse eingeben kannst.<\/p>"
           }
         }
       },
@@ -92,28 +101,35 @@
           "type": "text",
           "settings": {
             "title": "Kann DHL erneut zustellen?",
-            "text": "<p>Wir bedauern, dass wir in diesem Fall leider keine erneute Sendung veranlassen können. Die Sendung ist bereits auf dem Rückweg und der Betrag wird Ihnen automatisch gutgeschrieben, wenn das Paket im Lager angekommen und überprüft ist. Bitte bestellen Sie Ihre Ware erneut.<\/p>"
+            "text": "<p>Leider haben wir hier keinen Einfluss drauf. Solltest du dein Paket verpasst haben, dann geht es an uns zurück. Wir kümmern uns um deine Rückerstattung und du kannst erneut bestellen!<\/p>"
           }
         },
         "accordion_block_2_1": {
           "type": "text",
           "settings": {
             "title": "Ich möchte meine Bestellung zurücksenden. Wie soll ich vorgehen?",
-            "text": "<p><a href=\"https:\/\/www.vitabay.net\/widerrufsrecht\">Alle Informationen zu Widerruf und Warenrücksendung erhalten Sie hier!<\/a><\/p><p>Unangebrochene\/Versiegelte Ware kann binnen 14 Tage nach Kauf retourniert werden.<\/p><ul><li>Versand nur als DHL Paket mit Sendungsverfolgung.<\/li><li>Ausreichend frankieren und keine unfreien Sendungen verschicken, diese können vom Lager leider nicht angenommen werden.<\/li><li>Ihr Retourenpaket muss versichert und mit Paketnummer an uns versendet werden, nur so kann DHL Ihnen bei Verlust den Schaden ersetzen.<\/li><li>Bitte legen Sie eine Kopie der Rechnung und das ausgefüllte Widerrufsformular dem Paket bei.<\/li><li>Schreiben Sie die Retourennummer: R-(+ Ihre BESTELLNUMMER) gut leserlich auf Ihr Paket und auf die Rechnungskopie.<\/li><\/ul>"
+            "text": "<p><a href=\"https:\/\/www.vitabay.net\/widerrufsrecht\">Alle Informationen zu Widerruf und Warenrücksendung findest du hier!<\/a><\/p><p>Unangebrochene\/Versiegelte Ware kann binnen 14 Tage nach Kauf retourniert werden.<\/p><ul><li>Versand nur als DHL Paket mit Sendungsverfolgung.<\/li><li>Ausreichend frankieren und keine unfreien Sendungen verschicken, diese können vom Lager leider nicht angenommen werden.<\/li><li>Deine Retoure muss versichert und mit Paketnummer an uns versendet werden, nur so kann DHL dir bei Verlust den Schaden ersetzen.<\/li><li>Bitte lege eine Kopie der Rechnung und das ausgefüllte Widerrufsformular dem Paket bei.<\/li><li>Schreiben Sie die Retourennummer: R-(+ Ihre BESTELLNUMMER) gut leserlich auf dein Paket und auf die Rechnungskopie.<\/li><\/ul>"
           }
         },
         "accordion_block_2_2": {
           "type": "text",
           "settings": {
             "title": "Ich habe nicht das erhalten, was ich bestellt habe.",
-            "text": "<p>Schreiben Sie eine E-Mail mit dem Grund Ihrer Reklamation an: <a href=\"mailto:widerruf@vitabay.net\">widerruf@vitabay.net<\/a><\/p><p>Bei beschädigter Ware fügen Sie Ihrer E-Mail bitte Fotos von den unbrauchbaren Produkten hinzu.<\/p>"
+            "text": "<p>Das tut uns sehr leid. Bitte schreibe uns eine E-Mail an : <a href=\"mailto:widerruf@vitabay.net\">widerruf@vitabay.net<\/a><\/p><p>Wir kümmern uns zeitnah darum, dass du die gewünschte Ware erhältst.<\/p>"
+          }
+        },
+        "text_itTzaX": {
+          "type": "text",
+          "settings": {
+            "title": "Meine Ware kam beschädigt an.",
+            "text": "<p>Das tut uns sehr leid. Bitte nimm Kontakt mit unserem Kundensupport auf und beschreibe dein Problem.<\/p><p>Bitte füge auch Bilder von den Schäden hinzu.<\/p>"
           }
         },
         "accordion_block_2_3": {
           "type": "text",
           "settings": {
             "title": "Ich möchte meine Bestellung stornieren.",
-            "text": "<p>Wenn sich Ihre Bestellung noch nicht auf dem Versandweg befindet, können Sie diese Bestellung stornieren.<\/p>"
+            "text": "<p>Bitte wende dich dafür an unseren Kundenservice.<\/p><p>Sollte deine Ware noch nicht auf dem Weg zu dir sein, können wir eine Stornierung vornehmen.<\/p>"
           }
         }
       },
@@ -121,6 +137,7 @@
         "accordion_block_2_0",
         "accordion_block_2_1",
         "accordion_block_2_2",
+        "text_itTzaX",
         "accordion_block_2_3"
       ],
       "settings": {
@@ -136,11 +153,125 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_accordions_HWHfFa": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_ccECwD": {
+          "type": "text",
+          "settings": {
+            "title": "Wie lange sind meine Vitabay Produkte haltbar?",
+            "text": "<p>Das genaue Mindesthaltbarkeitsdatum (MHD) richtet sich nach der Haltbarkeit der für die Produktion verwendeten Rohstoffe. Ungeöffnet sind unsere Produkte mindestens bis zum aufgedruckten MHD haltbar. <\/p>"
+          }
+        },
+        "text_w7gqrd": {
+          "type": "text",
+          "settings": {
+            "title": "Wo finde ich das MHD?",
+            "text": "<p>Das Haltbarkeitsdatum findest du immer auf der Verpackung deines Produktes. Es kann am Boden der Verpackung oder der Rückseite aufgedruckt sein.<\/p>"
+          }
+        },
+        "text_UeL9hd": {
+          "type": "text",
+          "settings": {
+            "title": "Wie lagere ich meine Nahrungsergänzungsmittel richtig?",
+            "text": "<p>Unsere Nahrungsergänzungsmittel solltest du am besten kühl und trocken aufbewahren und sie vor direkter Sonneneinstrahlung sowie Hitze schützen. Weitere Hinweise zur richtigen Lagerung findest du (wenn vorhanden) auf dem Etikett der Produkte und auf den Produktseiten im Shop.<\/p>"
+          }
+        },
+        "text_7bNATB": {
+          "type": "text",
+          "settings": {
+            "title": "Was mache ich noch Produkte habe, die über dem MHD sind?",
+            "text": "<p>Vitabay kann nur bis zum angegebenen MHD für die von uns vorgesehene Qualität und den von uns angegebenen Wirkstoffgehalt garantieren.<\/p><p>Bei richtiger Lagerung können unsere Produkte, in der Regel, aber über das MHD verwendet werden.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ccECwD",
+        "text_w7gqrd",
+        "text_UeL9hd",
+        "text_7bNATB"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Haltbarkeit und Lagerung",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_k4t97j": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_dQqbHN": {
+          "type": "text",
+          "settings": {
+            "title": "Mein Produkt sieht anders  aus als auf den Bildern?",
+            "text": "<p>Wir stellen das Design unserer Produkte um. Da wir keine hochwertigen Produkte vernichten möchten, stellen wir nachhaltig um. Deshalb kann es sein, dass du ein Produkt im alten Design bekommst.<\/p>"
+          }
+        },
+        "text_fq7mki": {
+          "type": "text",
+          "settings": {
+            "title": "Bedeutet ein neues Design auch neue Produktformel?",
+            "text": "<p>Nein. Alle Produkte, die du bei Vitabay kaufen kannst, entsprechen der neusten Formel. Unabhängig in welcher Verpackung du sie erhältst.<\/p>"
+          }
+        },
+        "text_GjX7tJ": {
+          "type": "text",
+          "settings": {
+            "title": "Sind Produkte in alter Verpackung nur noch kürzer haltbar?",
+            "text": "<p>Nein. Du kannst dich darauf verlassen, dass jedes Produkt noch genauso lange haltbar ist, wie es das MHD vorgibt.<\/p>"
+          }
+        },
+        "text_7TdiLE": {
+          "type": "text",
+          "settings": {
+            "title": "Wann wird es alle Vitabay-Produkte im neuen Design geben?",
+            "text": "<p>Das hängt von vielen Faktoren ab. Deshalb können wir dir dahingehend keine Information geben.<\/p>"
+          }
+        },
+        "text_bi3M9W": {
+          "type": "text",
+          "settings": {
+            "title": "Wieso gibt es nicht alle Produkte im neuen Design?",
+            "text": "<p>Wir möchten nachhaltig mit den Ressourcen umgehen. Deshalb stellen wir unser Design nach und nach um.  Hochwertige Nahrungsergänzungsmittel nur aufgrund der Verpackung zu vernichten entspricht nicht unseren Nachhaltigkeitsstandards.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_dQqbHN",
+        "text_fq7mki",
+        "text_GjX7tJ",
+        "text_7TdiLE",
+        "text_bi3M9W"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Neues Design",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
     "accordion-section-1",
-    "accordion-section-2"
+    "accordion-section-2",
+    "section_accordions_HWHfFa",
+    "section_accordions_k4t97j"
   ]
 }

@@ -1,0 +1,110 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "faq_ap66mj": {
+      "type": "faq",
+      "blocks": {
+        "item_yrRLdr": {
+          "type": "item",
+          "settings": {
+            "question": "GMO-frei¹",
+            "answer": "<p>Alle Vitabay Produkte sind GMO-frei. Wir benutzen keine Inhaltsstoffe, die genetisch verändert wurden. Bei einer genetischen Veränderung wird das Erbgut, also die Information, die bestimmt, wie ein Lebewesen aussieht und funktioniert, gezielt verändert, um bestimmte Eigenschaften zu verbessern oder zu unterdrücken. Zum Beispiel könnten Gene von anderen Tieren oder Pflanzen in eine Pflanze eingebaut werden. Durch diese genetische Veränderung verändern sich die Eigenschaften des Inhaltsstoffes.<\/p><p>Wir haben uns entschieden, keine Nahrungsergänzungsmittel mit genetisch veränderten Inhaltsstoffen anzubieten. Dafür haben wir drei Beweggründe:<\/p><p><strong>Probleme für die Umwelt und die Tiere:<\/strong><\/p><p>Genetisch veränderte Pflanzen verdrängen oft andere Pflanzen und Tiere, weil sie sich schneller ausbreiten. Dadurch leiden die Artenvielfalt und das natürliche Gleichgewicht.<\/p><p>Diese Pflanzen brauchen oft mehr Pestizide, also Chemikalien, die gegen Schädlinge helfen, aber den Boden und das Wasser schädigen können.<\/p><p>Auch Insekten sterben oft, weil die Pflanzen nicht mehr als Nahrungsquelle zur Verfügung stehen oder Abwehrmechanismen entwickelt wurden.<\/p><p><strong>Keine belastbare Studienlage zu den langfristigen Auswirkungen auf den menschlichen Körper<br\/><br\/><\/strong>Es gibt noch keine sicheren Ergebnisse, die zeigen, wie sich genetisch veränderte Lebensmittel auf den Menschen auswirken. Aber es gibt Hinweise darauf, dass es gesundheitliche Probleme geben könnte, zum Beispiel neue Allergien oder eine höhere Gefahr, dass Antibiotika nicht mehr wirken.<\/p><p><strong>Die sozialen Folgen von genetischer Veränderung von Pflanzen und Tieren<\/strong><\/p><p>Genetisch verändertes Saatgut erzielt höhere Erträge als konventionelle Landwirtschaft. Das sorgt dafür, dass Bauern gezwungen werden, sich dafür zu entscheiden, um wettbewerbsfähig zu bleiben. Da genetisch verändertes Saatgut aber sehr teuer ist, bedroht es die Existenz von Kleinbauern und ihren Familien. <\/p><p>Vitabay als Unternehmen möchte keinen Beitrag zu den negativen Folgen leisten, die durch genetische Veränderung eintreten können. Als Hersteller von hochwertigen Nahrungsergänzungsmitteln möchten wir nur positiven Einfluss auf die Gesundheit der Menschen und die Natur haben. Deshalb sind alle unsere Produkte frei von genetisch veränderten Rohstoffen. Da uns die Zukunft am Herzen liegt, werden wir auch in Zukunft alle unsere Produkte gmo-frei herstellen.<\/p>"
+          }
+        },
+        "item_aBaz4e": {
+          "type": "item",
+          "settings": {
+            "question": "Bioverfügbarkeit²",
+            "answer": "<p>Die Bioverfügbarkeit ist ein anerkanntes Verfahren und stammt aus der medizinischen Forschung. Dabei wird ermittelt, wie lange ein Produkt braucht, um von deinem Körper aufgenommen zu werden. Dabei wird auch berücksichtigt, wie lange es nach der Einnahme dauert, bis der Wirkstoff dem Körper zur Verarbeitung zur Verfügung steht.<\/p><p>Damit ist eine hohe Bioverfügbarkeit ein Qualitätsmerkmal. Auch für Nahrungsergänzungsmittel. Denn sie gibt an, wie viel von einem Mikronährstoff von deinem Körper aufgenommen und genutzt werden kann. <\/p><p>Eine hohe Bioverfügbarkeit ist damit nicht nur eine Auszeichnung für ein Produkt. Sie sorgt auch dafür, dass du zuverlässiger mit den gewünschten Nährstoffen versorgt wirst.<\/p>"
+          }
+        },
+        "item_idem9P": {
+          "type": "item",
+          "settings": {
+            "question": "Bioaktivität³",
+            "answer": "<p>Die Bioaktivität ist der Einfluss von Produkten direkt auf den Körper. Damit ist gemeint, welchen Einfluss ein Produkt, wenn du es zu dir nimmst, auf deinen Organismus hat. Dabei wird immer die Frage gestellt, wie viel positiven Nutzen du für deine Gesundheit direkt aus dem Produkt ziehen kannst.  <\/p><p>Dieses Prinzip gibt es dabei nicht nur bei Nahrungsergänzungsmittel. Auch normale Lebensmittel und Arzneien haben eine unterschiedlich hohe Bioaktivität.<\/p><p><strong>Ein Beispiel aus dem Bereich Lebensmittel:<\/strong><\/p><p>Bestimmt hast du häufiger gehört, dass fermentierte Lebensmittel sehr gut für deine Darmgesundheit sind. Das stimmt, denn durch die Verarbeitung und Reifung eines fermentierten Lebensmittels entstehen Milchsäurebakterien. Milchsäurebakterien helfen dir, deinen Darm gesund zu halten.  <\/p><p>Betrachtest du nun Lebensmittel im Vergleich, wie beispielsweise Sauerkraut und Kartoffelchips, kannst du einen Unterschied feststellen:<\/p><p>Der Unterschied, neben den Kalorien ist, dass der Körper aus Sauerkraut viele wertvolle Inhaltsstoffe direkt verarbeiten kann. Aus Kartoffelchips kann er nur einen Bruchteil aufnehmen, weswegen es ein wenig bioaktives Lebensmittel ist.<\/p><p>Die Bioaktivität beschreibt also, ob ein Produkt Anteile hat, die für deine Gesundheit einen Mehrwert bieten. <\/p><p>Dieses Prinzip gilt selbstverständlich auch bei Nahrungsergänzungsmitteln. Da du diese nimmst, um deinem Körper besonders schnell die wichtigsten Inhaltsstoffe zur Verfügung zu stellen, ist eine hohe Bioaktivität ein Qualitätsmerkmal.<\/p><p><strong>Ein Beispiel aus dem Bereich Nahrungsergänzungsmittel: Vitamin B-12<\/strong><\/p><p>Vitamin B-12 gibt es in bioaktiven und wenig bioaktiven Formen. Es gibt drei Formen von Vitamin B-12, die bioaktiv sind. Und das ist wissenschaftlich bestätigt.  Also eine direkten, positiven Einfluss auf die Gesundheit haben:<\/p><p><strong>Methylcobalamin<\/strong><\/p><p><strong>Hydroxocobalamin<\/strong><\/p><p><strong>Adenosylcobalamin<\/strong><\/p><p>Diese drei Formen kann der Körper gut aufnehmen und direkt nutzen. Somit stellst du deinem Körper das zur Verfügung, was er braucht und er kann direkt damit arbeiten.<\/p><p>Vitamin D-12 gibt es aber auch noch als Cyanocobalamin. Diese Form ist wenig bioaktiv, aber günstiger in der Herstellung. Das bedeutet, dass du viel mehr über einen längeren Zeitraum nehmen musst, bevor der Körper das Vitamin D-12 verarbeiten kann.<\/p><p>Bei Vitabay achten wir darauf, dass wir uns, wann immer möglich, für die bioaktive Form von Roh- und Inhaltsstoffen entscheiden. Denn unser Anliegen ist es, unseren Kunden immer die bestmögliche Qualität anzubieten.<\/p>"
+          }
+        },
+        "item_z4mMAR": {
+          "type": "item",
+          "settings": {
+            "question": "Phthalate⁴",
+            "answer": "<p>Phthalate bezeichnen eine Verbindung aus verschiedenen Alkoholen und Phthalsäure. Die Kombination wird als Weichmacher in verschiedenen Kunststoffen verwendet. Dadurch ist das Material weicher und leichter zu verarbeiten. In der Medizin- und der Supplement Branche werden diese Stoffe oft für Kapseln oder auch Filmtabletten verwendet.<\/p><p>Sie sind eine günstige Möglichkeit, um Produkte kundenfreundlich zu verpacken. Aber es gibt Hinweise darauf, dass der langfristige Kontakt nicht gut für die Gesundheit ist. <\/p><p>Bei Vitabay haben wir uns jedoch dazu entschieden, auf den Einsatz von Phthalaten zu verzichten. Sowohl in unseren Produkten als auch in der Verpackung. Denn die Phthalate sind nicht fest gebunden. Es besteht die Möglichkeit, dass Phthalate aus der Verpackung mit der Nahrung aufgenommen werden. Würde unsere Verpackung also mit Weichmachern hergestellt werden, könntest du bei der Einnahme deiner Supplements diese mit aufnehmen.<\/p><p>Wir bieten nur Nahrungsergänzungsmittel an, die nützlich für deine Gesundheit sind. Dabei liefern wir nur Spitzenqualität und das geht nicht mit Weichmachern in der Verpackung. Deshalb verzichten wir in allen Bereichen der Produktion und Herstellung auf Phthalate.<\/p><p>Es gibt heute noch keine Langzeitstudien für die Auswirkungen von Weichmachern auf den Menschen. Allerdings zeigen Tierstudien aus der Medizin, dass Phthalate negative Folgen für den Menschen haben könnten. Dazu gehören die eingeschränkte Funktion und Schädigung von lebenswichtigen Hormondrüsen, der Schilddrüse und der Hirnanhangsdrüse.<\/p><p>Die Gesundheit unserer Kunden ist uns wichtig. Deshalb sind unsere Vitabay Produkte frei von Phthalaten.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_yrRLdr",
+        "item_aBaz4e",
+        "item_idem9P",
+        "item_z4mMAR"
+      ],
+      "settings": {
+        "heading": "<p>Begriffsdefinitionen<\/p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 38,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 30,
+        "body_gap_mobile": 20,
+        "body_mt": 60,
+        "body_mt_mobile": 60,
+        "item_padding_bottom": 24,
+        "item_border_thickness": 1,
+        "question_custom": false,
+        "question_font": "josefin_sans_n4",
+        "question_size": 18,
+        "question_size_mobile": 18,
+        "question_height": 130,
+        "answer_custom": false,
+        "answer_font": "josefin_sans_n4",
+        "answer_size": 16,
+        "answer_size_mobile": 16,
+        "answer_height": 150,
+        "answer_padding_top": 16,
+        "heading_color": "#000000",
+        "item_border_color": "#f0efe8",
+        "question_color": "#000000",
+        "answer_color": "#000000",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 140,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq_ap66mj"
+  ]
+}
