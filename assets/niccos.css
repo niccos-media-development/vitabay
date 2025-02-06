@@ -260,7 +260,7 @@
   .product__submit__item
   .btn.btn--primary.btn--solid {
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: unset;
   background-color: #05371e;
   color: #fff;
   border-radius: 30px;
@@ -720,35 +720,6 @@ ul.pharmacy-list {
     line-height: 1.2;
     margin-top: -5px;
   }
-}
-.ruk_rating_snippet i {
-    color: #52B465;
-}
-.blog-item__article__content_custom {
-    display: flex;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
-}
-
-h3.custom_article_title {
-    color: #000;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-}
-
-.blog-item__article__content_custom p {
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
 }
 @media screen and (max-width: 420px) {
   .pharmacist-image-wrapper {
