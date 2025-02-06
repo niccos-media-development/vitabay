@@ -990,15 +990,31 @@
     }, 300);
 
     const showAnimations = document.body.dataset.animations === 'true';
-    if (showAnimations) {
-      AOS.init({
-        once: true,
-        offset: 50,
-        duration: 600,
-      });
-    }
+
+      if (showAnimations) {
+         AOS.init({
+          once: true,
+          offset: 50,
+          duration: 600,
+        });
+      }
 
     window.addEventListener('DOMContentLoaded', () => {
+
+      /* This part here lazily fixes the AOS animations without addressing the underlying CLS issues on the product page (footer) :p */
+      if (showAnimations) {
+        let lastValue, ticks;
+  
+        let intervalId = setInterval(() => {
+          ticks = lastValue === document.body.clientHeight ? ticks+1 : 0;
+  
+          if(ticks >= 5)
+            return window.dispatchEvent(new Event('resize')), clearInterval(intervalId);
+          
+          lastValue = document.body.clientHeight;
+        }, [100])
+      }
+
       setVarsOnResize();
       preventOverflow(document);
       wrapElements(document);
@@ -6836,6 +6852,7 @@
           onPlanChange: this.onPlanChange.bind(this),
         });
         const formState = this.productForm.getFormState();
+        this.updateSwtchPricing(formState)
         this.pushState(formState, true);
         this.subsToggleListeners();
 
@@ -7029,24 +7046,24 @@
           const subscription_group = product__subs?.closest('.product__subs__group');
 
           if(selling_plan_price && selling_plan_price){
-            selling_plan_price.innerText = themeCurrency.formatMoney(variant.selling_plan_allocations[0].price, theme.moneyFormat);
-            selling_plan_compare_price.innerText = themeCurrency.formatMoney(variant.price, theme.moneyFormat);
+            selling_plan_price.innerText = themeCurrency.formatMoney(variant?.selling_plan_allocations[0]?.price || variant?.price, theme.moneyFormat);
+            selling_plan_compare_price.innerText = themeCurrency.formatMoney(variant?.compare_at_price || variant?.price, theme.moneyFormat);
           }
 
           if(atcPrice){
             subscription_group && subscription_group?.classList.contains('single-purchase') ?
-            atcPrice.innerText = themeCurrency.formatMoney(variant.price, theme.moneyFormat) :
-            atcPrice.innerText = themeCurrency.formatMoney(variant.selling_plan_allocations[0].price, theme.moneyFormat);
+            atcPrice.innerText = themeCurrency.formatMoney(variant?.price, theme.moneyFormat) :
+            atcPrice.innerText = themeCurrency.formatMoney(variant?.selling_plan_allocations[0  ]?.price || variant?.price, theme.moneyFormat);
           }
 
           if(atcStickyPrice){
             subscription_group && subscription_group?.classList.contains('single-purchase') ?
-            atcStickyPrice.innerText = themeCurrency.formatMoney(variant.price, theme.moneyFormat) :
-            atcStickyPrice.innerText = themeCurrency.formatMoney(variant.selling_plan_allocations[0].price, theme.moneyFormat);
+            atcStickyPrice.innerText = themeCurrency.formatMoney(variant?.price, theme.moneyFormat) :
+            atcStickyPrice.innerText = themeCurrency.formatMoney(variant?.selling_plan_allocations[0]?.price || variant?.price, theme.moneyFormat);
           }
 
           if(single_purchase_price){
-            single_purchase_price.innerText = themeCurrency.formatMoney(variant.price, theme.moneyFormat);
+            single_purchase_price.innerText = themeCurrency.formatMoney(variant?.price, theme.moneyFormat);
           }
 
           if(single_purchase_compare_price){
@@ -7070,8 +7087,43 @@
         });
       }
 
+
+      
+    updateSwtchPricing(formState){
+      const swatchPriceElements = this.product.querySelectorAll('.swatch-price');
+      const options =  this.productJSON.options
+      const selectedOptions =  formState.options
+      const variant = formState.variant
+      for(let i=0;i<swatchPriceElements.length;i++){
+        const swatchElement = swatchPriceElements[i]
+        
+        const index = options.findIndex(option=>option === swatchElement.dataset.optionindex);
+        let optionArray = selectedOptions?.slice(0,index)?.map(op=>op.value)
+
+       
+        const matchingVariants = this.productJSON.variants.filter(variant => {
+          return variant.options.slice(0, optionArray.length).every((option, index) => option === optionArray[index]);
+        });
+        const variant = matchingVariants.find(variant => variant.options[index] === swatchElement.dataset.optionvalue);
+        
+        let qunitity =  variant.options[index]?.split(" ")?.[0]
+        qunitity =parseInt(qunitity)!=NaN ? qunitity : 1
+        
+        let price =formState.plan ? variant.selling_plan_allocations?.[0]?.price : (variant.compare_at_price || variant.price)
+        let unitPrice = (price)/qunitity
+        swatchElement.textContent =  (theme.settings.currency_code_enable
+          ? themeCurrency.formatMoney(unitPrice, theme.moneyWithCurrencyFormat)
+          : themeCurrency.formatMoney(unitPrice, theme.moneyFormat)) + "/ Stk."
+          
+
+      }
+
+      
+    }
+
       updateHistoryState(formState) {
         const variant = formState.variant;
+         this.updateSwtchPricing(formState)
         const plan = formState.plan;
         const location = window.location.href;
         if (variant && location.includes('/product')) {
