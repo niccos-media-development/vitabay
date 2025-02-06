@@ -240,22 +240,28 @@ document.addEventListener('DOMContentLoaded', function() {
         modelWrap.classList.add('step-1-active');
     }
 
+    popupTrigger !== null &&
     popupTrigger.addEventListener('click', function() {
         openPopup();
     });
 
+    popupCloseBtn !== null &&
     popupCloseBtn.addEventListener('click', function() {
         closePopup();
     });
 
+
+    overlay !== null &&
     overlay.addEventListener('click', function() {
         closePopup();
     });
 
+    firstStapbtn !== null &&
     firstStapbtn.addEventListener('click', function() {
         firstStap();
     });
 
+    backStepbtn !== null &&
     backStepbtn.addEventListener('click', function() {
         backStep();
     });
