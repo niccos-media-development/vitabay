@@ -1,0 +1,88 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-block-0": {
+          "type": "text",
+          "settings": {
+            "alignment": "text-left",
+            "title": "Our Mission",
+            "footer_text": "<p>Leave your customers with a final message about your brand in this rich text block.</p>",
+            "column_width": "20"
+          }
+        },
+        "footer-block-1": {
+          "type": "divider",
+          "settings": {
+            "show_border_line": false,
+            "column_width": "20"
+          }
+        },
+        "footer-block-2": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "main-menu",
+            "title": "Shop",
+            "column_width": "15"
+          }
+        },
+        "footer-block-3": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "footer",
+            "title": "Helpful Links",
+            "column_width": "15"
+          }
+        },
+        "footer-block-4": {
+          "type": "newsletter",
+          "settings": {
+            "alignment": "text-left",
+            "title": "Sign up for offers",
+            "uppercase_heading": true,
+            "heading_size": 160,
+            "text": "<p>Stay up to date with the new collections, products and exclusive offers.</p>",
+            "button_text": "Sign up",
+            "button_color": "btn--white",
+            "button_style": "btn--solid",
+            "column_width": "30"
+          }
+        }
+      },
+      "block_order": [
+        "footer-block-0",
+        "footer-block-1",
+        "footer-block-2",
+        "footer-block-3",
+        "footer-block-4"
+      ],
+      "settings": {
+        "show_footer_wave": false,
+        "enable_footer_parallax": true,
+        "increase_border_radius": true,
+        "bottom_bar_alignment": "text-left",
+        "show_social_links": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "bottom_menu": "",
+        "color_text": "#ffffff",
+        "color_bg": "#000000",
+        "color_border": "#ffffff",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
