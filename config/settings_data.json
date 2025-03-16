@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "color_body_bg": "#fbfbfb",
+    "color_body_bg": "#ffffff",
     "color_body_bg_secondary": "#f1f1f1",
     "color_headings": "#0d0d0d",
     "color_body_text": "#0d0d0d",
@@ -125,7 +125,8 @@
     "checkout_error_color": "#b01736",
     "nav_caps": false,
     "logo_max_width": "30",
-    "show_shop_name": true
+    "show_shop_name": true,
+    "content_for_index": []
   },
   "presets": {
     "Vibrant": {

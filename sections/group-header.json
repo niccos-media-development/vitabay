@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -28,7 +37,9 @@
       "block_order": [
         "announcement-0"
       ],
+      "disabled": true,
       "settings": {
+        "width": "wrapper--full",
         "layout": "marquee",
         "show_top_border": false,
         "show_bottom_border": true,
@@ -111,11 +122,11 @@
         "image-3"
       ],
       "settings": {
-        "sticky_header": false,
-        "header_border": true,
+        "sticky_header": true,
+        "header_border": false,
         "link_hover_effect": "dot",
-        "logo_not_home": "{{ shop.brand.logo }}",
-        "logo_max_width": 100,
+        "logo_not_home": "shopify://shop_images/Vitabay_Main_Logo.png",
+        "logo_max_width": 80,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
         "show_images": false,
@@ -123,6 +134,8 @@
         "menu_alignment": "left",
         "header_icons_as_text": false,
         "highlight_item": "Sale",
+        "enable_custom_badge": false,
+        "custom_badge_text": "10% OFF",
         "highlight_item_color": "#d02e2e",
         "header_transparent": false,
         "header_text_color": "white",
