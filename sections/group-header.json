@@ -41,6 +41,9 @@
         "announcement_wep4Pe",
         "announcement_GMCmBP"
       ],
+      "custom_css": [
+        "p {margin:0px;}"
+      ],
       "settings": {
         "background_color": "#0e432c",
         "text_color": "#FFFFFF",
