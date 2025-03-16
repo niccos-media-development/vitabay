@@ -30,69 +30,16 @@
             "link_2": "shopify://collections",
             "link_text_2": "Kategorien"
           }
-        },
-        "slide_88pQLN": {
-          "type": "slide",
-          "settings": {
-            "overlay": 0,
-            "tab": "Slide 2",
-            "custom_code": "",
-            "b-points1": "",
-            "b-points2": "",
-            "b-points3": "",
-            "title": "New collection out",
-            "text": "Introducing our enchanting new collection, inspired by the season's rejuvenating spirit.",
-            "link": "",
-            "link_text": "Shop all",
-            "link_2": "",
-            "link_text_2": "Pruning"
-          }
-        },
-        "slide_qczyBV": {
-          "type": "slide",
-          "settings": {
-            "overlay": 0,
-            "tab": "Slide 3",
-            "custom_code": "",
-            "b-points1": "",
-            "b-points2": "",
-            "b-points3": "",
-            "title": "New collection out",
-            "text": "Introducing our enchanting new collection, inspired by the season's rejuvenating spirit.",
-            "link": "",
-            "link_text": "Shop all",
-            "link_2": "",
-            "link_text_2": "Pruning"
-          }
-        },
-        "slide_yxnh4K": {
-          "type": "slide",
-          "settings": {
-            "overlay": 0,
-            "tab": "Slide 4",
-            "custom_code": "",
-            "b-points1": "",
-            "b-points2": "",
-            "b-points3": "",
-            "title": "New collection out",
-            "text": "Introducing our enchanting new collection, inspired by the season's rejuvenating spirit.",
-            "link": "",
-            "link_text": "Shop all",
-            "link_2": "",
-            "link_text_2": "Pruning"
-          }
         }
       },
       "block_order": [
-        "slide_efwCYx",
-        "slide_88pQLN",
-        "slide_qczyBV",
-        "slide_yxnh4K"
+        "slide_efwCYx"
       ],
       "settings": {
         "height": "900",
         "mobile_height": "500",
         "autoplay_duration": "5",
+        "promo_image": "shopify://shop_images/Group_2_1.png",
         "promo_image1_left": 8,
         "promo_image1_top": 0,
         "promo_image1_width": 500,
