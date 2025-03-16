@@ -101,17 +101,17 @@
         "button_border_color": "rgba(0,0,0,0)",
         "button_border_hover_color": "rgba(0,0,0,0)",
         "second_button_color": "#ffffff",
-        "second_button_hover_color": "#FFFFFF",
+        "second_button_hover_color": "#ffffff",
         "second_button_bg_color": "rgba(0,0,0,0)",
         "second_button_bg_hover_color": "rgba(0,0,0,0)",
         "second_button_border_color": "#ffffff",
         "second_button_border_hover_color": "#ffffff",
-        "heading_color": "#FFFFFF",
-        "text_color": "#FFFFFF",
-        "tab_text_color": "#FFFFFF",
-        "pagination_background_color": "#8D8D8D",
-        "pagination_active_color": "#FFFFFF",
-        "background_color": "#FFFFFF",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "tab_text_color": "#ffffff",
+        "pagination_background_color": "#8d8d8d",
+        "pagination_active_color": "#ffffff",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -125,70 +125,9 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "section-icons-row-0": {
-      "type": "section-icons-row",
-      "blocks": {
-        "section-icons-row-0-block-0": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "title": "Free Shipping",
-            "text": "<p>on all order over $99</p>"
-          }
-        },
-        "section-icons-row-0-block-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "title": "Free Returns",
-            "text": "<p>within 30 days of purchase</p>"
-          }
-        },
-        "section-icons-row-0-block-2": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "title": "1% Donated",
-            "text": "<p>to forest conservation</p>"
-          }
-        }
-      },
-      "block_order": [
-        "section-icons-row-0-block-0",
-        "section-icons-row-0-block-1",
-        "section-icons-row-0-block-2"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 20,
-        "show_vertical_borders": true,
-        "show_top_border": true,
-        "show_bottom_border": true,
-        "heading_size": 100,
-        "text_size": 90,
-        "bg_color": "#f4f3f1",
-        "gradient": "",
-        "text_color": "#000000",
-        "box_color": "",
-        "color_border": "#333333",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "layout_mobile": "grid",
-        "width": "wrapper",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
-    "niccos_slideshow_BX3aHm",
-    "section-icons-row-0"
+    "niccos_slideshow_BX3aHm"
   ]
 }
