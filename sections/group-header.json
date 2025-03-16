@@ -11,6 +11,43 @@
   "type": "header",
   "name": "Header",
   "sections": {
+    "niccos_announcement_MRg838": {
+      "type": "niccos-announcement",
+      "blocks": {
+        "announcement_hUpakA": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/icons_3_1_2.svg",
+            "text": "<p>Kostenlose Lieferung ab 70€</p>"
+          }
+        },
+        "announcement_wep4Pe": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/stars_2.svg",
+            "text": "<p>Über 300.000 zufriedene Kunden</p>"
+          }
+        },
+        "announcement_GMCmBP": {
+          "type": "announcement",
+          "settings": {
+            "icon": "shopify://shop_images/icons_4_1_2.svg",
+            "text": "<p>Nr.1 Supplements in Deutschland</p>"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hUpakA",
+        "announcement_wep4Pe",
+        "announcement_GMCmBP"
+      ],
+      "settings": {
+        "background_color": "#0e432c",
+        "text_color": "#FFFFFF",
+        "rotation_interval": 4,
+        "font_size": 16
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -144,6 +181,7 @@
     }
   },
   "order": [
+    "niccos_announcement_MRg838",
     "announcement-bar",
     "header"
   ]
