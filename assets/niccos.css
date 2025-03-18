@@ -436,6 +436,7 @@ a.image_main_new_calll {
 
 /* For Shoppable blog */
 .shoppable-blog .flickity-enabled.is-draggable {
+  min-height: 500px;
   height: fit-content;
 }
 .body--rounded-corners .blog-item__article__link {
@@ -443,6 +444,7 @@ a.image_main_new_calll {
   width: 100%;
   height: auto;
 }
+
 .shoppable-blog h2.section__heading.shoppable-blog__heading {
     text-align: left;
     font-weight: 700;
@@ -451,19 +453,19 @@ a.image_main_new_calll {
 .shoppable-blog .blog-item .blog-item__article {
   height: max-content;
 }
- button.flickity-button.flickity-prev-next-button.next {
+.shoppable-blog  button.flickity-button.flickity-prev-next-button.next {
     top: -53px!important;
     z-index: 99;
     box-shadow: none;
     opacity: 1 !important;
 }
- .flickity-prev-next-button:before {
+.shoppable-blog  .flickity-prev-next-button:before {
     background: #14BE5F!important;
 }
-.flickity-prev-next-button {
+.shoppable-blog .flickity-prev-next-button {
     opacity: 1!important;
 }
- button.flickity-button.flickity-prev-next-button.previous {
+.shoppable-blog button.flickity-button.flickity-prev-next-button.previous {
     right: 126px!important;
     left: auto!important;
     top: -52px!important;
@@ -538,7 +540,12 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
   .niccos-product-template *:not([class^="ruk-icon-"], [class*=" ruk-icon-"]) {
     font-family: "Circe", sans-serif !important;
   }
-  
+  .niccos-product-template button.flickity-button.flickity-prev-next-button.previous {
+
+  }
+  .niccos-product-template button.flickity-button.flickity-prev-next-button.next {
+    
+  }
   /* header section redesign */
   .template-product .mobile-menu {
     display: none;
