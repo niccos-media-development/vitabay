@@ -809,6 +809,25 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
   .popup-quick-view__form--small .popup-quick-view__wrapper .popup-quick-view__body__inner .popup-quick-view__gallery {
     order: 2;
   }
+  .popup-quick-view__form--small .popup-quick-view__wrapper .popup-quick-view__body__inner .popup-quick-view__gallery .flickity-button {
+    display: block;
+  }
+  .popup-quick-view__form--small .popup-quick-view__wrapper .popup-quick-view__body__inner .product-gallery__media-slider {
+    margin-right: -25px;
+  }
+  .popup-quick-view__form--small .popup-quick-view__wrapper .popup-quick-view__body__inner .product-gallery__media-slide {
+    width: 90%;
+  }
+  .popup-quick-view__form--small .popup-quick-view__wrapper .popup-quick-view__body__inner .product__price--regular {
+    margin: 0 6px 5px 0;
+    color: #0e432c;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .popup-quick-view__form--small .popup-quick-view__wrapper .popup-quick-view__body__inner .product__price {
+    flex-direction: row;
+    align-items: baseline;
+  }
   /* End QUick view*/
   /* product description section */
   .nico-product-single__wrapper .product__submit__item .btn.btn--primary.btn--solid {
