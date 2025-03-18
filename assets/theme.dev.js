@@ -8282,6 +8282,73 @@
             formSelect.value = variant.id;
           }
 
+          
+        // subscription price and atc update
+        const selling_plan_price = element.querySelector(
+          ".subscription-purchase-price .subscription-price"
+        );
+        const single_purchase_price = element.querySelector(
+          ".single-purchase-price .single-price"
+        );
+        const single_purchase_compare_price = element.querySelector(
+          ".single-purchase-price s"
+        );
+        const selling_plan_compare_price = element.querySelector(
+          ".subscription-purchase-price s"
+        );
+        const atcPrice = element.querySelector(".calculate-price");
+        const atcStickyPrice = document.querySelector(
+          ".mobile-sticky-atc .atc-amount"
+        );
+        const product__subs = element.querySelector(
+          ".product__subs input:checked"
+        );
+        const subscription_group = product__subs?.closest(
+          ".product__subs__group"
+        );
+
+        if (selling_plan_price && selling_plan_price) {
+          selling_plan_price.innerText = themeCurrency.formatMoney(
+            variant.selling_plan_allocations[0].price,
+            theme.moneyFormat
+          );
+          selling_plan_compare_price.innerText = themeCurrency.formatMoney(
+            variant.price,
+            theme.moneyFormat
+          );
+        }
+
+       if(atcPrice){
+            subscription_group && subscription_group?.classList.contains('single-purchase') ?
+            atcPrice.innerText = themeCurrency.formatMoney(variant?.price, theme.moneyFormat) :
+            atcPrice.innerText = themeCurrency.formatMoney(variant?.selling_plan_allocations[0  ]?.price || variant?.price, theme.moneyFormat);
+          }
+
+          if(atcStickyPrice){
+            subscription_group && subscription_group?.classList.contains('single-purchase') ?
+            atcStickyPrice.innerText = themeCurrency.formatMoney(variant?.price, theme.moneyFormat) :
+            atcStickyPrice.innerText = themeCurrency.formatMoney(variant?.selling_plan_allocations[0]?.price || variant?.price, theme.moneyFormat);
+          }
+
+        if (single_purchase_price) {
+          single_purchase_price.innerText = themeCurrency.formatMoney(
+            variant.price,
+            theme.moneyFormat
+          );
+        }
+
+        if (single_purchase_compare_price) {
+          if (variant.compare_at_price > 0) {
+            single_purchase_compare_price.style.display = "flex";
+          } else {
+            single_purchase_compare_price.style.display = "none";
+          }
+          single_purchase_compare_price.innerText = themeCurrency.formatMoney(
+            variant.compare_at_price,
+            theme.moneyFormat
+          );
+        }
+
           // Unavailable variant
           if (!variant.available) {
             element.classList.add(classes$J.variantSoldOut);
