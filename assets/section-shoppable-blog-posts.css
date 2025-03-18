@@ -82,7 +82,7 @@
 
 .blog-item {
   --item-width: calc(var(--wrapper-width) * 0.9 - var(--grid-gutter));
-  --item-width-horizontal: calc(var(--item-width) * 2 + var(--grid-gutter));
+  --item-width-horizontal: calc(var(--item-width) * 1.4 + var(--grid-gutter));
   --item-outer: 40px;
   position: relative;
   display: block;
