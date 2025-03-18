@@ -9,13 +9,19 @@
   assign tabs_bg_color = block_settings.tabs_bg_color
   assign text = block_settings.accordion_text
   assign page = block_settings.accordion_page
+  assign content = page.content | default: text
+  assign heading_style = block_settings.heading_style
+  assign metafiled_from_text = text | split: '[' | last | split: ']' | first
+  assign keys = metafiled_from_text | split: '.'
+  assign namespace = keys[0] | strip
+  assign value = keys[1] | strip
+  assign dynamic_field = product.variants[0].metafields[namespace][value]
+  assign replace_content = '[' | append: metafiled_from_text  | append: ']'
+  assign content = content | replace: replace_content, ''
 
-  if show_description
-    assign content = product.description | default: text
-  else
-    assign content = page.content | default: text
+  if page != blank
+    assign dynamic_field = dynamic_field.value.content
   endif
-
   assign border_opacity = 0
   if show_accordion_divider
     assign border_opacity = 1
@@ -73,11 +79,13 @@
       data-collapsible-container
     >
       <div class="product__accordion__inner rte" data-collapsible-content>
-        {%- render 'toggle-ellipsis',
-          content: content,
-          enable_full_width: enable_full_width,
-          show_read_more: show_read_more
-        -%}
+        {{ content }}
+        {% if dynamic_field != blank %}
+          {{ dynamic_field }}
+        {% endif %}
+        {% if block_settings.show_description %}
+          {{ product.description }}
+        {% endif %}
       </div>
     </div>
   </div>
