@@ -1,0 +1,552 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.niccos-product-template",
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": false,
+            "padding_bottom": 20
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_full_width": false,
+            "padding_bottom": 20
+          }
+        },
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Highlight or Feature",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Materials and specs",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Shipping and returns",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon_name": "support",
+            "icon_width": 25,
+            "title": "Need help with sizing?",
+            "text": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "bg_color": "#f7f9fa",
+            "text_color": "#000000",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product_list": [],
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "inventory_countdown",
+        "description",
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "product_accordion",
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
+        "upsell"
+      ],
+      "disabled": true,
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_product_PmnWBg": {
+      "type": "niccos-product",
+      "blocks": {
+        "title_QbQxKq": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "shipping_text": "inkl. MwSt. & kostenloser Versand ab 60€",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": true,
+            "padding_bottom": 20
+          }
+        },
+        "product_checklist_xGjbKY": {
+          "type": "product_checklist",
+          "settings": {}
+        },
+        "testiomonial_3QQbrz": {
+          "type": "testiomonial",
+          "settings": {
+            "testiomonial_text": "{{ product.metafields.custom.arzt_zitat.value }}",
+            "testiomonial_subtext": "Dr. Med. Harald Pfeffer",
+            "image": "shopify:\/\/shop_images\/image_67.png",
+            "additional_text": "",
+            "margin_top": 0,
+            "margin_bottom": 18
+          }
+        },
+        "form_dgBKTr": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": true,
+            "subscriptions_text": "Abonnieren und Sparen!",
+            "checklist_text_1": "Jederzeit flexibel kündbar",
+            "checklist_text_2": "Wähle die Häufigkeit die zu dir passt",
+            "checklist_text_3": "Kostenloser Versand ab 60€",
+            "checklist_text_4": "Kostenlose Retoure",
+            "checklist_text_5": "Sichere Zahlung",
+            "padding_bottom": 20
+          }
+        },
+        "delivery_type_gbEhka": {
+          "type": "delivery_type",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/g10.png",
+            "delivery_text_1": "Testen Sie unsere Gesundheitsprodukte risikofrei und erleben Sie, wie sie Ihren Alltag positiv beeinflussen können.",
+            "image_2": "shopify:\/\/shop_images\/image_68.png",
+            "delivery_text_2": "Wir versenden klimafreundlich mit DHL GoGreen und garantieren eine schnelle Lieferung innerhalb von 1-2 Tagen.",
+            "delivery_text_3": "Lieferung in 1-3 Werktagen",
+            "delivery_text_4": "Lieferung in 1-3 Werktagen",
+            "delivery_text_5": "Lieferung in 1-3 Werktagen",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "pharmacy_UYVCCg": {
+          "type": "pharmacy",
+          "settings": {
+            "heading": "Online Apotheke",
+            "margin_bottom": 24
+          }
+        },
+        "product_accordion_ik6BrK": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Dosierung",
+            "heading_style": "font-body",
+            "accordion_text": "<p>[custom.dosierung-variante]<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_h8KaJn": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Inhaltsstoffe",
+            "heading_style": "font-body",
+            "accordion_text": "<p>[custom.n_hrwerttabelle]<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_RQq4Ee": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Laboranalyse",
+            "heading_style": "font-body",
+            "accordion_text": "<p>[custom.laborzertifikat]<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title_QbQxKq",
+        "product_checklist_xGjbKY",
+        "testiomonial_3QQbrz",
+        "form_dgBKTr",
+        "delivery_type_gbEhka",
+        "pharmacy_UYVCCg",
+        "product_accordion_ik6BrK",
+        "product_accordion_h8KaJn",
+        "product_accordion_RQq4Ee"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_two_grid_conent_ixhDR8": {
+      "type": "niccos-two-grid-conent",
+      "blocks": {
+        "content_block_CfFcQh": {
+          "type": "content_block",
+          "settings": {
+            "swap": false,
+            "enable_bullet_points": true,
+            "label": "",
+            "heading": "{{ product.metafields.product_usp_title.product_usp_title | metafield_text }}",
+            "conent": "<p>{{ product.description }}<\/p>",
+            "choose_media": "image",
+            "image": "{{ product.metafields.custom.picture.value }}",
+            "video": "shopify:\/\/files\/videos\/The Shopify Story.mp4"
+          }
+        },
+        "content_block_8rpLde": {
+          "type": "content_block",
+          "settings": {
+            "swap": true,
+            "enable_bullet_points": false,
+            "label": "",
+            "heading": "",
+            "conent": "<h4><strong>Deutsche Apothekenqualität<\/strong><\/h4><p>{{ product.metafields.custom.qualit_t | metafield_tag }}<\/p>",
+            "choose_media": "image",
+            "image": "shopify:\/\/shop_images\/Rectangle_12168.png"
+          }
+        }
+      },
+      "block_order": [
+        "content_block_CfFcQh",
+        "content_block_8rpLde"
+      ],
+      "settings": {
+        "top_margin": 21,
+        "bottom_margin": 35
+      }
+    },
+    "nicos_testimonial_CFwNyW": {
+      "type": "nicos-testimonial",
+      "settings": {
+        "heading": "Dr. med. Harald Pfeffer",
+        "subheading": "Gründungsvater von Vitabay",
+        "content": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>",
+        "image": "shopify:\/\/shop_images\/image_2.png",
+        "background_color": "#05371e",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "subheading_color": "#ffffff",
+        "top_margin": 0,
+        "bottom_margin": 64
+      }
+    },
+    "niccos_section_accordions_Lbg3Pw": {
+      "type": "niccos-section-accordions",
+      "blocks": {
+        "text_tq8r6X": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_NJihEw": {
+          "type": "text",
+          "settings": {
+            "title": "How should I take the Melatonin 3 mg Chewable Tablets?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_gHz9e7": {
+          "type": "text",
+          "settings": {
+            "title": "Are these tablets habit-forming?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_Qd7Mjm": {
+          "type": "text",
+          "settings": {
+            "title": "Can I take these melatonin tablets every night?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        },
+        "text_7tq3qd": {
+          "type": "text",
+          "settings": {
+            "title": "Are the tablets suitable for vegans and free from allergens?",
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tq8r6X",
+        "text_NJihEw",
+        "text_gHz9e7",
+        "text_Qd7Mjm",
+        "text_7tq3qd"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "enable_metafields": true,
+        "title": "Häufig gestellte Fragen",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#f7f7f7",
+        "background_color": "#f7f7f7",
+        "width": "wrapper--narrow",
+        "padding_top": 42,
+        "padding_bottom": 74
+      }
+    },
+    "1742240512c2ff1ba1": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_RXftaj": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#0d9410",
+            "review_type": "product_review",
+            "per_page": 5,
+            "primary_btn_bg_color": "#0d9410",
+            "primary_btn_border_color": "#0d9410",
+            "primary_btn_text_color": "#ffffff",
+            "secondary_btn_border_color": "#0d9410",
+            "secondary_btn_text_color": "#000000",
+            "border_color": "#000000",
+            "heading_text_color": "#000000",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#000000",
+            "badge_icon_color": "#0d9410",
+            "badge_text_color": "#000000",
+            "enable_rich_snippets": false,
+            "show_location": false,
+            "show_tab_selector": false,
+            "show_dates": false,
+            "show_avatar": false,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "highest_rating"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_RXftaj"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "nicos_icon_discription_wRtyFy": {
+      "type": "nicos-icon-discription",
+      "blocks": {
+        "icon_text_G64RWM": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Von Familie für Familie",
+            "subheading": "<p>Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_54ca76bf-3942-4441-af49-002826577ea9_2.png"
+          }
+        },
+        "icon_text_h4cjWj": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Leidenschaft für Gesundheit",
+            "subheading": "<p>Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2.png"
+          }
+        },
+        "icon_text_6Y3EBN": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Aktive Forschung",
+            "subheading": "<p>Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_2.png"
+          }
+        },
+        "icon_text_BgM6Yp": {
+          "type": "icon-text",
+          "settings": {
+            "label": "Aktive Forschung",
+            "subheading": "<p>Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung<\/p>",
+            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_3_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_G64RWM",
+        "icon_text_h4cjWj",
+        "icon_text_6Y3EBN",
+        "icon_text_BgM6Yp"
+      ],
+      "settings": {
+        "heading": "Unsere Werte bei Vitabay",
+        "background_image": "shopify:\/\/shop_images\/Muster_zusammengefugt_2.png",
+        "top_margin": 0,
+        "bottom_margin": 0
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "Das passt auch dazu",
+            "product_recommendations_limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "title": "Zuletzt angesehen",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "columns_mobile": "1",
+        "type_style": "subheading-text",
+        "tab_heading_size": 100,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_related_products_JGrAAH": {
+      "type": "niccos-related-products",
+      "blocks": {
+        "related_EpQi6D": {
+          "type": "related",
+          "settings": {
+            "title": "Das könnte dir auch gefallen",
+            "product_recommendations_limit": 6
+          }
+        }
+      },
+      "block_order": [
+        "related_EpQi6D"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "niccos_product_PmnWBg",
+    "niccos_two_grid_conent_ixhDR8",
+    "nicos_testimonial_CFwNyW",
+    "niccos_section_accordions_Lbg3Pw",
+    "1742240512c2ff1ba1",
+    "nicos_icon_discription_wRtyFy",
+    "related",
+    "niccos_related_products_JGrAAH"
+  ]
+}

@@ -5,7 +5,7 @@
   <div class="footer-copyright__content">
     <span class="footer-copyright__copy">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}.</span>
 
-    <span class="footer-copyright__powered">{{ powered_by_link }}</span>
+    {% comment %} <span class="footer-copyright__powered">{{ powered_by_link }}</span> {% endcomment %}
   </div>
 
   {%- if bottom_menu != blank and linklists[bottom_menu].links.size > 0 -%}

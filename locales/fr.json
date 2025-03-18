@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Ce site Web a des limites de navigation. Il est recommandé d'utiliser un navigateur comme Edge, Chrome, Safari ou Firefox.",
@@ -16,7 +25,7 @@
     },
     "accessibility": {
       "skip_to_content": "Aller au contenu",
-      "select_variant":  "Sélectionnez la liste déroulante des variantes",
+      "select_variant": "Sélectionnez la liste déroulante des variantes",
       "show_submenu": "Afficher le sous-menu",
       "product": "Produit",
       "show_products": "Afficher les produits",
@@ -47,13 +56,13 @@
     "meta": {
       "tags": "Étiqueter \"{{ tags }}\"",
       "page": "Page {{ page }}"
-      },
+    },
     "404": {
       "title": "404",
       "subtext_html": "Cette page n'existe pas.",
       "button_text": "Retour à la page d'accueil"
     },
-      "newsletter_form": {
+    "newsletter_form": {
       "heading": "Bulletin",
       "name": "Votre nom",
       "first_name": "Prénom",
@@ -178,12 +187,12 @@
       "checkout": "Caisset",
       "empty": "Votre panier est actuellement vide.",
       "accept_terms": "Vous devez accepter nos termes et conditions.",
-      "accepted_terms": "Termes/conditions acceptés?",
+      "accepted_terms": "Termes\/conditions acceptés?",
       "zero_qty_error": "La quantité doit être supérieur à 0.",
       "limit_error": "Désolé, il semble que nous n’ayons pas assez de ce produit.",
       "continue_shopping": "Continuer vos achats",
       "close_cart": "Fermer le panier",
-      "free_shipping_message_html": "Dépensez <span data-free-shipping-amount=\"\">{{ amount }}</span> pour bénéficier de la livraison gratuite",
+      "free_shipping_message_html": "Dépensez <span data-free-shipping-amount=\"\">{{ amount }}<\/span> pour bénéficier de la livraison gratuite",
       "qualified_shipping_message": "Toutes nos félicitations! Tes commandes se qualifient pour des expeditions gratuites"
     },
     "label": {
@@ -222,7 +231,7 @@
       "show_less": "Montrer moins",
       "title": "Collection",
       "to": "À",
-      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout effacer</a>"
+      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout effacer<\/a>"
     }
   },
   "collections": {
@@ -523,8 +532,8 @@
       "add_to_cart": "Ajouter au panier",
       "buy_it_now": "Achetez-le maintenant",
       "on_sale": "Vente",
-      "save_badge_html" : "Économisez {{ discount }}",
-      "save_badge_up_to_html" : "Économisez jusqu'à {{ discount }}",
+      "save_badge_html": "Économisez {{ discount }}",
+      "save_badge_up_to_html": "Économisez jusqu'à {{ discount }}",
       "quick_view": "Achat rapide",
       "checkout": "Caisse",
       "view_in_space": "Afficher dans votre espace",
@@ -580,9 +589,9 @@
     "month_day_year": "%B %d, %Y"
   },
   "footer": {
-    "socials" : {
-      "title":"Voir {{ shop_name }} sur {{ social }}",
-      "rss":"RSS"
+    "socials": {
+      "title": "Voir {{ shop_name }} sur {{ social }}",
+      "rss": "RSS"
     },
     "country": "Pays",
     "language": "Langue",

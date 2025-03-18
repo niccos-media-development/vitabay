@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Acest site are suport limitat pentru browserul dvs. Vă recomandăm să treceți la Edge, Chrome, Safari sau Firefox.",
@@ -178,7 +187,7 @@
       "checkout": "Finalizare comandă",
       "empty": "Coșul tău este gol momentan.",
       "accept_terms": "Trebuie să accepți termenii și condițiile noastre.",
-      "accepted_terms": "Termeni/condiții acceptate?",
+      "accepted_terms": "Termeni\/condiții acceptate?",
       "zero_qty_error": "Cantitatea trebuie să fie mai mare de 0.",
       "limit_error": "Ne pare rău, se pare că nu avem suficient din acest produs.",
       "continue_shopping": "Continuă cumpărăturile",

@@ -17,22 +17,22 @@
         "announcement_hUpakA": {
           "type": "announcement",
           "settings": {
-            "icon": "shopify://shop_images/icons_3_1_2.svg",
-            "text": "<p>Kostenlose Lieferung ab 70€</p>"
+            "icon": "shopify:\/\/shop_images\/icons_3_1_2.svg",
+            "text": "<p>Kostenlose Lieferung ab 70€<\/p>"
           }
         },
         "announcement_wep4Pe": {
           "type": "announcement",
           "settings": {
-            "icon": "shopify://shop_images/stars_2.svg",
-            "text": "<p>Über 300.000 zufriedene Kunden</p>"
+            "icon": "shopify:\/\/shop_images\/stars_2.svg",
+            "text": "<p>Über 300.000 zufriedene Kunden<\/p>"
           }
         },
         "announcement_GMCmBP": {
           "type": "announcement",
           "settings": {
-            "icon": "shopify://shop_images/icons_4_1_2.svg",
-            "text": "<p>Nr.1 Supplements in Deutschland</p>"
+            "icon": "shopify:\/\/shop_images\/icons_4_1_2.svg",
+            "text": "<p>Nr.1 Supplements in Deutschland<\/p>"
           }
         }
       },
@@ -42,11 +42,11 @@
         "announcement_GMCmBP"
       ],
       "custom_css": [
-        "p {margin:0px;}"
+        "p {margin: 0px;}"
       ],
       "settings": {
         "background_color": "#0e432c",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "rotation_interval": 4,
         "font_size": 16
       }
@@ -57,7 +57,7 @@
         "announcement-0": {
           "type": "text",
           "settings": {
-            "text": "<p>New customers save 10% with code WELCOME10</p>",
+            "text": "<p>New customers save 10% with code WELCOME10<\/p>",
             "text_color": "",
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
@@ -161,11 +161,12 @@
         "image-2",
         "image-3"
       ],
+      "disabled": true,
       "settings": {
         "sticky_header": true,
         "header_border": false,
         "link_hover_effect": "dot",
-        "logo_not_home": "shopify://shop_images/Vitabay_Main_Logo.png",
+        "logo_not_home": "shopify:\/\/shop_images\/Vitabay_Main_Logo.png",
         "logo_max_width": 80,
         "main-menu": "main-menu",
         "main_menu_secondary": "",
@@ -181,11 +182,64 @@
         "header_text_color": "white",
         "header_gradient": true
       }
+    },
+    "niccos_header_BVepk6": {
+      "type": "niccos-header",
+      "blocks": {
+        "image_jAKjzj": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image_second_menu": false,
+            "image": "shopify:\/\/shop_images\/Untitled_3a76adef-5ec6-4446-bd1f-afebe7df50b8.png",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "Blasen-Harmonie-Set®",
+            "heading_size": 100,
+            "link_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.",
+            "link": "shopify:\/\/products\/d-mannose-veganes-pulver"
+          }
+        },
+        "mobileimage_CHifwQ": {
+          "type": "mobileimage",
+          "settings": {
+            "url": "shopify:\/\/products\/d-mannose-veganes-pulver",
+            "feat_image": "shopify:\/\/shop_images\/Untitled_3a76adef-5ec6-4446-bd1f-afebe7df50b8.png",
+            "title": "Blasen-Harmonie-Set®",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+          }
+        }
+      },
+      "block_order": [
+        "image_jAKjzj",
+        "mobileimage_CHifwQ"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "header_border": false,
+        "link_hover_effect": "line",
+        "logo_not_home": "shopify:\/\/shop_images\/Vitabay_Main_Logo.png",
+        "logo_max_width": 80,
+        "main-menu": "new-header-menu",
+        "main_menu_secondary": "",
+        "show_images": true,
+        "image_aspect_ratio": 0.5,
+        "menu_alignment": "left",
+        "header_icons_as_text": false,
+        "highlight_item": "Sale",
+        "enable_custom_badge": false,
+        "custom_badge_text": "10% OFF",
+        "highlight_item_color": "#d02e2e",
+        "header_transparent": true,
+        "header_text_color": "white",
+        "header_gradient": true
+      }
     }
   },
   "order": [
     "niccos_announcement_MRg838",
     "announcement-bar",
-    "header"
+    "header",
+    "niccos_header_BVepk6"
   ]
 }

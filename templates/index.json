@@ -21,13 +21,13 @@
             "b-points1": "",
             "b-points2": "",
             "b-points3": "",
-            "image": "shopify://shop_images/Rectangle_1.jpg",
-            "mobile_image": "shopify://shop_images/Rectangle_1_2x_73ade200-ba67-4806-bfac-438273cc1774.jpg",
+            "image": "shopify:\/\/shop_images\/Rectangle_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_1_2x_73ade200-ba67-4806-bfac-438273cc1774.jpg",
             "title": "Gesundheit beginnt mit Vertrauen",
             "text": "Über 25 Jahre medizinische Expertise für Dein Wohlbefinden.",
-            "link": "shopify://collections/all",
+            "link": "shopify:\/\/collections\/all",
             "link_text": "Alle Produkte",
-            "link_2": "shopify://collections",
+            "link_2": "shopify:\/\/collections",
             "link_text_2": "Kategorien"
           }
         }
@@ -39,7 +39,7 @@
         "height": "900",
         "mobile_height": "500",
         "autoplay_duration": "5",
-        "promo_image": "shopify://shop_images/Group_2_1.png",
+        "promo_image": "shopify:\/\/shop_images\/Group_2_1.png",
         "promo_image1_left": 8,
         "promo_image1_top": 0,
         "promo_image1_width": 500,
@@ -125,9 +125,599 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "section_list_collection_T6h4BF": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_ihXhbV": {
+          "type": "collection",
+          "settings": {
+            "collection": "immunsystem",
+            "custom_collection_image": "shopify:\/\/shop_images\/image.png",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_9wLp3n": {
+          "type": "collection",
+          "settings": {
+            "collection": "konzentration-energie",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_1.png",
+            "heading": "Energie & Konzentration",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_wGEgcP": {
+          "type": "collection",
+          "settings": {
+            "collection": "antiaging",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_8882222e-c24c-4a94-857b-a8575408bc9b.png",
+            "heading": "Anti-Aging & Vitalität",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_W9fD3L": {
+          "type": "collection",
+          "settings": {
+            "collection": "gedachtnis",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_1.png",
+            "heading": "Gewichtsmanagement",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_VmzqMY": {
+          "type": "collection",
+          "settings": {
+            "collection": "verdauung",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_2.png",
+            "heading": "Verdauung",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_zd9ah4": {
+          "type": "collection",
+          "settings": {
+            "collection": "gelenke-knochen",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_3.png",
+            "heading": "Gelenke & Knochen",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_9Q6VBb": {
+          "type": "collection",
+          "settings": {
+            "collection": "sport-und-leistung",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_4.png",
+            "heading": "Sport & Leistung",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_ihXhbV",
+        "collection_9wLp3n",
+        "collection_wGEgcP",
+        "collection_W9fD3L",
+        "collection_VmzqMY",
+        "collection_zd9ah4",
+        "collection_9Q6VBb"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "What are you looking for?",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "left",
+        "collections_per_row": 6,
+        "columns_mobile": "1",
+        "image_shape": "square",
+        "image_aspect_ratio": 1,
+        "enable_product_count": false,
+        "text_size": 85,
+        "overlay_text": false,
+        "enable_slider_mobile": true,
+        "section_bg_color": "",
+        "gradient": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_list_collection_T4LpHW": {
+      "type": "niccos-list-collection",
+      "blocks": {
+        "collection_gzNjcN": {
+          "type": "collection",
+          "settings": {
+            "collection": "immunsystem",
+            "custom_collection_image": "shopify:\/\/shop_images\/image.png",
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_zxDBcq": {
+          "type": "collection",
+          "settings": {
+            "collection": "konzentration-energie",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_1.png",
+            "heading": "Energie & Konzentration",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_X4zWzF": {
+          "type": "collection",
+          "settings": {
+            "collection": "antiaging",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_8882222e-c24c-4a94-857b-a8575408bc9b.png",
+            "heading": "Anti-Aging & Vitalität",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_ADLtBz": {
+          "type": "collection",
+          "settings": {
+            "collection": "gedachtnis",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_1.png",
+            "heading": "Gewichtsmanagement",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_g7FdYY": {
+          "type": "collection",
+          "settings": {
+            "collection": "verdauung",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_2.png",
+            "heading": "Verdauung",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_pqAeDM": {
+          "type": "collection",
+          "settings": {
+            "collection": "gelenke-knochen",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_3.png",
+            "heading": "Gelenke & Knochen",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_c48Vfq": {
+          "type": "collection",
+          "settings": {
+            "collection": "sport-und-leistung",
+            "custom_collection_image": "shopify:\/\/shop_images\/image_2x_4.png",
+            "heading": "Sport & Leistung",
+            "block_text_color": "",
+            "bg_color": "#f5f5f5",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_gzNjcN",
+        "collection_zxDBcq",
+        "collection_X4zWzF",
+        "collection_ADLtBz",
+        "collection_g7FdYY",
+        "collection_pqAeDM",
+        "collection_c48Vfq"
+      ],
+      "settings": {
+        "title": "What are you looking for?",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "left",
+        "collections_per_row": 6,
+        "columns_mobile": "2",
+        "image_shape": "square",
+        "image_aspect_ratio": 1,
+        "text_size": 85,
+        "overlay_text": false,
+        "enable_slider_mobile": true,
+        "section_bg_color": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_usp_section_6AapXX": {
+      "type": "niccos-usp-section",
+      "blocks": {
+        "usp_block_M7wCeF": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/hugeicons--body-part-muscle_1_2x_1.png",
+            "usp_title": "",
+            "usp_text": "Supports Natural Sleep-Wake Cycle"
+          }
+        },
+        "usp_block_mDGcHj": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/hugeicons--body-part-muscle_1_2x_1.png",
+            "usp_title": "",
+            "usp_text": "Supports Natural Sleep-Wake Cycle"
+          }
+        },
+        "usp_block_QEeU8x": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/hugeicons--body-part-muscle_1_2x_1.png",
+            "usp_title": "",
+            "usp_text": "Supports Natural Sleep-Wake Cycle"
+          }
+        },
+        "usp_block_fQ9rDe": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/hugeicons--body-part-muscle_1_2x_1.png",
+            "usp_title": "",
+            "usp_text": "Supports Natural Sleep-Wake Cycle"
+          }
+        }
+      },
+      "block_order": [
+        "usp_block_M7wCeF",
+        "usp_block_mDGcHj",
+        "usp_block_QEeU8x",
+        "usp_block_fQ9rDe"
+      ],
+      "settings": {
+        "section_max_width": 740,
+        "section_bg": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 35,
+        "padding_bottom": 50,
+        "section_title": "Product USP’s",
+        "title_font_color": "",
+        "title_font_size_desktop": 38,
+        "title_font_size_mobile": 32,
+        "title_margin_bottom": 20,
+        "title_margin_bottom_mob": 20,
+        "title_alignment_desktop": "center",
+        "title_alignment_mobile": "left",
+        "content_alignment": "center",
+        "usp_content": true,
+        "icon_width_desktop": 50,
+        "icon_width_mobile": 50,
+        "usp_title_size_desktop": 24,
+        "usp_title_size_mobile": 16,
+        "icon_font_size_desktop": 18,
+        "icon_font_size_mobile": 18,
+        "icon_background_color": "#5ad291",
+        "icon_border_radius": 50,
+        "icon_text_color": "#0a2923",
+        "items_per_row_desktop": 4,
+        "items_per_row_mobile": 2
+      }
+    },
+    "section_collection_BpwjGG": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "favoriten",
+        "products_layout": "carousel",
+        "number_of_products": 27,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>Bestsellers<\/p>",
+        "heading_highlight_type": "circle-hand-drawn",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#212121",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_position": "top",
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color": "",
+        "enable_slider_mobile": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_RfCktD": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<h2 style=\"text-align:center\">Was Kunden über uns sagen <\/h2>\n<script src=\"https:\/\/widget.reviews.io\/carousel-inline-iframeless\/dist.js?_t=2024032906\"><\/script>\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/css\/widgets\/carousel-widget.css?_t=2024032906\">\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/iconfont\/reviewsio-icons\/style.css?_t=2024032906\">\n<div id=\"reviewsio-carousel-widget\"><\/div>\n<script>\n\nnew carouselInlineWidget('reviewsio-carousel-widget',{\n      \/*Your REVIEWS.io account ID:*\/\n      store: 'vitabay',\n      sku: '',\n      lang: 'de',\n      carousel_type: 'topHeader',\n      styles_carousel: 'CarouselWidget--topHeader',\n\n      \/*Widget settings:*\/\n      options:{\n        general:{\n          \/*What reviews should the widget display? Available options: company, product, third_party. You can choose one type or multiple separated by comma.*\/\n          review_type: 'company, product, third_party',\n          \/*Minimum number of reviews required for widget to be displayed*\/\n          min_reviews: '1',\n          \/*Maximum number of reviews to include in the carousel widget.*\/\n          max_reviews: '20',\n          address_format: 'CITY, COUNTRY',\n          \/*Carousel auto-scrolling speed. 3000 = 3 seconds. If you want to disable auto-scroll, set this value to false.*\/\n          enable_auto_scroll: 10000,\n        },\n        header:{\n          \/*Show overall rating stars*\/\n          enable_overall_stars: true,\n          rating_decimal_places: 2,\n        },\n        reviews: {\n          \/*Show customer name*\/\n          enable_customer_name: true,\n          \/*Show customer location*\/\n          enable_customer_location: true,\n          \/*Show \"verified review\" badge*\/\n          enable_verified_badge: true,\n          \/*Show \"verified subscriber\" badge*\/\n          enable_subscriber_badge: true,\n          \/*Show \"I recommend this product\" badge (Only for product reviews)*\/\n          enable_recommends_badge: true,\n          \/*Show photos attached to reviews*\/\n          enable_photos: true,\n          \/*Show videos attached to reviews*\/\n          enable_videos: true,\n          \/*Show when review was written*\/\n          enable_review_date: true,\n          \/*Hide reviews written by the same customer (This may occur when customer reviews multiple products)*\/\n          disable_same_customer: true,\n          \/*Minimum star rating*\/\n          min_review_percent: 4,\n          \/*Show 3rd party review source*\/\n          third_party_source: true,\n          \/*Hide reviews without comments (still shows if review has a photo)*\/\n          hide_empty_reviews: true,\n          \/*Show product name*\/\n          enable_product_name: true,\n          \/*Show only reviews which have specific tags (multiple semicolon separated tags allowed i.e tag1;tag2)*\/\n          tags: \"\",\n          \/*Show branch, only one input*\/\n          branch: \"\",\n          enable_branch_name: false,\n        },\n        popups: {\n          \/*Make review items clickable (When they are clicked, a popup appears with more information about a customer and review)*\/\n          enable_review_popups:  true,\n          \/*Show \"was this review helpful\" buttons*\/\n          enable_helpful_buttons: true,\n          \/*Show how many times review was upvoted as helpful*\/\n          enable_helpful_count: true,\n          \/*Show share buttons*\/\n          enable_share_buttons: true,\n        },\n    },\n    translations: {\n      verified_customer:  \"Verifizierter Kunde\",\n    },\n    styles:{\n      \/*Base font size is a reference size for all text elements. When base value gets changed, all TextHeading and TexBody elements get proportionally adjusted.*\/\n      '--base-font-size': '16px',\n      '--base-maxwidth':'100%',\n\n      \/*Logo styles:*\/\n      '--reviewsio-logo-style':'var(--logo-normal)',\n\n      \/*Star styles:*\/\n      '--common-star-color':'#FFDC0D',\n      '--common-star-disabled-color':' rgba(0,0,0,0.25)',\n      '--medium-star-size':'16px',\n      '--small-star-size':'16px', \/*Modal*\/\n      '--x-small-star-size':'16px',\n      '--x-small-star-display':'inline-flex',\n\n      \/*Header styles:*\/\n      '--header-order':'1',\n      '--header-width':'160px',\n      '--header-bg-start-color':'transparent',\n      '--header-bg-end-color':'transparent',\n      '--header-gradient-direction':'135deg',\n      '--header-padding':'0.5em',\n      '--header-border-width':'0px',\n      '--header-border-color':'rgba(0,0,0,0.1)',\n      '--header-border-radius':'0px',\n      '--header-shadow-size':'0px',\n      '--header-shadow-color':'rgba(0, 0, 0, 0.1)',\n\n      \/*Header content styles:*\/\n      '--header-star-color':'#FFDC0D',\n      '--header-disabled-star-color':'inherit',\n      '--header-heading-text-color':'inherit',\n      '--header-heading-font-size':'inherit',\n      '--header-heading-font-weight':'inherit',\n      '--header-heading-line-height':'inherit',\n      '--header-heading-text-transform':'inherit',\n      '--header-subheading-text-color':'inherit',\n      '--header-subheading-font-size':'inherit',\n      '--header-subheading-font-weight':'inherit',\n      '--header-subheading-line-height':'inherit',\n      '--header-subheading-text-transform':'inherit',\n\n      \/*Review item styles:*\/\n      '--item-maximum-columns':'5',\/*Must be 3 or larger*\/\n      '--item-background-start-color':'transparent',\n      '--item-background-end-color':'transparent',\n      '--item-gradient-direction':'135deg',\n      '--item-padding':'0.5em',\n      '--item-border-width':'0px',\n      '--item-border-color':'rgba(0,0,0,0.1)',\n      '--item-border-radius':'0px',\n      '--item-shadow-size':'0px',\n      '--item-shadow-color':'rgba(0,0,0,0.1)',\n\n      \/*Heading styles:*\/\n      '--heading-text-color':' #0E1311',\n      '--heading-text-font-weight':' 600',\n      '--heading-text-font-family':' inherit',\n      '--heading-text-line-height':' 1.4',\n      '--heading-text-letter-spacing':'0',\n      '--heading-text-transform':'none',\n\n      \/*Body text styles:*\/\n      '--body-text-color':' #0E1311',\n      '--body-text-font-weight':'400',\n      '--body-text-font-family':' inherit',\n      '--body-text-line-height':' 1.4',\n      '--body-text-letter-spacing':'0',\n      '--body-text-transform':'none',\n\n      \/*Scroll button styles:*\/\n      '--scroll-button-icon-color':'#0E1311',\n      '--scroll-button-icon-size':'16px',\n      '--scroll-button-bg-color':'transparent',\n\n      '--scroll-button-border-width':'0px',\n      '--scroll-button-border-color':'rgba(0,0,0,0.1)',\n\n      '--scroll-button-border-radius':'60px',\n      '--scroll-button-shadow-size':'0px',\n      '--scroll-button-shadow-color':'rgba(0,0,0,0.1)',\n      '--scroll-button-horizontal-position':'0px',\n      '--scroll-button-vertical-position':'0px',\n\n      \/*Badge styles:*\/\n      '--badge-icon-color':'#0E1311',\n      '--badge-icon-font-size':'15px',\n      '--badge-text-color':'#0E1311',\n      '--badge-text-font-size':'inherit',\n      '--badge-text-letter-spacing':'inherit',\n      '--badge-text-transform':'inherit',\n\n      \/*Author styles:*\/\n      '--author-font-size':'inherit',\n      '--author-font-weight':'inherit',\n      '--author-text-transform':'inherit',\n\n      \/*Product photo or review photo styles:*\/\n      '--photo-video-thumbnail-size':'60px',\n      '--photo-video-thumbnail-border-radius':'0px',\n\n      \/*Popup styles:*\/\n      '--popup-backdrop-color':'rgba(0,0,0,0.75)',\n      '--popup-color':'#ffffff',\n      '--popup-star-color':'inherit',\n      '--popup-disabled-star-color':'inherit',\n      '--popup-heading-text-color':'inherit',\n      '--popup-body-text-color':'inherit',\n      '--popup-badge-icon-color':'inherit',\n      '--popup-badge-icon-font-size':'16px',\n      '--popup-badge-text-color':'inherit',\n      '--popup-badge-text-font-size':'14px',\n      '--popup-border-width':'0px',\n      '--popup-border-color':'rgba(0,0,0,0.1)',\n      '--popup-border-radius':'0px',\n      '--popup-shadow-size':'0px',\n      '--popup-shadow-color':'rgba(0,0,0,0.1)',\n      '--popup-icon-color':'#0E1311',\n\n      \/*Tooltip styles:*\/\n      '--tooltip-bg-color':'#0E1311',\n      '--tooltip-text-color':'#ffffff',\n    },\n});\n\n<\/script>",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "niccos_usp_section_8crmBi": {
+      "type": "niccos-usp-section",
+      "blocks": {
+        "usp_block_Vtzthe": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2x_c503fab5-c40c-423d-91c7-b5d04644bd66.png",
+            "usp_title": "Von Familie für Familie",
+            "usp_text": "Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise."
+          }
+        },
+        "usp_block_z8hcEc": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2_2x_83440b4c-6d29-4904-9215-6c873a3f30d6.png",
+            "usp_title": "Leidenschaft für Gesundheit",
+            "usp_text": "Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen."
+          }
+        },
+        "usp_block_HBcxtN": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_2_2x_e5e6b266-0609-4c4a-94ef-385282f2d4b4.png",
+            "usp_title": "Aktive Forschung",
+            "usp_text": "Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material."
+          }
+        },
+        "usp_block_C9Pbd3": {
+          "type": "usp_block",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_3_1_2x_f9d07ec8-100c-4aaa-a76c-7f9641fba136.png",
+            "usp_title": "Aktive Forschung",
+            "usp_text": "Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung"
+          }
+        }
+      },
+      "block_order": [
+        "usp_block_Vtzthe",
+        "usp_block_z8hcEc",
+        "usp_block_HBcxtN",
+        "usp_block_C9Pbd3"
+      ],
+      "custom_css": [
+        ".custom-blocks p.usp-text {font-weight: 400 !important;}",
+        ".section-template--24204083986765__nicc_usp_jM68BR .usp-items {gap: 40px;}",
+        ".custom-blocks {width: 100%;}"
+      ],
+      "settings": {
+        "section_max_width": 700,
+        "section_bg": "#0e432c",
+        "section_bg_image": "shopify:\/\/shop_images\/Muster_zusammengefugt_2_1.png",
+        "section_bg_image_mob": "shopify:\/\/shop_images\/Muster_zusammengefugt_2_2x_af5bf205-0064-4d97-a588-5340f2b9e316.png",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_title": "Unsere Werte bei Vitabay",
+        "title_font_color": "#ffffff",
+        "title_font_size_desktop": 38,
+        "title_font_size_mobile": 32,
+        "title_margin_bottom": 55,
+        "title_margin_bottom_mob": 35,
+        "title_alignment_desktop": "center",
+        "title_alignment_mobile": "left",
+        "content_alignment": "left",
+        "usp_content": false,
+        "icon_width_desktop": 50,
+        "icon_width_mobile": 50,
+        "usp_title_size_desktop": 18,
+        "usp_title_size_mobile": 16,
+        "icon_font_size_desktop": 16,
+        "icon_font_size_mobile": 16,
+        "icon_background_color": "#ffffff",
+        "icon_border_radius": 50,
+        "icon_text_color": "#ffffff",
+        "items_per_row_desktop": 2,
+        "items_per_row_mobile": 1
+      }
+    },
+    "section_image_with_text_8f4G9q": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "subheading_PV8xWp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Gründungsvater von Vitabay",
+            "size": 75,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "heading_M3wmVP": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Dr. med. Harald Pfeffer<\/p>",
+            "size": 130,
+            "text_position": "left",
+            "heading_highlight_type": "circle-hand-drawn",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#ffffff",
+            "spacing_bottom": 12
+          }
+        },
+        "text_LYrAwE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>",
+            "size": 100,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PV8xWp",
+        "heading_M3wmVP",
+        "text_LYrAwE"
+      ],
+      "settings": {
+        "show_accordion_divider": false,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/IMG_0813.jpg",
+        "block_bg_color": "",
+        "text_color": "text-light",
+        "bg_color": "#053712",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_image_VmhBra": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_tyin43": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Welcome to<\/p>",
+            "size": 100
+          }
+        },
+        "heading_BP8XmH": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Individuelle Gesundheit leicht gemacht<\/p>",
+            "size": 115,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_ggJimM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unser smarter Gesundheitsberater hilft Ihnen, die richtigen Supplements für Ihre individuellen Bedürfnisse zu entdecken – schnell, einfach und persönlich.<\/p>",
+            "size": 100
+          }
+        },
+        "button_AP7abx": {
+          "type": "button",
+          "settings": {
+            "stacked_button": false,
+            "button_1_text": "Empfehlung entdecken",
+            "button_1_link": "shopify:\/\/collections\/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tyin43",
+        "heading_BP8XmH",
+        "text_ggJimM",
+        "button_AP7abx"
+      ],
+      "settings": {
+        "height": "original-height",
+        "enable_mobile_height": true,
+        "mobile_height": "original-height-mobile",
+        "image": "shopify:\/\/shop_images\/Quiz-Section_2.png",
+        "image_mobile": "shopify:\/\/shop_images\/Quiz-Section_3.png",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": false,
+        "enable_card_scrolling": false,
+        "increase_border_radius": true,
+        "text_width": "narrow",
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "niccos_shoppable_blog_dtYXCx": {
+      "type": "niccos-shoppable-blog",
+      "blocks": {
+        "article_mbUrH6": {
+          "type": "article",
+          "settings": {
+            "article": "news\/blog-title",
+            "product_list": []
+          }
+        },
+        "article_fx9Mfi": {
+          "type": "article",
+          "settings": {
+            "article": "news\/blog-title",
+            "product_list": []
+          }
+        },
+        "article_AfzrwL": {
+          "type": "article",
+          "settings": {
+            "article": "news\/blog-title",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "article_mbUrH6",
+        "article_fx9Mfi",
+        "article_AfzrwL"
+      ],
+      "settings": {
+        "columns_mobile": "1",
+        "title": "Blog",
+        "show_tags": true,
+        "show_title_out_side": true,
+        "overlay_opacity": 10,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "niccos_slideshow_BX3aHm"
+    "niccos_slideshow_BX3aHm",
+    "section_list_collection_T6h4BF",
+    "niccos_list_collection_T4LpHW",
+    "niccos_usp_section_6AapXX",
+    "section_collection_BpwjGG",
+    "section_custom_html_RfCktD",
+    "niccos_usp_section_8crmBi",
+    "section_image_with_text_8f4G9q",
+    "section_banner_image_VmhBra",
+    "niccos_shoppable_blog_dtYXCx"
   ]
 }

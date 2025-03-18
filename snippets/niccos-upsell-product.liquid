@@ -1,0 +1,804 @@
+{% if settings.enable_product_upsell %}
+  {% assign upsell_products = product.metafields.custom.products_upsell.value %}
+
+  {% if upsell_products %}
+    {% assign is_subscription = false %}
+    {% assign selling_plan_groups = product.selling_plan_groups %}
+
+    {% if selling_plan_groups.size > 0 or product.tags contains 'subscription' %}
+      {% assign is_subscription = true %}
+    {% endif %}
+
+    <div
+      id="niccos-products-popup"
+      data-subscription-enabled="{{ is_subscription }}"
+      class="upsell-popup">
+      <div class="upsell-popup__overlay"></div>
+      <div class="upsell-popup__content">
+        <div class="upsell-popup__notification">
+          <span>
+            <span class="upsell-popup__notification-title">{{ product.title }}</span>
+            {{ settings.upsell_popup_added_text }}
+          </span>
+          <button class="upsell-popup__close" aria-label="Close">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18 6L6 18"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M6 6L18 18"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="upsell-popup__header">
+          <h2>{{ settings.upsell_popup_title }}</h2>
+          <p>{{ settings.upsell_popup_subtitle }}</p>
+        </div>
+
+        <div class="upsell-popup__products">
+          <div class="upsell-popup__products-slider-nav">
+            <button class="slider-nav prev" aria-label="Previous">
+              <svg
+                width="30"
+                height="24"
+                viewBox="0 0 30 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.2693 16.3L20.7693 8.80005L13.2693 1.30005"
+                  stroke="#14BE5F"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+
+            <button class="slider-nav next" aria-label="Next">
+              <svg
+                width="30"
+                height="24"
+                viewBox="0 0 30 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.2693 16.3L20.7693 8.80005L13.2693 1.30005"
+                  stroke="#14BE5F"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="upsell-popup__products-slider">
+            {% for item in upsell_products %}
+              {% assign current_variant = item.selected_or_first_available_variant %}
+              <div
+                class="upsell-popup__product"
+                data-has-variants="{% unless item.has_only_default_variant %}true{% else %}false{% endunless %}"
+                data-variants='{{ item.variants | json | escape }}'
+                data-options='{{ item.options_with_values | json | escape }}'
+                data-option-name="{{ item.options_with_values[0].name }}"
+                data-currency="{{ shop.money_format }}">
+                <div class="upsell-popup__image">
+                  {% assign img_url = item.featured_image | img_url: '520x520', crop: 'center' %}
+                  <img
+                    src="{{ img_url }}"
+                    alt="{{ item.title }}"
+                    width="120"
+                    height="120"
+                    loading="lazy">
+                </div>
+
+
+                <div class="upsell-popup__details">
+                  <div class="upsell-popup__rating">
+                    <div class="ruk_rating_snippet" data-sku="{{ item.handle }};{{ item.variants | map: 'sku' | join: ';' }};{{ item.variants | map: 'id' | join: ';' }}"></div>
+                  {% comment %} <span class="review-count">({{ item.metafields.reviews.rating_count }})</span> {% endcomment %}
+                  </div>
+
+                  <h3 class="upsell-popup__title">{{ item.title }}</h3>
+
+                  <div class="upsell-popup__price">
+                    <div class="upsell-popup__price-container">
+                      <span class="sale-price">{{ current_variant.price | money }}</span>
+
+                      {% if current_variant.unit_price %}
+                        <div class="unit-price">{{ current_variant.unit_price | money }}/{{ current_variant.unit_price_measurement.reference_unit }}</div>
+                      {% endif %}
+                      {% if current_variant.compare_at_price > current_variant.price %}
+                        <span class="compare-at-price">{{ current_variant.compare_at_price | money }}</span>
+                      {% endif %}
+                    </div>
+
+
+                    <div>
+                      <button
+                        class="add-product-button"
+                        {% unless current_variant.available %}
+                        disabled{% endunless %}
+                        data-variant-id="{{ current_variant.id }}"
+                        data-default-variant-id="{{ current_variant.id }}"
+                        data-default-variant-price="{{ current_variant.price }}"
+                        data-default-variant-compare-price="{{ current_variant.compare_at_price }}"
+                        data-product-title="{{ item.title }}"
+                        data-product-price="{{ current_variant.price }}"
+                        data-unit-price="{{ current_variant.unit_price }}"
+                        data-selected-variant="{{ current_variant.id }}"
+                        data-currency="{{ shop.money_format }}">
+
+                        <svg
+                          width="31"
+                          height="31"
+                          viewBox="0 0 31 31"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <circle
+                            cx="15.5"
+                            cy="15.5"
+                            r="15.5"
+                            fill="#05371E"
+                            class="button-circle" />
+                          <path
+                            d="M16 10.1667V21.8334"
+                            stroke="white"
+                            stroke-width="1.31915"
+                            stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path
+                            d="M10.1666 16H21.8333"
+                            stroke="white"
+                            stroke-width="1.31915"
+                            stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+
+
+        </div>
+
+        <button class="upsell-popup__add-cart" disabled>
+          {{ settings.upsell_popup_cart_button }}
+        </button>
+        <button class="upsell-popup__cancel">{{ settings.upsell_popup_cancel_button }}</button>
+        <div class="variant-selector-overlay"></div>
+        <div class="variant-selector-sheet">
+
+
+          <div class="variant-selector-header">
+            <div class="variant-header-left">
+              <img
+                class="variant-product-image"
+                src=""
+                alt="">
+              <div class="variant-header-info">
+                <h3 class="variant-product-title"></h3>
+                <div class="variant-header-price">
+                  <span class="variant-sheet-price"></span>
+                  <span class="variant-sheet-compare-price"></span>
+                </div>
+              </div>
+            </div>
+            <button class="variant-selector-close" aria-label="Close">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none">
+                <path
+                  d="M18 6L6 18M6 6l12 12"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+          <div class="variant-selector-content">
+            <div class="subscription-popup__variants upsell-popup__variants">
+              {% for option in item.options_with_values %}
+                {% if item.variants[forloop.index0].featured_media != blank and option.name contains "Anzahl" %}
+                  {% assign is_image_swatch = true %}
+                {% endif %}
+
+                <div class="option-wrapper">
+                  <label>{{ option.name }}</label>
+                  <div
+                    class="variant-boxes"
+                    data-option-position="{{ forloop.index }}"
+                    data-variant-boxes>
+                    {% for value in option.values %}
+                      <button
+                        type="button"
+                        class="variant-box {% if is_image_swatch %}variant-box-image{% endif %} {% if forloop.first %}selected{% endif %}"
+                        data-variant-id="{{ value.variant.id }}"
+                        data-price="{{ value.variant.price }}"
+                        data-option-value="{{ value }}"
+                        data-option-position="{{ forloop.index0 }}">
+                        <span class="variant-box-text">{{ value }}</span>
+                        {% if is_image_swatch %}
+                          <span class="swatch-price">{{ value.variant.price | money_without_trailing_zeros }} / Stk.</span>
+                          {% unless forloop.first %}
+                            <span class="swatch-badge">
+                              {% liquid
+                                assign regular_price = value.variant.price
+                                assign discount = regular_price | times: 0.2 | round
+                                assign discount_percent = 20
+                              %}
+                              Spare {{ discount_percent }}%
+                            </span>
+                          {% endunless %}
+                        {% endif %}
+                      </button>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <style>
+      .upsell-popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        display: none;
+      }
+
+      .upsell-popup__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .upsell-popup__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 0 24px 24px;
+        border-radius: 16px;
+        max-width: 558px;
+        width: calc(100% - 32px);
+        z-index: 1;
+        overflow: hidden;
+      }
+
+      @media screen and (max-width: 767px) {
+        .upsell-popup__content {
+          top: auto;
+          bottom: 0;
+          left: 0;
+          transform: none;
+          width: 100%;
+          max-width: 100%;
+          border-radius: 16px 16px 0 0;
+          padding: 16px;
+          max-height: 95vh;
+          overflow-y: auto;
+        }
+
+        .upsell-popup__products-slider-nav {
+          padding: 0 16px;
+        }
+      }
+
+      .upsell-popup__notification {
+        background: #14BE5F;
+        color: white;
+        font-size: 14px;
+        padding: 12px;
+        margin: 0 -24px 24px;
+        border-radius: 16px 16px 0 0;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      @media screen and (max-width: 767px) {
+        .upsell-popup__notification {
+          margin: -16px -16px 16px;
+        }
+        .upsell-popup__products-slider-nav {
+          padding: 0 8px !important;
+        }
+        .upsell-popup__close svg path {
+          stroke: #05371E !important;
+        }
+        .upsell-popup__close {
+
+          top: 80px;
+          position: absolute;
+          right: 10px;
+        }
+        .unit-price {
+          margin-left: 0 !important;
+        }
+      }
+
+
+      .upsell-popup__close {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+
+      }
+      .upsell-popup__price-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+
+      .sale-price {
+        white-space: nowrap;
+      }
+      .upsell-popup__products {
+        position: relative;
+        padding: 0 16px;
+        margin: 0 -16px;
+      }
+
+      .upsell-popup__products-slider {
+        display: flex;
+        gap: 16px;
+        padding: 0;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+
+      .upsell-popup__products-slider-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        padding: 0 24px;
+      }
+      .upsell-popup__products-slider::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari, Opera */
+      }
+
+      .upsell-popup__products-slider * {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+      }
+
+      .upsell-popup__product {
+        flex: 0 0 175px;
+        flex-direction: column;
+        /* Fixed width for each product card */
+        position: relative;
+        scroll-snap-align: start;
+      }
+
+      .upsell-popup__product.selected {
+        border: 2px solid #14BE5F;
+      }
+
+      .upsell-popup__variants {
+        margin-top: 0;
+      }
+      .upsell-popup__image {
+        width: 100%;
+        height: 175px;
+        margin-bottom: 8px;
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        /* background: #F7F7F7; */
+        justify-content: center;
+      }
+
+      .upsell-popup__image img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+
+      .add-product-button::disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+      .add-product-button {
+        /* position: absolute; */
+        /* bottom: 10px; */
+        /* right: 8px; */
+        width: 31px;
+        height: 31px;
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+        z-index: 2;
+      }
+
+      .upsell-popup__details {
+        text-align: left;
+      }
+      .upsell-popup__cancel {
+        color: #52B465;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .upsell-popup__rating {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .upsell-popup__title {
+        font-size: 16px;
+        line-height: 1.4;
+        color: #212121;
+        margin: 4px 0 0;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .upsell-popup__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4px;
+
+      }
+
+      .sale-price {
+        font-size: 18px;
+        font-weight: 700;
+        color: #14BE5F;
+      }
+
+      .unit-price {
+        font-size: 12px;
+        color: #ABABAB;
+        margin-top: -4px;
+        /* margin-left: 0 !important; */
+      }
+
+      .upsell-popup__add-cart {
+        width: 80%;
+        background: #05371E;
+        color: white;
+        padding: 14px;
+        border-radius: 30px;
+        border: none;
+        font-weight: 700;
+        margin: 18px auto;
+        cursor: pointer;
+        display: block;
+        text-align: center;
+      }
+
+      .upsell-popup__header {
+        text-align: center;
+        margin-bottom: 22px;
+        margin-top: 8px;
+      }
+
+      .upsell-popup__header h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 4px;
+        color: #05371E;
+      }
+
+      .upsell-popup__header p {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+      }
+
+      .upsell-popup__products {
+        max-height: 60vh;
+        overflow-y: auto;
+      }
+
+      .slider-nav {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+
+      }
+
+      .slider-nav.prev {
+        left: 8px;
+      }
+
+      .slider-nav.next {
+        right: 8px;
+      }
+
+      .slider-nav.prev svg {
+        transform: rotate(180deg);
+      }
+
+      .variant-selector-sheet {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: white;
+        border-radius: 16px 16px 0 0;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        display: none;
+        box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+      }
+
+      .variant-selector-sheet.active {
+        transform: translateY(0);
+        display: block;
+      }
+
+      .variant-selector-header {
+        padding: 16px;
+        border-bottom: 1px solid #E5E5E5;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: #FFFFFF;
+        border-radius: 16px 16px 0 0;
+      }
+
+      .variant-header-left {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        flex: 1;
+      }
+
+      .variant-product-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 8px;
+        object-fit: cover;
+        background: #F7F7F7;
+        padding: 10px
+      }
+
+      .variant-header-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .variant-product-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #05371E;
+        margin: 0;
+        line-height: 1.4;
+      }
+
+      .variant-header-price {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .variant-sheet-price {
+        font-size: 18px;
+        font-weight: 700;
+        color: #14BE5F;
+      }
+
+      .variant-sheet-compare-price {
+        font-size: 14px;
+        color: #707070;
+        text-decoration: line-through;
+      }
+
+      .variant-selector-close {
+        background: none;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+        color: #707070;
+        /* margin: -8px -8px 0 0; */
+        border-radius: 50%;
+        transition: background-color 0.2s ease;
+      }
+
+      .variant-selector-close:hover {
+      ;
+      /* background-color: #F5F5F5; */
+    }
+
+    .variant-selector-content {
+      padding: 20px;
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+
+    .subscription-popup__variants {
+
+    ;
+    /* margin-top: 20px; */
+  }
+
+  .option-wrapper {
+    margin-bottom: 16px;
+  }
+
+  .option-wrapper label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #05371E;
+    margin-bottom: 8px;
+  }
+
+  .variant-boxes {
+    display: flex;
+    gap: 8px;
+  }
+
+  .variant-box {
+    position: relative;
+    /* width: 100%; */
+    padding: 8px;
+    border: 2px solid ababab;
+    border-radius: 8px;
+    background: white;
+    color: #ababab;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .variant-box.selected {
+    border-color: #14BE5F;
+    color: #05371E;
+    /* background: #F9F9F9; */
+  }
+
+  .variant-box-text {
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+
+  .variant-box-image {
+    padding: 8px;
+  }
+
+  .swatch-price {
+    font-size: 12px;
+    color: #707070;
+  }
+
+  .swatch-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #14BE5F;
+    color: white;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .selected-variant {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 8px;
+    padding: 4px 12px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #05371E;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .selected-variant:hover {
+    background: #E5E5E5;
+  }
+
+
+  .compare-at-price {
+    font-size: 14px;
+    color: #707070;
+    text-decoration: line-through;
+    margin-right: 8px;
+  }
+
+  .variant-box-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .variant-compare-price {
+    font-size: 12px;
+    color: #707070;
+    text-decoration: line-through;
+  }
+
+  .variant-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: #05371E;
+  }
+
+  .variant-selector-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 88;
+    display: none;
+  }
+
+  .variant-selector-overlay.active {
+    display: block;
+  }
+
+    </style>
+  {% endif %}
+{% endif %}

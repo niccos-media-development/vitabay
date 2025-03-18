@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "Diese Seite unterstützt Ihren Browser nur eingeschränkt. Wir empfehlen, zu Edge, Chrome, Safari oder Firefox zu wechseln.",
@@ -16,7 +25,7 @@
     },
     "accessibility": {
       "skip_to_content": "Inhalt überspringen",
-      "select_variant":  "Wählen Sie die Dropdown-Liste Variante",
+      "select_variant": "Wählen Sie die Dropdown-Liste Variante",
       "show_submenu": "Untermenü anzeigen",
       "product": "Produkt",
       "show_products": "Produkte anzeigen",
@@ -156,8 +165,8 @@
       "success": "Ihr Kommentar wurde erfolgreich veröffentlicht! Vielen Dank für Ihren Kommentar!",
       "unapproved": "Die angegebene E-Mail-Adresse ist nicht zum Posten von Kommentaren freigegeben.",
       "comments_with_count": {
-      "one": "{{ count }} Kommenta",
-      "other": "{{ count }} Kommentare"
+        "one": "{{ count }} Kommenta",
+        "other": "{{ count }} Kommentare"
       }
     }
   },
@@ -183,7 +192,7 @@
       "limit_error": "Sorry, sieht so aus, als hätten wir nicht genug von diesem Produkt.",
       "continue_shopping": "Mit dem Einkaufen fortfahren",
       "close_cart": "Einkaufswagen schließen",
-      "free_shipping_message_html": "Geben Sie <span data-free-shipping-amount=\"\">{{ amount }}</span> aus, um sich für den kostenlosen Versand zu qualifizieren",
+      "free_shipping_message_html": "Geben Sie <span data-free-shipping-amount=\"\">{{ amount }}<\/span> aus, um sich für den kostenlosen Versand zu qualifizieren",
       "qualified_shipping_message": "Herzliche Glückwünsche! Ihre Bestellung wird kostenlos versendet"
     },
     "label": {
@@ -193,7 +202,7 @@
       "items_with_count": {
         "one": "{{ count }} Gegenstand",
         "other": "{{ count }} Gegenstände"
-        },
+      },
       "total": "Gesamt"
     }
   },
@@ -214,7 +223,7 @@
       "max_price": "Der höchste Preis ist {{ price }}",
       "product_count": {
         "one": "{{ product_count }} von {{ count }} Produkt wird angezeigt",
-        "other": "{{ product_count }} von {{ count }} Produkten wird/werden angezeigt"
+        "other": "{{ product_count }} von {{ count }} Produkten wird\/werden angezeigt"
       },
       "reset": "Zurücksetzen",
       "sort_button": "Sortieren",
@@ -222,7 +231,7 @@
       "show_less": "Weniger anzeigen",
       "title": "Kategorie",
       "to": "Nach",
-      "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">lösche alle</a>"
+      "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">lösche alle<\/a>"
     }
   },
   "collections": {
@@ -469,8 +478,8 @@
     "cart": {
       "title": "Einkaufswagen",
       "items_count": {
-      "one": "Gegenstand",
-      "other": "Gegenstände"
+        "one": "Gegenstand",
+        "other": "Gegenstände"
       }
     },
     "customer": {
@@ -491,8 +500,8 @@
       "sale_price": "Verkaufspreis",
       "regular_price": "Regulärer Preis",
       "description": "Beschreibung",
-      "read_more":"Mehr erfahren",
-      "read_less":"Weniger anzeigen",
+      "read_more": "Mehr erfahren",
+      "read_less": "Weniger anzeigen",
       "view_all_details": "Alle Details anzeigen",
       "shop_now": "Jetzt einkaufen",
       "filters": "Filter",
@@ -523,8 +532,8 @@
       "add_to_cart": "In den Warenkorb legen",
       "buy_it_now": "Kaufe es jetzt",
       "on_sale": "Verkauf",
-      "save_badge_html" : "Sparen Sie {{ discount }}",
-      "save_badge_up_to_html" : "Sparen Sie bis zu {{ discount }}",
+      "save_badge_html": "Sparen Sie {{ discount }}",
+      "save_badge_up_to_html": "Sparen Sie bis zu {{ discount }}",
       "quick_view": "Schnellkauf",
       "checkout": "Auschecken",
       "view_in_space": "In deinem Space anschauen",
@@ -580,9 +589,9 @@
     "month_day_year": "%B %d, %Y"
   },
   "footer": {
-    "socials" : {
-      "title":"Ansehen {{ shop_name }} auf {{ social }}",
-      "rss":"RSS"
+    "socials": {
+      "title": "Ansehen {{ shop_name }} auf {{ social }}",
+      "rss": "RSS"
     },
     "country": "Land",
     "language": "Sprache",

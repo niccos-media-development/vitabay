@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "ie11_support_message": "This site has limited support for your browser. We recommend switching to Edge, Chrome, Safari, or Firefox.",
@@ -16,7 +25,7 @@
     },
     "accessibility": {
       "skip_to_content": "Skip to content",
-      "select_variant":  "Select variant dropdown",
+      "select_variant": "Select variant dropdown",
       "show_submenu": "Show submenu",
       "product": "Product",
       "show_products": "Show products",
@@ -178,12 +187,12 @@
       "checkout": "Checkout",
       "empty": "Your cart is currently empty.",
       "accept_terms": "You must accept our terms and conditions.",
-      "accepted_terms": "Accepted terms/conditions?",
+      "accepted_terms": "Accepted terms\/conditions?",
       "zero_qty_error": "Quantity must be greater than 0.",
       "limit_error": "Sorry, looks like we don't have enough of this product.",
       "continue_shopping": "Continue Shopping",
       "close_cart": "Close Cart",
-      "free_shipping_message_html": "Spend <span data-free-shipping-amount=\"\">{{ amount }}</span> to qualify for free shipping",
+      "free_shipping_message_html": "Spend <span data-free-shipping-amount=\"\">{{ amount }}<\/span> to qualify for free shipping",
       "qualified_shipping_message": "FREE shipping will be applied at checkout"
     },
     "label": {
@@ -222,7 +231,7 @@
       "show_less": "Show less",
       "title": "Collection",
       "to": "To",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all</a>"
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
     }
   },
   "collections": {
@@ -523,8 +532,8 @@
       "remaining_html": "Only {{ inventory }} left in stock",
       "remaining_no_count": "Hurry! Low inventory",
       "on_sale": "Sale",
-      "save_badge_html" : "Save {{ discount }}",
-      "save_badge_up_to_html" : "Save up to {{ discount }}",
+      "save_badge_html": "Save {{ discount }}",
+      "save_badge_up_to_html": "Save up to {{ discount }}",
       "quick_view": "Quick Buy",
       "checkout": "Checkout",
       "view_in_space": "View in Your Space",
@@ -580,9 +589,9 @@
     "month_day_year": "%B %d, %Y"
   },
   "footer": {
-    "socials" : {
-      "title":"View {{ shop_name }} on {{ social }}",
-      "rss":"RSS"
+    "socials": {
+      "title": "View {{ shop_name }} on {{ social }}",
+      "rss": "RSS"
     },
     "country": "Country",
     "language": "Language",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
@@ -5,80 +14,68 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "link_wdzXEk": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "beliebte-kategorien",
+            "title": "Beliebte Kategorien",
+            "column_width": "20"
+          }
+        },
+        "link_DyaCwx": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "ber-vitabay",
+            "title": "Über Vitabay",
+            "column_width": "20"
+          }
+        },
         "footer-block-0": {
           "type": "text",
           "settings": {
             "alignment": "text-left",
-            "title": "Our Mission",
-            "footer_text": "<p>Leave your customers with a final message about your brand in this rich text block.</p>",
-            "column_width": "20"
+            "title": "Entwickelt mit Dr. med. Harald Pfeffer",
+            "footer_text": "<p>Er ist der Gründervater von Vitabay, dem ältesten Online-Unternehmen für Vitalstoffe in Deutschland. Gegründet aus Überzeugung & dem persönlichen Lebensideal, dass „die Gesundheit ein Privileg für alle Menschen darstellt und nicht für wenige Ausgesuchte.“ Seit über zwei Jahrzehnten ist er ein unermüdlicher Forscher und ein Vertreter seiner Vision. <\/p>",
+            "column_width": "33.33"
           }
         },
-        "footer-block-1": {
-          "type": "divider",
-          "settings": {
-            "show_border_line": false,
-            "column_width": "20"
-          }
-        },
-        "footer-block-2": {
+        "link_eqEied": {
           "type": "link",
           "settings": {
             "alignment": "text-left",
-            "menu": "main-menu",
-            "title": "Shop",
-            "column_width": "15"
-          }
-        },
-        "footer-block-3": {
-          "type": "link",
-          "settings": {
-            "alignment": "text-left",
-            "menu": "footer",
-            "title": "Helpful Links",
-            "column_width": "15"
-          }
-        },
-        "footer-block-4": {
-          "type": "newsletter",
-          "settings": {
-            "alignment": "text-left",
-            "title": "Sign up for offers",
-            "uppercase_heading": true,
-            "heading_size": 160,
-            "text": "<p>Stay up to date with the new collections, products and exclusive offers.</p>",
-            "button_text": "Sign up",
-            "button_color": "btn--white",
-            "button_style": "btn--solid",
-            "column_width": "30"
+            "menu": "rechtliches",
+            "title": "Rechtliches",
+            "column_width": "20"
           }
         }
       },
       "block_order": [
+        "link_wdzXEk",
+        "link_DyaCwx",
         "footer-block-0",
-        "footer-block-1",
-        "footer-block-2",
-        "footer-block-3",
-        "footer-block-4"
+        "link_eqEied"
       ],
       "settings": {
         "show_footer_wave": false,
-        "enable_footer_parallax": true,
-        "increase_border_radius": true,
+        "enable_footer_parallax": false,
+        "increase_border_radius": false,
         "bottom_bar_alignment": "text-left",
-        "show_social_links": true,
-        "enable_follow_on_shop": true,
-        "show_payment_icons": true,
+        "show_social_links": false,
+        "enable_follow_on_shop": false,
+        "show_payment_icons": false,
+        "enable_greyscale": false,
         "bottom_menu": "",
         "color_text": "#ffffff",
-        "color_bg": "#000000",
+        "color_bg": "#0e432c",
         "color_border": "#ffffff",
-        "show_locale_selector": true,
-        "show_country_selector": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
         "show_country_flag": false,
         "width": "wrapper",
-        "padding_top": 30,
-        "padding_bottom": 30
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },

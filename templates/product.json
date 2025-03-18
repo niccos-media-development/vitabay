@@ -1,1 +1,841 @@
-{"sections":{"main":{"type":"product","blocks":{"title":{"type":"title","settings":{"subheading":"breadcrumbs","padding_bottom":20}},"inventory_countdown":{"type":"inventory_countdown","settings":{"max_inventory":10,"hide_inventory_count":true,"padding_bottom":20}},"form":{"type":"form","settings":{"show_labels":true,"show_quantity":false,"show_payment_button":true,"enable_subscriptions_selectors":true,"padding_bottom":20}},"description":{"type":"description","settings":{"padding_bottom":20}},"7ddd2db6-1d92-43ee-a7d9-e786662f9ced":{"type":"icon","settings":{"icon_name":"eco-friendly","icon_color":"","icon_width":20,"icon_text":"Highlight or Feature","text_size":90,"width":"full","text_alignment":"left","bg_color":"","padding_bottom":20}},"product_accordion":{"type":"product_accordion","settings":{"accordion_heading":"Materials and specs","accordion_text":"<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>","accordion_page":"","padding_bottom":10}},"9927e90d-2ecb-4104-af67-0dadf75b2a0a":{"type":"product_accordion","settings":{"accordion_heading":"Shipping and returns","accordion_text":"<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>","accordion_page":"","padding_bottom":10}},"a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9":{"type":"feature","disabled":true,"settings":{"icon_name":"support","icon_width":25,"title":"Need help with sizing?","text":"<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>","bg_color":"#F7F9FA","text_color":"#000","padding_bottom":20}},"upsell":{"type":"upsell","settings":{"product_list":[],"padding_bottom":20}}},"block_order":["title","inventory_countdown","form","description","7ddd2db6-1d92-43ee-a7d9-e786662f9ced","product_accordion","9927e90d-2ecb-4104-af67-0dadf75b2a0a","a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9","upsell"],"settings":{"product_sticky_enable":true,"image_layout":"grid","image_width":"large","product_image_aspect_ratio":true,"enable_zoom":true,"enable_video_looping":false,"bg_color":"","width":"wrapper","padding_top":60,"padding_bottom":60}},"overlapping-images-0":{"type":"section-overlapping-images","settings":{"text_position":"left","text_alignment":"left","images_width":750,"images_offset":60,"image_link_1":"","image_link_2":"","hide_image_2":false,"title":"<p>Our Story, Our Promise<\/p>","description":"<p>Use this text to describe a product, promotion, or your company.<\/p>","heading_size":100,"button_text":"","button_link":"","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","video_text":"","video_link":"","width":"wrapper--full-padded","padding_top":60,"padding_bottom":60}},"38ff978b-66eb-4318-9ce0-94db8ff86311":{"type":"section-columns","blocks":{"template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0":{"type":"text_block","settings":{"title":"Add a title or tagline","text":"<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_text":"Learn More","button_link":"","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1":{"type":"text_block","settings":{"title":"Add a title or tagline","text":"<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_text":"Learn More","button_link":"","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}},"template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2":{"type":"text_block","settings":{"title":"Add a title or tagline","text":"<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>","button_text":"Learn More","button_link":"","button_color":"btn--black","button_style":"btn--text","button_size":"btn--small","video_link_popup":"","video_link_color":"text-dark"}}},"block_order":["template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-0","template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-1","template--18952594129217__38ff978b-66eb-4318-9ce0-94db8ff86311-1683126238ada0cf52-2"],"settings":{"title":"","align_text":"text-left","columns":3,"show_images":true,"equalize_height":true,"heading_size":120,"text_size":100,"width":"wrapper","padding_top":60,"padding_bottom":60}},"tabs":{"type":"section-accordions","blocks":{"acordion-0":{"type":"text","settings":{"title":"Heading","text":"<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.<\/p>"}},"acordion-1":{"type":"text","settings":{"title":"Heading","text":"<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.<\/p>"}},"acordion-2":{"type":"text","settings":{"title":"Heading","text":"<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.<\/p>"}},"d0defd0d-94c3-403c-bd36-dc2f140a104f":{"type":"text","settings":{"title":"Heading","text":"<p>Use this text block to discuss some commonly asked questions like shipping and returns, sizing, warranties, or product and company details.<\/p>"}}},"block_order":["acordion-0","acordion-1","acordion-2","d0defd0d-94c3-403c-bd36-dc2f140a104f"],"settings":{"layout":"two-columns","show_accordion_divider":false,"title":"Frequently Asked Questions","subheading":"","text":"","tabs_bg_color":"#fafafa","text_color":"text-dark","width":"wrapper","padding_top":60,"padding_bottom":60}},"related":{"type":"related-products","blocks":{"related":{"type":"related","settings":{}},"recent":{"type":"recent","settings":{}}},"block_order":["related","recent"],"settings":{"enable_tabs":true,"width":"wrapper--full-padded"}},"icons":{"type":"section-icons-row","blocks":{"icon-0":{"type":"text","settings":{"icon_name":"truck","title":"Free Shipping","text":"<p>on all order over $99<\/p>"}},"icon-1":{"type":"text","settings":{"icon_name":"check","title":"Free Returns","text":"<p>within 30 days of purchase<\/p>"}},"icon-2":{"type":"text","settings":{"icon_name":"eco-friendly","title":"1% Donated Annually","text":"<p>to forest conservation<\/p>"}}},"block_order":["icon-0","icon-1","icon-2"],"settings":{"heading":"","subheading":"","alignment":"center","columns":3,"icons_width":30,"bg_color":"","text_color":"#333333","box_color":"","button_text":"","button_link":"","button_color":"btn--black","button_style":"btn--solid","button_size":"btn--small","padding_top":60,"padding_bottom":60}}},"order":["main","overlapping-images-0","38ff978b-66eb-4318-9ce0-94db8ff86311","tabs","related","icons"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": false,
+            "padding_bottom": 20
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_full_width": false,
+            "padding_bottom": 20
+          }
+        },
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Highlight or Feature",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Materials and specs",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Shipping and returns",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon_name": "support",
+            "icon_width": 25,
+            "title": "Need help with sizing?",
+            "text": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "bg_color": "#f7f9fa",
+            "text_color": "#000000",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product_list": [],
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "inventory_countdown",
+        "form",
+        "description",
+        "7ddd2db6-1d92-43ee-a7d9-e786662f9ced",
+        "product_accordion",
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
+        "upsell"
+      ],
+      "disabled": true,
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_product_PmnWBg": {
+      "type": "niccos-product",
+      "blocks": {
+        "title_QbQxKq": {
+          "type": "title",
+          "settings": {
+            "subheading": "vendor",
+            "shipping_text": "inkl. MwSt. & kostenloser Versand ab 60€",
+            "title_size": 100,
+            "price_size": 100,
+            "bold_price": false,
+            "padding_bottom": 20
+          }
+        },
+        "custom_code_rQjiqx": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "{{product.metafields.custom.pzn_}}",
+            "padding_bottom": 20
+          }
+        },
+        "icon_wUYF4B": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/HP_ICON_74be49e4-cff4-46db-9191-dae88e06ee53.png",
+            "icon_width": 30,
+            "icon_text": "Entwickelt von Dr. med. Harald Pfeffer",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "icon_NFeiBE": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "plant-based",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_24839be3-3b1a-40ac-b475-52a1619dd556.png",
+            "icon_width": 30,
+            "icon_text": "Höchstmögliche Bioverfügbarkeit für die maximale Aufnahmefähigkeit",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "icon_dEgxYh": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_04585833-032a-4932-8f67-3df9e0dc805b.png",
+            "icon_width": 30,
+            "icon_text": "Bestehend aus hochwertigen, bioaktiven Rohstoffen für optimale Reinheit und Wirksamkeit.",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "form_dgBKTr": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": false,
+            "padding_bottom": 20
+          }
+        },
+        "icon_q8NRqq": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_image": "shopify:\/\/shop_images\/Versand_mit_DHL_GoGreen.png",
+            "icon_width": 50,
+            "icon_text": "Deine Produkte werden mit DHL GoGreen nachhaltig versendet.",
+            "text_size": 85,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion_ik6BrK": {
+          "type": "product_accordion",
+          "settings": {
+            "show_description": true,
+            "show_read_more": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": false,
+            "line_thickness": "normal",
+            "accordion_heading": "Produktbeschreibung",
+            "heading_style": "font-body",
+            "accordion_text": "",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title_QbQxKq",
+        "custom_code_rQjiqx",
+        "icon_wUYF4B",
+        "icon_NFeiBE",
+        "icon_dEgxYh",
+        "form_dgBKTr",
+        "icon_q8NRqq",
+        "product_accordion_ik6BrK"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_GaKTr6": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<picture>\n  <source media=\"(max-width:750px)\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Design_ohne_Titel_59_900x.jpg\">\n  <source media=\"(min-width:750px)\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0696\/3504\/7736\/files\/Kein_Titel_3000_x_44_px_1800x.jpg\">\n  <img width=\"100%\" height=\"100%\" loading=\"lazy\"\/>\n<\/picture>",
+        "width": "wrapper--full",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "tabs": {
+      "type": "section-accordions",
+      "blocks": {
+        "acordion-0": {
+          "type": "text",
+          "settings": {
+            "title": "Allergene",
+            "text": "<p>Das Produkt enthält keinerlei Allergene.<\/p>"
+          }
+        },
+        "acordion-1": {
+          "type": "text",
+          "settings": {
+            "title": "Dosierung",
+            "text": "<p>Empfohlene tägliche Verzehrmenge nicht überschreiten. Nahrungsergänzungsmittel sind kein Ersatz für eine ausgewogene und abwechslungsreiche Ernährung. Außerhalb der Reichweite von Kindern aufbewahren.<\/p>"
+          }
+        },
+        "acordion-2": {
+          "type": "text",
+          "settings": {
+            "title": "Lagerung",
+            "text": "<ul><li>Packung immer gut verschliesen <\/li><li>an einem trockenen Ort aufbewahren <\/li><li>vor Sonne und Feuchtigkeit schützen <\/li><li>nicht im Kühlschrank aufbewahren <\/li><li>für Kinder unerreichbar aufbwahren<\/li><\/ul>"
+          }
+        },
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f": {
+          "type": "text",
+          "settings": {
+            "title": "Inhaltstoffe",
+            "text": "<p>{{ product.metafields.custom.accordion_text_3.value }}<\/p>"
+          }
+        },
+        "text_EKG3BU": {
+          "type": "text",
+          "settings": {
+            "title": "Nährtwertangaben",
+            "text": "<p>{{ product.metafields.custom.accordion_text_2.value }}<\/p>"
+          }
+        },
+        "text_RyGwkB": {
+          "type": "text",
+          "settings": {
+            "title": "Nahrungsergänzungsmittel",
+            "text": "<p>Nahrungsergänzungsmittel sind kein Ersatz für eine abwechslungsreiche, ausgewogene Ernährung und eine gesunde Lebensweise. Die empfohlene tägliche Verzehrsmenge darf nicht überschritten werden. Immer außerhalb der Reichweite von Kindern aufbewahren. Die bereitgestellte Information ist nicht als Ersatz für Empfehlungen Ihres Arztes oder anderer medizinischer Fachkräfte gedacht. Es ist auch keine Heilaussage oder Aufforderung zur Selbstmedikation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "acordion-0",
+        "acordion-1",
+        "acordion-2",
+        "d0defd0d-94c3-403c-bd36-dc2f140a104f",
+        "text_EKG3BU",
+        "text_RyGwkB"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "line_thickness": "normal",
+        "title": "",
+        "type_style": "font-heading",
+        "heading_size": 120,
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_Px6wq9": {
+      "type": "section-text",
+      "blocks": {
+        "heading_4FeHDA": {
+          "type": "heading",
+          "settings": {
+            "text": "<h4>Unsere aktuellen Partner<\/h4>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4FeHDA"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_marquee_YPhMGf": {
+      "type": "section-marquee",
+      "blocks": {
+        "image_9n8RFi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/585ba358e8cfc.png",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_XUbG83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DocMorris_Logo_11_2020_svg.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_cp9q88": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Medpex_logo_svg.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_T3tXFK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shop_Apotheke_Europe_logo_svg.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_ECKQT7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bodfeld-Logo-NEU-Mandant.webp",
+            "link": "",
+            "image_width": 100
+          }
+        },
+        "image_HKFjzi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/versandApo.webp",
+            "link": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_9n8RFi",
+        "image_XUbG83",
+        "image_cp9q88",
+        "image_T3tXFK",
+        "image_ECKQT7",
+        "image_HKFjzi"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "slider_speed": 20,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_style": "subheading-text",
+        "text_size": 100,
+        "letter_spacing": 0,
+        "message_spacing": 10,
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_qzND4D": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "subheading_GJ774y": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Gründer von Vitabay",
+            "size": 75,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "heading_rf3FmJ": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Entwickelt von Dr. med. Harald Pfeffer<\/p>",
+            "size": 90,
+            "text_position": "left",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "spacing_bottom": 12
+          }
+        },
+        "text_G7VDtw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>",
+            "size": 100,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GJ774y",
+        "heading_rf3FmJ",
+        "text_G7VDtw"
+      ],
+      "settings": {
+        "show_accordion_divider": false,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify:\/\/shop_images\/facharzt-und-passionierter-forscher-von-r-leben-dr-med-harald-pfeffer.jpg",
+        "block_bg_color": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "niccos_feature_icons_YmV7ep": {
+      "type": "niccos-feature-icons",
+      "blocks": {
+        "item_3CeYtH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2x_c503fab5-c40c-423d-91c7-b5d04644bd66.png",
+            "icon": "truck_2",
+            "title": "Von Familie für Familie",
+            "text": "Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.",
+            "url": "",
+            "icon_color": "#bebebe",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        },
+        "item_9ctFq7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2_2x_83440b4c-6d29-4904-9215-6c873a3f30d6.png",
+            "icon": "price",
+            "title": "Leidenschaft für Gesundheit",
+            "text": "Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.",
+            "url": "",
+            "icon_color": "#f83062",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        },
+        "item_yrmPef": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_2_2x_e5e6b266-0609-4c4a-94ef-385282f2d4b4.png",
+            "icon": "return",
+            "title": "Aktive Forschung",
+            "text": "Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.",
+            "url": "",
+            "icon_color": "#2168f2",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        },
+        "item_teyXeH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zeichenflaeche_1_3_1_2x_f9d07ec8-100c-4aaa-a76c-7f9641fba136.png",
+            "icon": "star",
+            "title": "Gesundheit für alle",
+            "text": "Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung",
+            "url": "",
+            "icon_color": "#d73e3e",
+            "icon_bg_color": "#f5f5f5",
+            "icon_shadow_color": "#fafafa"
+          }
+        }
+      },
+      "block_order": [
+        "item_3CeYtH",
+        "item_9ctFq7",
+        "item_yrmPef",
+        "item_teyXeH"
+      ],
+      "settings": {
+        "heading": "<h3>Deine Vorteile mit Vitabay<\/h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 24,
+        "heading_height": 150,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "items_style": "grid",
+        "items_style_mobile": "slider",
+        "items_row": 4,
+        "items_row_mobile": 1,
+        "items_gap": 20,
+        "items_gap_mobile": 20,
+        "items_mt": 28,
+        "items_mt_mobile": 22,
+        "item_padding_vertical": 24,
+        "item_padding_vertical_mobile": 24,
+        "item_padding_horizontal": 24,
+        "item_padding_horizontal_mobile": 24,
+        "item_radius": 8,
+        "item_border_thickness": 1,
+        "item_shadow": true,
+        "item_hover": false,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "icon_size": 56,
+        "icon_size_mobile": 56,
+        "hide_icon": false,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 18,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "title_mt": 28,
+        "title_mt_mobile": 28,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 150,
+        "text_mt": 8,
+        "text_mt_mobile": 8,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_mt": 32,
+        "dots_show_desktop": true,
+        "dots_show_mobile": true,
+        "item_bg": "#FFFFFF",
+        "item_border_color": "#F1F2F2",
+        "item_shadow_color": "#42474c",
+        "title_color": "#000000",
+        "text_color": "#52525B",
+        "dots_color": "#52525B",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "section_accordions_DdJRkJ": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_D97LXp": {
+          "type": "text",
+          "settings": {
+            "title": "Wer steckt hinter Vitabay?",
+            "text": "<p>Hinter Vitabay steckt Dr. med. Harald Pfeffer. Vitabay wurde von ihm im Jahr 2003 gegründet mit der Vision, dass Gesundheit nicht nur in die 4 Wände einer Arztpraxis , sondern in die ganze Welt gehört.<\/p>"
+          }
+        },
+        "text_x4XMcM": {
+          "type": "text",
+          "settings": {
+            "title": "Gibt es eine Garantie für dieses Produkt?",
+            "text": "<p>Ja, dieses Produkt ist durch eine Garantie abgedeckt. Sollte es defekt oder verdorben sein, kannst Du es kostenlos zurücksenden und erhältst eine vollständige Rückerstattung.<\/p>"
+          }
+        },
+        "text_4RJ3aF": {
+          "type": "text",
+          "settings": {
+            "title": "Ist das Produkt sicher?",
+            "text": "<p>Ja, das Produkt ist sicher, wenn du dich an die angegebene Aufbewahrungs- und Verzehrempfehlung hältst. Das Produkt ist getestet und geprüft von unabhängigen Laboren. Es ist jedoch zu beachten, dass du die Einnahme von Nahrungsergänzungsmitteln immer mit deinem Arzt absprechen solltest, insbesondere wenn du eine medizinische Vorgeschichte o.ä. hast.<\/p>"
+          }
+        },
+        "text_TgJ9Kp": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Versand Optionen bietet ihr an?",
+            "text": "<p>Ab einem Einkaufswert von 40€ übernehmen wir deine Versandkosten. Alle Pakete werden innerhalb von 1-3 Werktagen via DHL zu dir zugestellt.<\/p>"
+          }
+        },
+        "text_MRqE84": {
+          "type": "text",
+          "settings": {
+            "title": "Welche Zahlungsmethoden bietet ihr an?",
+            "text": "<p>Wir akzeptieren PayPal, Überweisung, Kreditkarte sowie Klarna Ratenkauf, Sofortüberweisung und Kauf auf Rechnung durch Klarna als Zahlungsmethoden.<\/p>"
+          }
+        },
+        "text_c3hKLw": {
+          "type": "text",
+          "settings": {
+            "title": "Wer ist Dr. med Harald Pfeffer?",
+            "text": "<p>Dr. med. Harald Pfeffer ist der Gründervater von Vitabay. Seit über 20 Jahren profitiert Vitabay von seinem medizinischen Wissen und seiner Vision, das Privileg der Gesundheit für jeden erreichbar zu machen. Bis heute forscht er leidenschaftlich an neuen Produkten und Formeln um seiner Vision treu zu bleiben.<\/p>"
+          }
+        },
+        "text_TrqMrq": {
+          "type": "text",
+          "settings": {
+            "title": "Woher weiß ich was ich brauche?",
+            "text": "<p>Gerne beraten wir dich über die Einnahme und Anwendung unserer Produkte (dazu findest du viele Informationen auf unserem Instagram Kanal). Du solltest jedoch immer auf deinen Körper hören und darauf was er benötigt und verträgt. Die Einnahme von Nahrungsergänzungsmitteln solltest du zudem immer vorher mit deinem Arzt besprechen, insbesondere im Falle einer medizinischen Vorgeschichte.<\/p>"
+          }
+        },
+        "text_ttUPA4": {
+          "type": "text",
+          "settings": {
+            "title": "Kann das Gefährlich werden?",
+            "text": "<p>Das Produkt kann für dich prinzipiell nicht gefährlich werden wenn du dich an alle Angaben zur Einnahme und Aufbewahrung hältst. Du solltest jedoch die Einnahme von Nahrungsergänzungsmitteln immer mit deinem Arzt vorher besprechen, insbesondere im Falle einer medizinischen Vorgeschichte.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_D97LXp",
+        "text_x4XMcM",
+        "text_4RJ3aF",
+        "text_TgJ9Kp",
+        "text_MRqE84",
+        "text_c3hKLw",
+        "text_TrqMrq",
+        "text_ttUPA4"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "line_thickness": "normal",
+        "title": "Häufig gestellte Fragen",
+        "type_style": "font-heading",
+        "heading_size": 100,
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1742240512c2ff1ba1": {
+      "type": "apps",
+      "blocks": {
+        "reviews_io_reviewsio_polaris_RXftaj": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "star": "#000",
+            "review_type": "product_review,questions",
+            "per_page": 8,
+            "primary_btn_bg_color": "#000",
+            "primary_btn_border_color": "#000",
+            "primary_btn_text_color": "#fff",
+            "secondary_btn_border_color": "#000",
+            "secondary_btn_text_color": "#000",
+            "border_color": "rgba(0,0,0,0.15)",
+            "heading_text_color": "#000",
+            "heading_font": "helvetica_n4",
+            "body_text_color": "#000",
+            "badge_icon_color": "#000",
+            "badge_text_color": "#000",
+            "enable_rich_snippets": true,
+            "show_location": true,
+            "show_tab_selector": false,
+            "show_dates": true,
+            "show_avatar": true,
+            "enable_sentiment_analysis": false,
+            "enable_replies": false,
+            "widget_spacing": 0,
+            "capitalise_headers_and_buttons": false,
+            "show_review_title": false,
+            "default_sort": "date_desc"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_io_reviewsio_polaris_RXftaj"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "Das passt auch dazu",
+            "product_recommendations_limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "title": "Zuletzt angesehen",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "columns_mobile": "1",
+        "type_style": "subheading-text",
+        "tab_heading_size": 100,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "niccos_product_PmnWBg",
+    "section_custom_html_GaKTr6",
+    "tabs",
+    "section_text_Px6wq9",
+    "section_marquee_YPhMGf",
+    "section_image_with_text_qzND4D",
+    "niccos_feature_icons_YmV7ep",
+    "section_accordions_DdJRkJ",
+    "1742240512c2ff1ba1",
+    "related"
+  ]
+}
