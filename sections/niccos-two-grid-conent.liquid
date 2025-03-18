@@ -1,0 +1,284 @@
+{{ 'niccos-two-grid-conent.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  #niccos-{{ section.id }} {
+    margin-top: {{ section.settings.top_margin }}px;
+    margin-bottom: {{ section.settings.bottom_margin }}px;
+  }
+  #niccos-{{ section.id }}
+  .content-wrapper.swap {
+    flex-direction: row-reverse;
+  }
+{% endstyle %}
+
+<div class="nicos-two-grid__wrapper" id="niccos-{{ section.id }}">
+  <div class="page-wrapper">
+    {% for block in section.blocks %}
+      <div class="content-wrapper {% if block.settings.swap %}swap{% endif %}">
+        <div
+          class="media-container"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          {% if block.settings.choose_media == 'video' %}
+            {% if block.settings.video %}
+              {{
+                block.settings.video
+                | video_tag:
+                  controls: false,
+                  loop: true,
+                  autoplay: false,
+                  muted: false,
+                  playsinline: true,
+                  class: 'video',
+                  id: 'myVideo'
+              }}
+            {% endif %}
+            <div class="play-button" id="playButton">
+              <img
+                class="play-icon"
+                src="https://cdn.shopify.com/s/files/1/0696/3504/7736/files/play.png?v=1731941431"
+                alt="Play Icon"
+              >
+            </div>
+          {% elsif block.settings.choose_media == 'image' %}
+            {% liquid
+              if block.settings.image
+                echo block.settings.image | image_url: width: 600 | image_tag: loading: 'lazy', alt: block.settings.icon.alt_text | escape
+              else
+                echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+              endif
+            %}
+          {% endif %}
+        </div>
+
+        <div
+          class="content-info"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          <div class="heading">
+            {% if block.settings.label != blank %}
+              <p>{{ block.settings.label }}</p>
+            {% endif %}
+            {% if block.settings.heading != blank %}
+              <h3>{{ block.settings.heading }}</h3>
+            {% endif %}
+          </div>
+
+          <div class="details">
+            {% if block.settings.conent %}
+              {{ block.settings.conent }}
+            {% endif %}
+          </div>
+
+          {% if block.settings.enable_bullet_points %}
+            <div class="steps-area">
+              {% liquid
+                assign timeline_logos = product.metafields.custom.bullet_points_icons.value
+                assign timeline_title = product.metafields.custom.bullet_points_berschriften.value
+                assign timeline_content = product.metafields.custom.bullet_points_texte.value
+              %}
+
+              {% assign delay = 300 %}
+              {% for image in timeline_logos %}
+                {% liquid
+                  assign heading = timeline_title[forloop.index0]
+                  assign text = timeline_content[forloop.index0]
+                %}
+
+                {% if text != blank and image != blank and heading != blank %}
+                  <div class="step" data-aos="fade-up" data-aos-delay="{{ delay }}">
+                    <div class="step-icon">
+                      {% liquid
+                        if image
+                          echo image | image_url: width: 600 | image_tag: loading: 'lazy', alt: image.alt_text | escape
+                        else
+                          echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+                        endif
+                      %}
+                    </div>
+                    <div class="setp-details">
+                      <h4>{{ heading }}</h4>
+                      <div class="text">{{ text }}</div>
+                    </div>
+                  </div>
+                  {% assign delay = delay | plus: 250 %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  const playButton = document.querySelector('#niccos-{{ section.id }} #playButton');
+  const video = document.querySelector('#niccos-{{ section.id }} #myVideo');
+  let isPlaying = false;
+
+  // Function to toggle play and pause
+  const togglePlayPause = () => {
+    if (video.paused || video.ended) {
+      video.play();
+      isPlaying = true;
+      playButton.querySelector('img').src =
+        'https://cdn.shopify.com/s/files/1/0696/3504/7736/files/pause-removebg-preview.png?v=1731943309'; // Change to pause icon
+      playButton.querySelector('img').setAttribute('class', 'pause-icon'); // Change to pause icon
+    } else {
+      video.pause();
+      isPlaying = false;
+      playButton.querySelector('img').src =
+        'https://cdn.shopify.com/s/files/1/0696/3504/7736/files/play.png?v=1731941431'; // Change back to play icon
+      playButton.querySelector('img').setAttribute('class', 'play-icon'); // Change back to play icon
+    }
+  };
+
+  // Click event to toggle play and pause
+  playButton.addEventListener('click', togglePlayPause);
+
+  // Update play button icon on video play
+  video.addEventListener('play', () => {
+    isPlaying = true;
+    playButton.querySelector('img').src =
+      'https://cdn.shopify.com/s/files/1/0696/3504/7736/files/pause-removebg-preview.png?v=1731943309'; // Change to pause icon
+    playButton.querySelector('img').setAttribute('class', 'pause-icon'); // Change to pause icon
+  });
+
+  // Update play button icon on video pause or end
+  video.addEventListener('pause', () => {
+    isPlaying = false;
+    playButton.querySelector('img').src =
+      'https://cdn.shopify.com/s/files/1/0696/3504/7736/files/play.png?v=1731941431'; // Change back to play icon
+    playButton.querySelector('img').setAttribute('class', 'play-icon'); // Change back to play icon
+  });
+
+  video.addEventListener('ended', () => {
+    isPlaying = false;
+    playButton.querySelector('img').src =
+      'https://cdn.shopify.com/s/files/1/0696/3504/7736/files/play.png?v=1731941431'; // Change back to play icon
+    playButton.querySelector('img').setAttribute('class', 'play-icon'); // Change back to play icon
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Niccos - Two grid conent",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Margin Settings"
+    },
+    {
+      "type": "range",
+      "id": "top_margin",
+      "label": "Top Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "info": "Adjust the top margin of the section."
+    },
+    {
+      "type": "range",
+      "id": "bottom_margin",
+      "label": "Bottom Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "info": "Adjust the bottom margin of the section."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "content_block",
+      "name": "Content block",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "swap",
+          "label": "swap",
+          "default": false,
+          "info": "Enable this block to display the content in a different order."
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_bullet_points",
+          "label": "Enable Bullet Points",
+          "default": false,
+          "info": "Enable bullet points to display with the feature."
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Subheading",
+          "default": "Innovative formel",
+          "info": "Add a subheading to the section."
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "heading",
+          "default": "Why Choose Melatonin?",
+          "info": "Add a heading to the section."
+        },
+        {
+          "type": "richtext",
+          "id": "conent",
+          "label": "Short description",
+          "default": "<p>Kein Techniker notwendig. Die Einrichtung kannst du selber machen und benötigt nur wenige Minuten.</p>",
+          "info": "Use this field to provide a short description of the feature."
+        },
+        {
+          "type": "radio",
+          "id": "choose_media",
+          "label": "Choose Media",
+          "options": [
+            {
+              "value": "image",
+              "label": "Image"
+            },
+            {
+              "value": "video",
+              "label": "Video"
+            }
+          ],
+          "default": "image",
+          "info": "Choose the type of media to display with the feature."
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Pick an image to display with the feature."
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video",
+          "info": "Pick a video to display with the feature."
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Niccos - Two grid conent",
+      "settings": {
+        "top_margin": 0,
+        "bottom_margin": 0
+      }
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  }
+}
+{% endschema %}

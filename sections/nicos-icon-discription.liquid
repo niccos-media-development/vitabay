@@ -1,0 +1,157 @@
+{{ 'nicos-section-icon-discription.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  #nicos-{{ section.id }} {
+    margin-top: {{ section.settings.top_margin }}px;
+    margin-bottom: {{ section.settings.bottom_margin }}px;
+    background-image: url({{ section.settings.background_image | image_url:width: 1920 }});
+  }
+{% endstyle %}
+
+<div class="nicos-icon-discription__wrapper" id="nicos-{{ section.id }}" data-aos-delay="150" data-aos="hero">
+  <div class="page-wrapper">
+    <div class="area-header" data-aos="fade-up" data-aos-delay="150">
+      <h3>{{ section.settings.heading }}</h3>
+    </div>
+    <div class="icon-area">
+      {% for block in section.blocks %}
+        <div class="icon-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="icon">
+            {% liquid
+              if block.settings.icon
+                echo block.settings.icon | image_url: width: 50 | image_tag: loading: 'lazy', alt: block.settings.icon.alt_text | escape
+              else
+                echo 'collection-1' | placeholder_svg_tag: 'placeholder-svg'
+              endif
+            %}
+          </div>
+          <div class="details-area">
+            <h4>{{ block.settings.label }}</h4>
+            <div>
+              {{ block.settings.subheading }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Niccos - Icon Content",
+  "disabled_on": {
+    "groups": ["header", "aside", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Vorteile von IOmeter",
+      "info": "Add a heading to the section."
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image",
+      "info": "Choose an image to use as the section background."
+    },
+    {
+      "type": "header",
+      "content": "Margin Settings"
+    },
+    {
+      "type": "range",
+      "id": "top_margin",
+      "label": "Top Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "info": "Adjust the top margin of the section."
+    },
+    {
+      "type": "range",
+      "id": "bottom_margin",
+      "label": "Bottom Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "info": "Adjust the bottom margin of the section."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon-text",
+      "name": "Icon block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Einfache Handhabung",
+          "info": "Add a label to the feature."
+        },
+        {
+          "type": "richtext",
+          "id": "subheading",
+          "label": "Short description",
+          "default": "<p>Kein Techniker notwendig. Die Einrichtung kannst du selber machen und benötigt nur wenige Minuten.</p>",
+          "info": "Use this field to describe a key benefit or feature. Supports HTML for bold, italics, etc."
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon",
+          "info": "Pick an icon image to represent the feature. The image should be small and simple for optimal display."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Niccos - Icon Content",
+      "category": "Custom Sections",
+      "settings": {
+        "heading": "Unsere Werte bei Vitabay",
+        "top_margin": 0,
+        "bottom_margin": 0
+      },
+      "blocks": [
+        {
+          "type": "icon-text",
+          "settings": {
+            "label": "Von Familie für Familie",
+            "subheading": "<p>Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.</p>"
+          }
+        },
+        {
+          "type": "icon-text",
+          "settings": {
+            "label": "Leidenschaft für Gesundheit",
+            "subheading": "<p>Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.</p>"
+          }
+        },
+        {
+          "type": "icon-text",
+          "settings": {
+            "label": "Aktive Forschung",
+            "subheading": "<p>Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.</p>"
+          }
+        },
+        {
+          "type": "icon-text",
+          "settings": {
+            "label": "Aktive Forschung",
+            "subheading": "<p>Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

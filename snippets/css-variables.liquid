@@ -500,6 +500,7 @@
       {{ subheading_font_bold | font_face: font_display: 'swap' }}
     {% endif %}
 
+    {% assign page_wrapper = settings.pdp_page_wrapper |  default '1140' %}
     {%- comment -%} CSS variables defined in Theme settings {%- endcomment -%}
     :root {
       {%- comment -%} Primary buttons colors {%- endcomment -%}
@@ -783,6 +784,7 @@
       {%- comment -%} Site width {%- endcomment -%}
       --SITE-WIDTH: 1440px;
       --SITE-WIDTH-NARROW: 840px;
+      --page-wrapper: {{ page_wrapper }}px;
 
       {% comment %} Buttons width and height {% endcomment %}
       --SMALL-BUTTON-WIDTH: {{ settings.small_button_width | append: 'px' }};

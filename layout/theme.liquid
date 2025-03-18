@@ -94,6 +94,9 @@
 
 {%- comment -%} CSS {%- endcomment -%}
 {{- 'theme.css' | asset_url | stylesheet_tag -}}
+{{ 'niccos.css' | asset_url | stylesheet_tag }}
+{{ 'swiper.css' | asset_url | preload_tag: as: 'style' }}
+{{ 'theme.dev.js' | asset_url | preload_tag: as: 'script' }}
 
 <script
   type="text/javascript"
@@ -222,6 +225,8 @@
 
 <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'swiper.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'niccos.js' | asset_url }}" defer="defer"></script>
 
 {%- if request.design_mode -%}
   <script

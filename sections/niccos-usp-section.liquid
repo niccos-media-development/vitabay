@@ -1,0 +1,457 @@
+{% schema %}
+    {
+      "name": "Niccos - USP Section",
+      "settings": [
+          {
+          "type": "header",
+          "content": "Section Width"
+        }, 
+        {
+          "type": "range",
+          "id": "section_max_width",
+          "label": "Section Max Width",
+          "default": 1200,
+          "min": 600,
+          "max": 1600,
+          "step": 10,
+          "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "section_bg",
+          "label": "Section Background Color"
+        },
+         {
+          "type": "image_picker",
+          "id": "section_bg_image",
+          "label": "Section Background Image"
+        },
+         {
+          "type": "image_picker",
+          "id": "section_bg_image_mob",
+          "label": "Section Background Image Mobile"
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Section Margin Top",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "label": "Section Margin Bottom",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "label": "Section Padding Top",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "label": "Section Padding Bottom",
+          "default": 0,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "header",
+          "content": "Section Title"
+        },
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Section Title",
+          "default": "Product USP’s"
+        },
+        {
+          "type": "color",
+          "id": "title_font_color",
+          "label": "Title Color"
+        },
+        {
+          "type": "range",
+          "id": "title_font_size_desktop",
+          "label": "Title Font Size (Desktop)",
+          "default": 28,
+          "min": 16,
+          "max": 60,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "title_font_size_mobile",
+          "label": "Title Font Size (Mobile)",
+          "default": 20,
+          "min": 14,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "title_margin_bottom",
+          "label": "Title Margin Bottom (Desktop)",
+          "default": 20,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "title_margin_bottom_mob",
+          "label": "Title Margin Bottom (Mobile)",
+          "default": 20,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "select",
+          "id": "title_alignment_desktop",
+          "label": "Title Alignment (Desktop)",
+          "default": "center",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "title_alignment_mobile",
+          "label": "Title Alignment (Mobile)",
+          "default": "center",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ]
+        },
+         {
+          "type": "header",
+          "content": "Icon Block Settings"
+        },
+        {
+          "type": "select",
+          "id": "content_alignment",
+          "label": "Text and Icon Alignment",
+          "default": "center",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ]
+        },
+         {
+          "type": "checkbox",
+          "id": "usp_content",
+           "label": "Icon and content In one Row",
+           "default": true
+        },
+        {
+          "type": "range",
+          "id": "icon_width_desktop",
+          "label": "Icon Width (Desktop)",
+          "default": 50,
+          "min": 30,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "icon_width_mobile",
+          "label": "Icon Width (Mobile)",
+          "default": 30,
+          "min": 20,
+          "max": 70,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "usp_title_size_desktop",
+          "label": "USP Title Font Size (Desktop)",
+          "default": 24,
+          "min": 12,
+          "max": 60,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "usp_title_size_mobile",
+          "label": "USP Title Font Size (Mobile)",
+          "default": 16,
+          "min": 10,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "icon_font_size_desktop",
+          "label": "USP Content Font Size (Desktop)",
+          "default": 24,
+          "min": 12,
+          "max": 60,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "icon_font_size_mobile",
+          "label": "USP Content Font Size (Mobile)",
+          "default": 16,
+          "min": 10,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "icon_background_color",
+          "label": "Icon Background Color",
+          "default": "#e0e0e0"
+        },
+        {
+          "type": "range",
+          "id": "icon_border_radius",
+          "label": "Icon Border Radius",
+          "default": 50,
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "icon_text_color",
+          "label": "Icon and Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "items_per_row_desktop",
+          "label": "Items per Row (Desktop)",
+          "default": 4,
+          "min": 1,
+          "max": 6,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "items_per_row_mobile",
+          "label": "Items per Row (Mobile)",
+          "default": 2,
+          "min": 1,
+          "max": 4,
+          "step": 1
+        }
+      ],
+      "blocks": [
+        {
+          "type": "usp_block",
+          "name": "USP Item",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "icon_image",
+              "label": "Icon Image"
+            },
+             {
+              "type": "text",
+              "id": "usp_title",
+              "label": "Text",
+              "default": "Title"
+            },
+            {
+              "type": "text",
+              "id": "usp_text",
+              "label": "Text",
+              "default": "USP Content Text"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Niccos - USP Section"
+        }
+      ]
+    }
+    {% endschema %}
+    <div class="custom-blocks main_container_custom wrapper" id="section-{{ section.id }}">
+      <div class="product-usp-section section-{{ section.id }}" >
+        <h2 class="section-title">{{ section.settings.section_title }}</h2>
+        <div class="usp-items">
+          {% for block in section.blocks %}
+            <div class="usp-item alignment-{{ section.settings.content_alignment }} {% unless section.settings.usp_content %} flex-usp_content{% endunless %}">
+              <div class="usp-icon-wrapper">
+                {% if block.settings.icon_image %}
+                  <img src="{{ block.settings.icon_image | img_url: 'master' }}" 
+                       alt="USP Icon" 
+                       class="usp-icon">
+                {% else %}
+                  <span class="usp-placeholder-icon">★</span>
+                {% endif %}
+              </div>
+            <div class="content_box alignment-{{ section.settings.content_alignment }}">  
+            <p class="usp-title">{{ block.settings.usp_title }}</p>
+            <p class="usp-text">{{ block.settings.usp_text }}</p>
+            </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <style>
+      /* Section Custom Container */
+      #section-{{ section.id }}{
+      background-color:{{ section.settings.section_bg }};
+      {% if section.settings.section_bg_image != blank %}
+      background-image:url('{{ section.settings.section_bg_image  | img_url: 'master' }}');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+        {% endif %}
+      }
+    .section-{{ section.id }}{
+      max-width: {{ section.settings.section_max_width }}px;
+      margin: 0 auto;
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+      /* Section Title Styling */
+      .section-{{ section.id }} .section-title {
+        color: {{ section.settings.title_font_color }};
+        font-size: {{ section.settings.title_font_size_desktop }}px;
+        text-align: {{ section.settings.title_alignment_desktop }};
+        margin-bottom: {{ section.settings.title_margin_bottom }}px;
+      }
+      @media (max-width: 768px) {
+        #section-{{ section.id }}{
+          {% if section.settings.section_bg_image_mob != blank %}
+          background-image:url('{{ section.settings.section_bg_image_mob  | img_url: 'master' }}');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+            {% endif %}
+          }
+        .section-{{ section.id }} .section-title {
+          font-size: {{ section.settings.title_font_size_mobile }}px;
+           text-align: {{ section.settings.title_alignment_mobile }};
+          margin-bottom: {{ section.settings.title_margin_bottom_mob }}px;
+        }
+      }
+    
+      /* Grid Layout */
+      .section-{{ section.id }} .usp-items {
+        grid-template-columns: repeat({{ section.settings.items_per_row_desktop }}, 1fr);
+      }
+      @media (max-width: 768px) {
+        .section-{{ section.id }} .usp-items {
+          grid-template-columns: repeat({{ section.settings.items_per_row_mobile }}, 1fr);
+        }
+      }
+    
+      /* USP Item Styling */
+      .section-{{ section.id }} .usp-item {
+        color: {{ section.settings.icon_text_color }};
+      }
+    
+      .section-{{ section.id }} .usp-icon-wrapper {
+        background-color: {{ section.settings.icon_background_color }};
+        border-radius: {{ section.settings.icon_border_radius }}px;
+        min-width: {{ section.settings.icon_width_desktop }}px;
+         width: {{ section.settings.icon_width_desktop }}px;
+        height: {{ section.settings.icon_width_desktop }}px;
+      }
+      .section-{{ section.id }} .usp-icon-wrapper img{padding:8px;}
+      @media (max-width: 768px) {
+        .section-{{ section.id }} .usp-icon-wrapper {
+          min-width: {{ section.settings.icon_width_mobile }}px;
+          width: {{ section.settings.icon_width_mobile }}px;
+          height: {{ section.settings.icon_width_mobile }}px;
+        }
+      }
+       /* Alignment Styling */
+      .section-{{ section.id }} .usp-text {
+        font-size: {{ section.settings.icon_font_size_desktop }}px;
+        color: {{ section.settings.icon_text_color }};
+      }
+      .section-{{ section.id }} .usp-title {
+        font-size: {{ section.settings.usp_title_size_desktop }}px;
+        color: {{ section.settings.icon_text_color }};
+      }
+      #section-{{ section.id }} .flex-usp_content{display:flex;gap:16px;}
+      @media (max-width: 768px) {
+        .section-{{ section.id }} .usp-text {
+          font-size: {{ section.settings.icon_font_size_mobile }}px;
+        }
+         .section-{{ section.id }} .usp-title {
+          font-size: {{ section.settings.usp_title_size_mobile }}px;
+        }
+      }
+    
+    div#shopify-section-template--24678260212045__niccos_usp_section_6AapXX:after {
+        position: absolute;
+        content: "";
+        background-image: url(https://cdn.shopify.com/s/files/1/0696/3504/7736/files/Group_1_1_2.png?v=1735976018);
+        background-size: contain;
+        width: 329px;
+        height: 300px;
+        right: -1px;
+        top: -1px;
+        background-repeat: no-repeat;
+    }
+    div#shopify-section-template--24678260212045__niccos_usp_section_6AapXX {
+        position: relative;
+    }  
+    
+    
+    @media only screen and (max-width: 1400px) {
+    div#shopify-section-template--24678260212045__niccos_usp_section_6AapXX:after {
+        width: 300px;
+    }
+    }
+      
+    @media only screen and (max-width: 1200px) {
+    div#shopify-section-template--24678260212045__niccos_usp_section_6AapXX:after {
+        top: 0;
+      width: 250px;
+    
+    }
+    }
+      
+    @media only screen and (max-width: 1079px) {
+    div#shopify-section-template--24678260212045__niccos_usp_section_6AapXX:after {
+        display:none;
+    }
+    }
+      
+    </style>
+    
