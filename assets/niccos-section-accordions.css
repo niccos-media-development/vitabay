@@ -1,0 +1,52 @@
+.accordions-section-wrapper {
+  --icon-space: 53px;
+}
+
+.accordions-section-wrapper .accordion__item--padded .accordion__item__text-wrapper:before {
+  display: none;
+}
+.accordions-section-wrapper .accordion__item:after {
+  display: none;
+}
+
+.accordions-section-wrapper .section__heading {
+  font-size: 32px;
+  line-height: 32px;
+  color: #212121;
+  margin: 0 0 24px 0;
+}
+.accordions-section-wrapper .accordion__item {
+  margin-bottom: 0;
+}
+.accordions-section-wrapper .accordion__item__title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0;
+  border-bottom: 1px solid #212121;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.accordions-section-wrapper .accordion__item__title.is-expanded {
+  border-bottom: none;
+}
+.accordions-section-wrapper .accordion__item--padded .accordion__item__text {
+  max-width: 445px;
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 24px;
+}
+.accordions-section-wrapper .accordion__item__title__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #212121;
+}
+
+.accordions-section-wrapper .accordion__item__title .icon {
+  width: 20px;
+  max-height: none;
+  margin-right: 0;
+}
