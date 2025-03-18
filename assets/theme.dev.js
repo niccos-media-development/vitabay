@@ -8306,7 +8306,7 @@
         const subscription_group = product__subs?.closest(
           ".product__subs__group"
         );
-
+        
         if (selling_plan_price && selling_plan_price) {
           selling_plan_price.innerText = themeCurrency.formatMoney(
             variant.selling_plan_allocations[0].price,
@@ -19662,6 +19662,7 @@
           wrapAround: false,
           groupCells: true,
           contain: true,
+          setGallerySize: false,
           on: {
             ready: () => {
               this.handleFocus();

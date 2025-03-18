@@ -380,9 +380,13 @@ a.image_main_new_calll {
 .image-with-text__wrapper .image-with-text__image {
     border-top-right-radius: 0!important;
     border-bottom-right-radius: 0!important;
+    height: 100%;
 }
 .image-with-text__wrapper .image-with-text__content.aos-animate .subheading-text {
     font-weight: 300;
+}
+.image-with-text__wrapper .image-with-text__content.aos-animate {
+  padding: 10% 11%;
 }
 @media only screen and (max-width: 1480px) {
     .image-with-text__wrapper .image-with-text__content.aos-animate {
@@ -431,11 +435,21 @@ a.image_main_new_calll {
 /* End Banner Image*/
 
 /* For Shoppable blog */
-
+.shoppable-blog .flickity-enabled.is-draggable {
+  height: fit-content;
+}
+.body--rounded-corners .blog-item__article__link {
+  aspect-ratio: 1.5;
+  width: 100%;
+  height: auto;
+}
 .shoppable-blog h2.section__heading.shoppable-blog__heading {
     text-align: left;
     font-weight: 700;
     color: #212121;
+}
+.shoppable-blog .blog-item .blog-item__article {
+  height: max-content;
 }
  button.flickity-button.flickity-prev-next-button.next {
     top: -53px!important;
@@ -572,6 +586,9 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
   }
   .nico-product-single__wrapper .product-single__details .form__wrapper {
     max-width: 100%;
+  }
+  .nico-product-single__wrapper .product-single__details .product__price {
+    align-items: baseline;
   }
   @media screen and (min-width: 1301px) {
     .template-product .site-header:not(.js__header__clone) .nav--default {
@@ -978,6 +995,8 @@ a.blog-post.btn.btn--solid.btn--small.btn--primary:hover {
     color: #212121;
     border-top: solid 1px #e3e3e3;
     padding: 17px 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
   
   .nico-product-single__wrapper .product__accordion__inner {
