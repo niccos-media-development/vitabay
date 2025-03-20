@@ -64,7 +64,7 @@
             "line_thickness": "normal",
             "accordion_heading": "Materials and specs",
             "heading_style": "font-body",
-            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies</p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
@@ -81,7 +81,7 @@
             "line_thickness": "normal",
             "accordion_heading": "Shipping and returns",
             "heading_style": "font-body",
-            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies<\/p>",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies</p>",
             "accordion_page": "",
             "padding_bottom": 10
           }
@@ -93,7 +93,7 @@
             "icon_name": "support",
             "icon_width": 25,
             "title": "Need help with sizing?",
-            "text": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "text": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
             "bg_color": "#f7f9fa",
             "text_color": "#000000",
             "padding_bottom": 20
@@ -155,7 +155,7 @@
           "settings": {
             "testiomonial_text": "{{ product.metafields.custom.arzt_zitat.value }}",
             "testiomonial_subtext": "Dr. Med. Harald Pfeffer",
-            "image": "shopify:\/\/shop_images\/image_67.png",
+            "image": "shopify://shop_images/image_67.png",
             "additional_text": "",
             "margin_top": 0,
             "margin_bottom": 18
@@ -180,9 +180,9 @@
         "delivery_type_gbEhka": {
           "type": "delivery_type",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/g10.png",
-            "delivery_text_1": "Testen Sie unsere Gesundheitsprodukte risikofrei und erleben Sie, wie sie Ihren Alltag positiv beeinflussen können.",
-            "image_2": "shopify:\/\/shop_images\/image_68.png",
+            "image_1": "shopify://shop_images/Group_21203_1.png",
+            "delivery_text_1": "Bitte beachte, dass die Lieferung unter Umständen noch im vorherigen Verpackungsdesign erfolgen kann. Dies hat keinen Einfluss auf die Qualität oder den Inhalt des Produkts. Weitere Informationen findest du hier.",
+            "image_2": "shopify://shop_images/image_68.png",
             "delivery_text_2": "Wir versenden klimafreundlich mit DHL GoGreen und garantieren eine schnelle Lieferung innerhalb von 1-2 Tagen.",
             "delivery_text_3": "Lieferung in 1-3 Werktagen",
             "delivery_text_4": "Lieferung in 1-3 Werktagen",
@@ -210,7 +210,7 @@
             "line_thickness": "normal",
             "accordion_heading": "Dosierung",
             "heading_style": "font-body",
-            "accordion_text": "<p>[custom.dosierung-variante]<\/p>",
+            "accordion_text": "<p>[custom.dosierung-variante]</p>",
             "accordion_page": "",
             "padding_bottom": 20
           }
@@ -227,7 +227,7 @@
             "line_thickness": "normal",
             "accordion_heading": "Inhaltsstoffe",
             "heading_style": "font-body",
-            "accordion_text": "<p>[custom.n_hrwerttabelle]<\/p>",
+            "accordion_text": "<p>[custom.n_hrwerttabelle]</p>",
             "accordion_page": "",
             "padding_bottom": 20
           }
@@ -244,7 +244,7 @@
             "line_thickness": "normal",
             "accordion_heading": "Laboranalyse",
             "heading_style": "font-body",
-            "accordion_text": "<p>[custom.laborzertifikat]<\/p>",
+            "accordion_text": "<p>[custom.laborzertifikat]</p>",
             "accordion_page": "",
             "padding_bottom": 20
           }
@@ -285,10 +285,10 @@
             "enable_bullet_points": true,
             "label": "",
             "heading": "{{ product.metafields.product_usp_title.product_usp_title | metafield_text }}",
-            "conent": "<p>{{ product.description }}<\/p>",
+            "conent": "<p>{{ product.description }}</p>",
             "choose_media": "image",
             "image": "{{ product.metafields.custom.picture.value }}",
-            "video": "shopify:\/\/files\/videos\/The Shopify Story.mp4"
+            "video": "shopify://files/videos/The Shopify Story.mp4"
           }
         },
         "content_block_8rpLde": {
@@ -298,9 +298,9 @@
             "enable_bullet_points": false,
             "label": "",
             "heading": "",
-            "conent": "<h4><strong>Deutsche Apothekenqualität<\/strong><\/h4><p>{{ product.metafields.custom.qualit_t | metafield_tag }}<\/p>",
+            "conent": "<h4><strong>Deutsche Apothekenqualität</strong></h4><p>{{ product.metafields.custom.qualit_t | metafield_tag }}</p>",
             "choose_media": "image",
-            "image": "shopify:\/\/shop_images\/Rectangle_12168.png"
+            "image": "shopify://shop_images/Rectangle_12168.png"
           }
         }
       },
@@ -318,8 +318,8 @@
       "settings": {
         "heading": "Dr. med. Harald Pfeffer",
         "subheading": "Gründungsvater von Vitabay",
-        "content": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.<\/p>",
-        "image": "shopify:\/\/shop_images\/image_2.png",
+        "content": "<p>Inspiriert durch seine Rettung als Kind, verpflichte sich Harald Pfeffer der Medizin. 1976 eröffnete er seine eigene Praxis, die er 2003 übergab, um seiner Vision „Gesundheit gehört in die Welt und nicht in die vier Wände\" treu zu bleiben. Mit Vitabay, wurde diese Vision Realität. Alle unsere Produkte haben den Anspruch eines Medizinproduktes und sind das Ergebnis von über einem halben Jahrhundert Medizinisches Wissen, Forschung und Entwicklung. Mit eigenen Patenten, Produkten und Formeln prägt er nicht nur Vitabay, sondern die gesamte Supplement Branche.</p>",
+        "image": "shopify://shop_images/image_2.png",
         "background_color": "#05371e",
         "text_color": "#ffffff",
         "heading_color": "#ffffff",
@@ -335,35 +335,35 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.</p>"
           }
         },
         "text_NJihEw": {
           "type": "text",
           "settings": {
             "title": "How should I take the Melatonin 3 mg Chewable Tablets?",
-            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.</p>"
           }
         },
         "text_gHz9e7": {
           "type": "text",
           "settings": {
             "title": "Are these tablets habit-forming?",
-            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.</p>"
           }
         },
         "text_Qd7Mjm": {
           "type": "text",
           "settings": {
             "title": "Can I take these melatonin tablets every night?",
-            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.</p>"
           }
         },
         "text_7tq3qd": {
           "type": "text",
           "settings": {
             "title": "Are the tablets suitable for vegans and free from allergens?",
-            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.<\/p>"
+            "text": "<p>Melatonin is a naturally occurring hormone that helps regulate the body’s sleep-wake cycle. By taking a melatonin supplement, you can support a more regular sleep pattern, which may help you fall asleep faster, stay asleep longer, and wake up feeling refreshed.</p>"
           }
         }
       },
@@ -392,7 +392,7 @@
       "type": "apps",
       "blocks": {
         "reviews_io_reviewsio_polaris_RXftaj": {
-          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-polaris\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "type": "shopify://apps/reviews-io/blocks/reviewsio-polaris/92a082e5-b297-4e88-b428-ac96cbc505f9",
           "settings": {
             "star": "#0d9410",
             "review_type": "product_review",
@@ -439,32 +439,32 @@
           "type": "icon-text",
           "settings": {
             "label": "Von Familie für Familie",
-            "subheading": "<p>Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.<\/p>",
-            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_54ca76bf-3942-4441-af49-002826577ea9_2.png"
+            "subheading": "<p>Vitabay verbindet familiäre Werte wie Vertrauen und Fürsorge mit langjähriger medizinischer Expertise.</p>",
+            "icon": "shopify://shop_images/Zeichenflaeche_1_54ca76bf-3942-4441-af49-002826577ea9_2.png"
           }
         },
         "icon_text_h4cjWj": {
           "type": "icon-text",
           "settings": {
             "label": "Leidenschaft für Gesundheit",
-            "subheading": "<p>Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.<\/p>",
-            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_2_2.png"
+            "subheading": "<p>Seit über 25 Jahren bietet Vitabay basierte Vitalstoff-Versorgung und individuelle Empfehlungen.</p>",
+            "icon": "shopify://shop_images/Zeichenflaeche_1_2_2.png"
           }
         },
         "icon_text_6Y3EBN": {
           "type": "icon-text",
           "settings": {
             "label": "Aktive Forschung",
-            "subheading": "<p>Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.<\/p>",
-            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_1_2.png"
+            "subheading": "<p>Vitabay forscht seit über 25 Jahren an optimaler Gesundheitsversorgung und bietet Produkte mit höchster Bioverfügbarkeit sowie innovativem Verpackungs-Material.</p>",
+            "icon": "shopify://shop_images/Zeichenflaeche_1_1_2.png"
           }
         },
         "icon_text_BgM6Yp": {
           "type": "icon-text",
           "settings": {
             "label": "Aktive Forschung",
-            "subheading": "<p>Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung<\/p>",
-            "icon": "shopify:\/\/shop_images\/Zeichenflaeche_1_3_1.png"
+            "subheading": "<p>Für eine gemeinsame, gesunde Zukunft: Innovative Wege zur weltweiten Gesundheitsförderung</p>",
+            "icon": "shopify://shop_images/Zeichenflaeche_1_3_1.png"
           }
         }
       },
@@ -476,7 +476,7 @@
       ],
       "settings": {
         "heading": "Unsere Werte bei Vitabay",
-        "background_image": "shopify:\/\/shop_images\/Muster_zusammengefugt_2.png",
+        "background_image": "shopify://shop_images/Muster_zusammengefugt_2.png",
         "top_margin": 0,
         "bottom_margin": 0
       }
